@@ -3,7 +3,13 @@
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    oled/index.rst
+    oled.rst
+    wifi.rst
+    pin.rst
+    music.rst
+    logic.rst
+    loop.rst
+    math.rst
  

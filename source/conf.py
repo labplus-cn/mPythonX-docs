@@ -86,12 +86,12 @@ pygments_style = None
 #
 # from jupyter_sphinx_theme import *
 # init_theme()
-# html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 # import rtcat_sphinx_theme
 # html_theme = "karma_sphinx_theme"
-html_theme = 'sphinxbootstrap4theme'
-import sphinxbootstrap4theme
-html_theme_path = [sphinxbootstrap4theme.get_path()]
+# html_theme = 'sphinxbootstrap4theme'
+# import sphinxbootstrap4theme
+# html_theme_path = [sphinxbootstrap4theme.get_path()]
 # html_theme_path = [rtcat_sphinx_theme.get_html_theme_path()]
 # from crate.theme.rtd.conf import *
 

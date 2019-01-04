@@ -30,7 +30,7 @@ mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
    mPythonX.rst
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    blocks/index.rst
 
