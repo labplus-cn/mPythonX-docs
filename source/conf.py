@@ -86,9 +86,12 @@ pygments_style = None
 #
 # from jupyter_sphinx_theme import *
 # init_theme()
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
 # import rtcat_sphinx_theme
-# html_theme = "rtcat_sphinx_theme"
+# html_theme = "karma_sphinx_theme"
+html_theme = 'sphinxbootstrap4theme'
+import sphinxbootstrap4theme
+html_theme_path = [sphinxbootstrap4theme.get_path()]
 # html_theme_path = [rtcat_sphinx_theme.get_html_theme_path()]
 # from crate.theme.rtd.conf import *
 
@@ -121,7 +124,8 @@ html_theme_options = {
     'logo_only': True,  # if we have a html_logo below, this shows /only/ the logo with no title text
     'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
     # 'display_version': True,  # Display the docs version
-    # 'navigation_depth': 4,  # Depth of the headers shown in the navigation bar
+    'navigation_depth': 3,  # Depth of the headers shown in the navigation bar
+
 }
 html_scaled_image_link = False  # don't add link to scaled images
 html_logo = 'images/favicon.ico'
