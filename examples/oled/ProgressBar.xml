@@ -1,0 +1,69 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id=".rURFBiQqSL.-Cm9+GHU" x="-203" y="-45">
+    <statement name="DO">
+      <block type="controls_for" id="OT!w5@%|,x#_5(Uf;Y+9">
+        <field name="VAR">i</field>
+        <value name="FROM">
+          <shadow type="math_number" id="-G8Z6kyx*xtk*3h/x5K_">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number" id="[]B5lw!aKp8sV=3Of~6i">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+        <value name="BY">
+          <shadow type="math_number" id="Ts1Wb7(zPZ!Xa+Rd|usy">
+            <field name="NUM">5</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="mpython_ProgressBar" id="K*hH@s@(@!d+|XEA9~IK">
+            <value name="x">
+              <shadow type="math_number" id="di?Oh]S9}#ZV)!1b!dzf">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="y">
+              <shadow type="math_number" id="gOqx]3_zoWx(x7lUsgij">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="width">
+              <shadow type="math_number" id="fK]GPtq;@q}Gu|(k1LDq">
+                <field name="NUM">70</field>
+              </shadow>
+            </value>
+            <value name="height">
+              <shadow type="math_number" id="dL}HyI!2[9fGAFoK9Qv|">
+                <field name="NUM">8</field>
+              </shadow>
+            </value>
+            <value name="progress">
+              <shadow type="math_number" id="JU@DPvp{uDjY98?A.1xj">
+                <field name="NUM">20</field>
+              </shadow>
+              <block type="variables_get" id="hNRMuUd*ggYi*hBy=-J$">
+                <field name="VAR">i</field>
+              </block>
+            </value>
+            <next>
+              <block type="mpython_display_Show" id="=7NPx;JB:_Q9$fOqQ22c">
+                <next>
+                  <block type="mpython_sleep_ms" id="!0S9oP3pJ%-bZ}E0Z(xI">
+                    <value name="duration">
+                      <shadow type="math_number" id="7(Z$.7!j_%a{7E~cA/wz">
+                        <field name="NUM">200</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>

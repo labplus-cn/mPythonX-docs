@@ -1,0 +1,55 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_display_DispChar" id="db/4u4-c4K/4C5s_7=PY" x="-58" y="-35">
+    <value name="x">
+      <shadow type="math_number" id="cT5X.=Z;JQ32g;o`Jk:B">
+        <field name="NUM">20</field>
+      </shadow>
+    </value>
+    <value name="y">
+      <shadow type="math_number" id="}!`U1)s/LD7ZVMxIh.O#">
+        <field name="NUM">20</field>
+      </shadow>
+    </value>
+    <value name="message">
+      <shadow type="text" id="ZZt*KU^?Rwdp[}VJF^X(">
+        <field name="TEXT">Hello, World!</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="mpython_display_Show" id="?1N)c];5=nBbOZmYZo}g">
+        <next>
+          <block type="controls_repeat_forever" id="#a`Y$Mfz~_=.AUpX[=w+">
+            <statement name="DO">
+              <block type="mpython_display_fill" id="3pAxMo+iBudV~N)zJ-OD">
+                <field name="display_fill">invert(0)</field>
+                <next>
+                  <block type="mpython_sleep_ms" id="t%X0+$)FC)!t1Tk:=)PU">
+                    <value name="duration">
+                      <shadow type="math_number" id="$0C!=L4kLxks!-v^W1r*">
+                        <field name="NUM">1000</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_display_fill" id="(38:/1%r7W{;*vZ(Hh`S">
+                        <field name="display_fill">invert(1)</field>
+                        <next>
+                          <block type="mpython_sleep_ms" id="~|]V9Ul,TquPvWBZ06K|">
+                            <value name="duration">
+                              <shadow type="math_number" id="l3UvrTBpnQa#U2;x/OpL">
+                                <field name="NUM">1000</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
