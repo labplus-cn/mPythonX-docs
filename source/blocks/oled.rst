@@ -116,6 +116,30 @@ oled.pixel(x, y,c)
     - ``c`` - 当为1时,点亮；当为0时,熄灭
 
  
+oled.circle()
+-------------
+
+**描述：**  绘制空心圆。
+
+.. image:: /images/blocks/oled/circle.png
+    :scale: 80 %
+
+oled.circle(x, y, radius, c)
+
+参数：
+
+    - ``x`` 、 ``y`` -左上角作为起点坐标
+    - ``radius`` - 圆半径大小
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/circle.png
+    :scale: 100 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_circle.xml>` 
+
 
 UI.ProgressBar()
 -------------
