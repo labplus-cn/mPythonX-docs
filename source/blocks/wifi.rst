@@ -88,13 +88,14 @@ ntptime.settime()
 
 appserver.start()
 -------------------
+
+**描述：** TinyWebIO服务后台运行，该服务为App Inventor应用提供远程控制接口的掌控板工具包
+
+.. image:: /images/blocks/wifi/TinyWebIO.png
+    :scale: 100 %
+
+
 appserver.start_foreground()
 -------------------
 
-**描述：** TinyWebIO服务为App Inventor应用提供远程控制接口的掌控板工具包
-
-.. image:: /images/blocks/wifi/TinyWebIO.png
-    :scale: 90 %
-
-    - ``.start()`` - 后台运行
-    - ``.start_foreground()`` - 前台运行
+**描述：** TinyWebIO服务前台运行
