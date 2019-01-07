@@ -263,7 +263,7 @@ oled.vline(x, y, l, c)
 oled.line()
 -------------
 
-**描述：**  绘制水平线
+**描述：**  绘制线段
 
 .. image:: /images/blocks/oled/line.png
     :scale: 80 %
@@ -283,6 +283,109 @@ oled.line(x1, y1, x2, y2, c)
     :scale: 80 %   
 
 :download:`点击下载图形化示例</../examples/oled/oled_line.xml>` 
+
+
+oled.rect()
+-------------
+
+**描述：**  绘制矩形边框
+
+.. image:: /images/blocks/oled/rect.png
+    :scale: 80 %
+
+oled.rect(x, y, w, h, c)
+
+参数：
+
+    - ``x`` 、 ``y`` - 起点坐标
+    - ``w`` 、 ``h`` - 宽度，高度
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/rect.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_rect.xml>` 
+
+
+oled.fill_rect()
+-------------
+
+**描述：**  绘制实心矩形
+
+.. image:: /images/blocks/oled/fill_rect.png
+    :scale: 80 %
+
+oled.fill_rect(x, y, w, h, c)
+
+参数：
+
+    - ``x`` 、 ``y`` - 起点坐标
+    - ``w`` 、 ``h`` - 宽度，高度
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/fill_rect.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_fill_rect.xml>` 
+
+
+oled.RoundRect()
+-------------
+
+**描述：**  绘制弧角矩形边框
+
+.. image:: /images/blocks/oled/RoundRect.png
+    :scale: 80 %
+
+oled.RoundRect(x, y, w, h, r, c)
+
+参数：
+
+    - ``x`` 、 ``y`` - 起点坐标
+    - ``w`` 、 ``h`` - 宽度，高度
+    - ``r`` - 圆弧角半径
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/RoundRect.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_RoundRect.xml>` 
+
+
+oled.Bitmap()
+-------------
+
+**描述：**  绘制弧角矩形边框
+
+.. image:: /images/blocks/oled/bitmap.png
+    :scale: 80 %
+
+oled.Bitmap(x, y, bitmap, w, h, c)
+
+参数：
+
+    - ``x`` 、 ``y`` - 起点坐标
+    - ``bitmap`` - 图案bitmap数组名称
+    - ``w`` - 图案宽度
+    - ``h`` - 图案高度
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/bitmap.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_bitmap.xml>` 
 
 
 UI.ProgressBar()
