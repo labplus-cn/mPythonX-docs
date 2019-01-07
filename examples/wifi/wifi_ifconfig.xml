@@ -1,0 +1,58 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id="w,dHt^Ay}dJE.[*7dW$i" x="-342" y="125">
+    <statement name="DO">
+      <block type="mpython_init_wifi" id="T.[9D(#)h%OuDgU_OkGH">
+        <value name="ssid">
+          <shadow type="text" id="jS3a0t-U,6OxR|Nx_|^O">
+            <field name="TEXT">my_wifi</field>
+          </shadow>
+        </value>
+        <value name="password">
+          <shadow type="text" id=")-:k]V.Hd;#3*cXEf?b#">
+            <field name="TEXT">12341234</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_display_fill" id="(LF2$vz|.Y|gXakd,top">
+            <field name="display_fill">fill(0)</field>
+            <next>
+              <block type="mpython_display_DispChar" id="Q@*`D%i($+QR0]W5#WMt">
+                <value name="x">
+                  <shadow type="math_number" id="x.?3`{2c5~}tFRsq7A:J">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="y">
+                  <shadow type="math_number" id="z.qn$t`.]eGg]ti|;xe=">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="message">
+                  <shadow type="text" id="[DBoCf2tV/3d?*~/.nMj">
+                    <field name="TEXT">Hello, World!</field>
+                  </shadow>
+                  <block type="mpython_WiFi_config" id="JP;j,X=dw[PpD,j]rkEb">
+                    <field name="WiFi_config">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="mpython_display_Show" id=".A)H}YYVu-!W73aq4cbr">
+                    <next>
+                      <block type="mpython_sleep_ms" id="e,X^n[kvjx}Bje.:t;9d">
+                        <value name="duration">
+                          <shadow type="math_number" id="I(dglM}*x2/.WAc)*([P">
+                            <field name="NUM">1000</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

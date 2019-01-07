@@ -7,7 +7,7 @@ wifi
 wifi.connectWiFi()
 -------------
 
-**描述：** 连接wifi网络
+**描述：** 连接wifi网络,连接掌控板开启的热点则无需密码
 
 .. image:: /images/blocks/wifi/connectWiFi.png
     :scale: 90 %
@@ -30,7 +30,15 @@ wifi.sta.ifconfig()
 
 wifi.sta.ifconfig()[n]  
 
-4元组,n为元组索引
+4元组,n为0、1、2、3
+
+示例
+^^^^^
+
+.. image:: /images/blocks/wifi/example/ifconfig.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/wifi/wifi_ifconfig.xml>` 
 
 wifi.disconnectWiFi()
 -------------
@@ -46,7 +54,7 @@ wifi.disconnectWiFi()
 wifi.enable_APWiFi()
 -------------------
 
-**描述：** 开启无线AP功能
+**描述：** 开启无线AP功能,用于掌控板之间的相互通信
 
 .. image:: /images/blocks/wifi/enable_APWiFi.png
     :scale: 90 %
@@ -76,3 +84,17 @@ ntptime.settime()
     :scale: 100 %
     
 ntptime.settime()
+
+
+appserver.start()
+-------------------
+appserver.start_foreground()
+-------------------
+
+**描述：** TinyWebIO服务为App Inventor应用提供远程控制接口的掌控板工具包
+
+.. image:: /images/blocks/wifi/TinyWebIO.png
+    :scale: 90 %
+
+    - ``.start()`` - 后台运行
+    - ``.start_foreground()`` - 前台运行
