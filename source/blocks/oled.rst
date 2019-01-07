@@ -364,7 +364,7 @@ oled.RoundRect(x, y, w, h, r, c)
 oled.Bitmap()
 -------------
 
-**描述：**  绘制弧角矩形边框
+**描述：**  绘制bitmap图案
 
 .. image:: /images/blocks/oled/bitmap.png
     :scale: 80 %
