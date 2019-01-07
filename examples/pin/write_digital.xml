@@ -1,0 +1,42 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id="khLZ|?nyaPE{7u=h}F64" x="9" y="64">
+    <statement name="DO">
+      <block type="mpython_set_digital" id="eqjU-}6sV9_blvPg9=6/">
+        <field name="allPin">0</field>
+        <value name="num">
+          <shadow type="math_number" id=";9.]p;W{7u%|jO|e(P,u">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_sleep_ms" id="P9sOB40gz+biZ~hv^y+`">
+            <value name="duration">
+              <shadow type="math_number" id=",ggNpr(=m~wXtdQZfwBh">
+                <field name="NUM">1000</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_set_digital" id="qLSI*7[$!]AIkl(Ve2k~">
+                <field name="allPin">0</field>
+                <value name="num">
+                  <shadow type="math_number" id="^3a7Ao]e(~?;KI4K1]}f">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_sleep_ms" id=";k2sK+VTuL0@rikhl=$^">
+                    <value name="duration">
+                      <shadow type="math_number" id="UWl?;|`Hq|@n1S/v):.J">
+                        <field name="NUM">1000</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

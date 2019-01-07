@@ -10,17 +10,16 @@ oled.DispChar()
 .. image:: /images/blocks/oled/DispChar.png
     :scale: 100 %
 
-**Python解析**
 
-
-.. method:: oled.DispChar(s, x, y)
+oled.DispChar(s, x, y)
 
 参数：
 
     - ``s`` -需要显示的文本。
     - ``x`` 、``y`` -文本的左上角作为起点坐标。
 
-**示例**
+示例
+^^^^^
 
 
 显示 hello,world！
@@ -37,13 +36,12 @@ oled.show()
 .. image:: /images/blocks/oled/show.png
    :scale: 110 %
 
-**Python解析**
+
+oled.show()
 
 
-.. method:: oled.show()
-
-
-**示例**
+示例
+^^^^^
 
 
 显示 hello,world！
@@ -59,16 +57,15 @@ oled.fill()
 .. image:: /images/blocks/oled/fill.png
     :scale: 80 %
 
-**Python解析**
 
-
-.. method:: oled.fill(c)
+oled.fill(c)
 
 参数：
 
     - ``c`` - 为1时,像素点亮；为0时,像素点灭。
  
-**示例**
+示例
+^^^^^
 
 
 1秒间隔,全屏亮灭  
@@ -88,25 +85,19 @@ oled.invert()
 .. image:: /images/blocks/oled/invert.png
     :scale: 80 %
 
-**Python解析**
-
-
-.. method:: oled.invert(n)
+oled.invert(n)
 
 参数：
 
     - ``n`` - 当n=1时,未填充像素点点亮,填充像素点灭。当n=0时,则反。默认启动是填充像素点点亮。
 
-
- 
-**示例**
-
+示例
+^^^^^
 
 .. image:: /images/blocks/oled/example/invert.png
     :scale: 100 %
 
 :download:`点击下载图形化示例</../examples/oled/oled_invert.xml>` 
-
 
 
 oled.pixel()
@@ -117,10 +108,7 @@ oled.pixel()
 .. image:: /images/blocks/oled/pixel.png
     :scale: 90 %
 
-**Python解析**
-
-
-.. method:: oled.pixel(x, y,c)
+oled.pixel(x, y,c)
 
 参数：
 
@@ -137,10 +125,7 @@ UI.ProgressBar()
 .. image::  /images/blocks/oled/ProgressBar.png
     :scale: 80 %
 
-**Python解析**
-
-
-.. method:: UI.ProgressBar(x, y, width, height, progress)
+UI.ProgressBar(x, y, width, height, progress)
 
 参数：
 
@@ -149,16 +134,13 @@ UI.ProgressBar()
     - ``height`` -进度条高度
     - ``progress`` -进度条百分比
 
- 
-**示例**
-
+示例
+^^^^^
 
 .. image::  /images/blocks/oled/example/ProgressBar.png
     :scale: 100 %
 
 :download:`点击下载图形化示例</../examples/oled/ProgressBar.xml>` 
-
-
 
 UI.stripBar()
 -------------
@@ -168,10 +150,7 @@ UI.stripBar()
 .. image:: /images/blocks/oled/stripBar.png
     :scale: 90 %
 
-**Python解析**
-
-
-.. method:: UI.stripBar(x, y, width, height, progress,dir=1,frame=1)
+UI.stripBar(x, y, width, height, progress,dir=1,frame=1)
 
 参数：
 
@@ -183,7 +162,8 @@ UI.stripBar()
     - ``frame`` -当frame=1时,显示外框；当frame=0时,不显示外框。
 
  
-**示例**
+示例
+^^^^^
 
 
 .. image:: /images/blocks/oled/example/light_stripBar.png
