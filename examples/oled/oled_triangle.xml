@@ -1,0 +1,38 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_display_triangle" id="HB3h{X(leIl%Qa$c+v2y" x="-252" y="132">
+    <field name="state">1</field>
+    <value name="x">
+      <shadow type="math_number" id="HS3yGJ!vL?m9s}1$,s/W">
+        <field name="NUM">60</field>
+      </shadow>
+    </value>
+    <value name="y">
+      <shadow type="math_number" id="s!um)KI[b*1nZ?Ri~Z/+">
+        <field name="NUM">20</field>
+      </shadow>
+    </value>
+    <value name="x2">
+      <shadow type="math_number" id="Sc?v~.wo~,J+E$#dod=e">
+        <field name="NUM">20</field>
+      </shadow>
+    </value>
+    <value name="y2">
+      <shadow type="math_number" id="R0BGEF-EosV}_[WI},5e">
+        <field name="NUM">20</field>
+      </shadow>
+    </value>
+    <value name="x3">
+      <shadow type="math_number" id="Fzg0!P5RB)_nQNXrKebh">
+        <field name="NUM">40</field>
+      </shadow>
+    </value>
+    <value name="y3">
+      <shadow type="math_number" id="Uk4:~|rDi-cP5O$pvS0{">
+        <field name="NUM">40</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="mpython_display_Show" id="5#_7qL8N5i-l/VtQEa0y"></block>
+    </next>
+  </block>
+</xml>

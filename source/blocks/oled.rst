@@ -136,9 +136,153 @@ oled.circle(x, y, radius, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/circle.png
-    :scale: 100 %   
+    :scale: 80 %   
 
 :download:`点击下载图形化示例</../examples/oled/oled_circle.xml>` 
+
+
+oled.fill_circle()
+-------------
+
+**描述：**  绘制实心圆。
+
+.. image:: /images/blocks/oled/fill_circle.png
+    :scale: 80 %
+
+oled.fill_circle(x, y, radius, c)
+
+参数：
+
+    - ``x`` 、 ``y`` -左上角作为起点坐标
+    - ``radius`` - 圆半径大小
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/fill_circle.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_fill_circle.xml>` 
+
+
+oled.triangle()
+-------------
+
+**描述：**  绘制空心三角形。
+
+.. image:: /images/blocks/oled/triangle.png
+    :scale: 80 %
+
+oled.triangle(x0, y0, x1, y1, x2, y2, c)
+
+参数：
+
+    - ``x0`` 、 ``y0`` -三角形上顶点坐标
+    - ``x1`` 、 ``y1`` -三角形左顶点坐标
+    - ``x2`` 、 ``y2`` -三角形右顶点坐标
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/triangle.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_triangle.xml>` 
+
+
+oled.fill_triangle()
+-------------
+
+**描述：**  绘制实心三角形。
+
+.. image:: /images/blocks/oled/fill_triangle.png
+    :scale: 80 %
+
+oled.fill_triangle(x0, y0, x1, y1, x2, y2, c)
+
+参数：
+
+    - ``x0`` 、 ``y0`` -三角形上顶点坐标
+    - ``x1`` 、 ``y1`` -三角形左顶点坐标
+    - ``x2`` 、 ``y2`` -三角形右顶点坐标
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/fill_triangle.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_fill_triangle.xml>` 
+
+
+oled.hline()
+-------------
+
+**描述：**  绘制水平线
+
+.. image:: /images/blocks/oled/hline.png
+    :scale: 80 %
+
+oled.hline(x, y, w, c)
+
+参数：
+
+    - ``x`` 、 ``y`` - 起点坐标
+    - ``w``  - 长度
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/hline.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_hline.xml>` 
+
+
+oled.vline()
+-------------
+
+**描述：**  绘制垂直线
+
+.. image:: /images/blocks/oled/vline.png
+    :scale: 80 %
+
+oled.vline(x, y, l, c)
+
+参数：
+
+    - ``x`` 、 ``y`` - 起点坐标
+    - ``l``  - 长度
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+
+oled.line()
+-------------
+
+**描述：**  绘制水平线
+
+.. image:: /images/blocks/oled/line.png
+    :scale: 80 %
+
+oled.line(x1, y1, x2, y2, c)
+
+参数：
+
+    - ``x1`` 、 ``y1`` - 起点坐标
+    - ``x2`` 、 ``y2`` - 终点坐标
+    - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
+
+示例
+^^^^^
+
+.. image:: /images/blocks/oled/example/line.png
+    :scale: 80 %   
+
+:download:`点击下载图形化示例</../examples/oled/oled_line.xml>` 
 
 
 UI.ProgressBar()

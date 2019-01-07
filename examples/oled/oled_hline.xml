@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_display_fill" id="iN!)G~@uk]i8fRM.8o0:" x="-385" y="158">
+    <field name="display_fill">fill(0)</field>
+    <next>
+      <block type="mpython_display_hline" id="3c5CoI}KbX}s~+}7z~}D">
+        <field name="state">1</field>
+        <value name="x">
+          <shadow type="math_number" id="U=IlX`h[;VmTVgf~uHw2">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="y">
+          <shadow type="math_number" id="p?#.64R{[.0wP,9%lInK">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="length">
+          <shadow type="math_number" id="a3/DbgBOVbr]coBdqkxO">
+            <field name="NUM">20</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_display_Show" id="hS}|*.e%iSKD/Zrcyk[Z"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

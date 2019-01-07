@@ -1,0 +1,43 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_display_fill_circle" id="fACu|Z7W~@yIbt(1B]jH" x="-163" y="66">
+    <field name="state">1</field>
+    <value name="x">
+      <shadow type="math_number" id="4,:B]0rM2R@XN+O~e#)^">
+        <field name="NUM">64</field>
+      </shadow>
+    </value>
+    <value name="y">
+      <shadow type="math_number" id="//kmeCYq2A+OwglmBd2R">
+        <field name="NUM">32</field>
+      </shadow>
+    </value>
+    <value name="radius">
+      <shadow type="math_number" id="[Q9~M`:.ByW}uy_^SueD">
+        <field name="NUM">15</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="mpython_display_fill_circle" id="5ml2,/q(Md9O,O[z~taG">
+        <field name="state">1</field>
+        <value name="x">
+          <shadow type="math_number" id="n!L#q`/rTDTCBqT0Ow@*">
+            <field name="NUM">90</field>
+          </shadow>
+        </value>
+        <value name="y">
+          <shadow type="math_number" id="]^*[PA9w0v]{~*aX4[X1">
+            <field name="NUM">60</field>
+          </shadow>
+        </value>
+        <value name="radius">
+          <shadow type="math_number" id="fw#Om~-evVm?M~_yedsw">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_display_Show" id="ZkzpfXYN:$tBxl~-xWpg"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
