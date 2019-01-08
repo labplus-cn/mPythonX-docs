@@ -10,6 +10,7 @@
     sound.rst
     light.rst
     accelerometer.rst
+    rgb.rst
     wifi.rst
     pin.rst
     music.rst

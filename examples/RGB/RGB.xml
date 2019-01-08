@@ -1,0 +1,131 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id="LN3++NC/J4T]tU,.3dRU" x="-390" y="-168">
+    <statement name="DO">
+      <block type="mpython_set_RGB_color" id=":Be=gO}v}5rAy[Ds=EY)">
+        <field name="COLOUR">#ff0000</field>
+        <value name="num">
+          <shadow type="math_number" id="Q(!1_W7DSPxk[%a5@*AW">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_fresh_RGB" id="R,O!}_|$U5~BBUfpmM[9">
+            <next>
+              <block type="mpython_sleep_ms" id="95[CN;oP%V-jp/Z{0Uqi">
+                <value name="duration">
+                  <shadow type="math_number" id="X|oi,1,=Eok3bD7Ux?6C">
+                    <field name="NUM">1000</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_set_RGB" id="nwrU^PY.[.81e-yN5g{X">
+                    <value name="num">
+                      <shadow type="math_number" id="YN6$)W++NW4k8768r}Xo">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                    <value name="r">
+                      <shadow type="math_number" id=".Q,sG`IgH@qiZ2MzUo[#">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                    <value name="g">
+                      <shadow type="math_number" id="7sp{sw9d=i!9qOP;vW~#">
+                        <field name="NUM">255</field>
+                      </shadow>
+                    </value>
+                    <value name="b">
+                      <shadow type="math_number" id="Iz_O?EdRwPTiMKScq?Fb">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_fresh_RGB" id="P|1~P)Io.?{cNlyyS8Xz">
+                        <next>
+                          <block type="mpython_sleep_ms" id="l^n}ta},V!Q%MZ(-!|.!">
+                            <value name="duration">
+                              <shadow type="math_number" id="_$V2raO3.^kgfYAsvLV9">
+                                <field name="NUM">1000</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="mpython_set_RGB_all" id="M,q?PwHxK)XizB2((]ZL">
+                                <value name="r">
+                                  <shadow type="math_number" id="qw0%NSe;Ob]|g`Cy.Saa">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                </value>
+                                <value name="g">
+                                  <shadow type="math_number" id="A|`~N(t-k24t+DOR5)/i">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                </value>
+                                <value name="b">
+                                  <shadow type="math_number" id="NG?V;E1M@*4+kDqRJRz$">
+                                    <field name="NUM">255</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="mpython_fresh_RGB" id=",aU07JrEWW+=w5;uvE]3">
+                                    <next>
+                                      <block type="mpython_sleep_ms" id="O/_1`Y}4n^smvpf{$y;~">
+                                        <value name="duration">
+                                          <shadow type="math_number" id="K,#:6*Lz(/4;,b@6@q)k">
+                                            <field name="NUM">1000</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="mpython_set_RGB_color_all" id="IYPbYqMI$%HH8Dp+s`^x">
+                                            <field name="COLOUR">#ffff00</field>
+                                            <next>
+                                              <block type="mpython_fresh_RGB" id="T$XxpLGf3`(*2!+V[6w+">
+                                                <next>
+                                                  <block type="mpython_sleep_ms" id="WQAbTs]ib4T,$#H}N{VQ">
+                                                    <value name="duration">
+                                                      <shadow type="math_number" id="oben8I%ff0]N-jNI-l`!">
+                                                        <field name="NUM">1000</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="mpython_off_RGB" id="ncb5,[xft/B_EF,iTq3p">
+                                                        <next>
+                                                          <block type="mpython_fresh_RGB" id=")uYBvKfvbB@xKxm)Bk^^">
+                                                            <next>
+                                                              <block type="mpython_sleep_ms" id="%{56(`]d,3HF_iL/X~([">
+                                                                <value name="duration">
+                                                                  <shadow type="math_number" id="*=5u72|*mwibhy{bZ!gx">
+                                                                    <field name="NUM">3000</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
