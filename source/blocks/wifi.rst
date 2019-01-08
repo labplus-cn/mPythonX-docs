@@ -92,7 +92,7 @@ appserver.start()
 **描述：** TinyWebIO服务后台运行，该服务为App Inventor应用提供远程控制接口的掌控板工具包
 
 .. image:: /images/blocks/wifi/TinyWebIO.png
-    :scale: 90 %
+    :scale: 80 %
 
 
 appserver.start_foreground()

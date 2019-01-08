@@ -1,0 +1,42 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="microbit_music_pitch" id="]g4Qi{.8@iIM|99$7ZqE" x="-223" y="125">
+    <value name="pitch">
+      <shadow type="math_number" id="`UDPUO2B#o5XN2|A=j@a">
+        <field name="NUM">262</field>
+      </shadow>
+    </value>
+    <value name="duration">
+      <shadow type="math_number" id="NUi%0,+cMr~HnUn1;+wv">
+        <field name="NUM">1000</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="microbit_music_pitch" id="UmtQ+Tjl%rELir}Ul!_1">
+        <value name="pitch">
+          <shadow type="math_number" id="dzAYYIZQS?0ONJ^YqL6h">
+            <field name="NUM">294</field>
+          </shadow>
+        </value>
+        <value name="duration">
+          <shadow type="math_number" id="~Xp7,-Kwg^h2}gJ(7+4N">
+            <field name="NUM">1000</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="microbit_music_pitch" id="b5`V!Zq|0*9sAC+OgDbW">
+            <value name="pitch">
+              <shadow type="math_number" id="z${efH+?}oPvDDm[:?l`">
+                <field name="NUM">330</field>
+              </shadow>
+            </value>
+            <value name="duration">
+              <shadow type="math_number" id="vVF5;n%wIIrGvj/!xGjz">
+                <field name="NUM">1000</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
