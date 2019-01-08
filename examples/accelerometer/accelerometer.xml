@@ -1,0 +1,180 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id="xv}y[:;+kZ41w(-kMost" x="-509" y="-145">
+    <statement name="DO">
+      <block type="mpython_display_fill" id="ABM-q,JLJE*/4c%eibJb">
+        <field name="display_fill">fill(0)</field>
+        <next>
+          <block type="variables_set" id="ua~Qs[C1_dnafI{rgGJB">
+            <field name="VAR">x1</field>
+            <value name="VALUE">
+              <block type="mpython_accelerometer_get" id="kB{fy}|^7jF*1$z9|u[*">
+                <field name="axis">X</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="6%ThZ-1BV%fQDrRjd93w">
+                <field name="VAR">y1</field>
+                <value name="VALUE">
+                  <block type="mpython_accelerometer_get" id="1p.XzB%b9;|?1e)UDt1d">
+                    <field name="axis">Y</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id=".BH4t$U)cQ!a|DgVgMY[">
+                    <field name="VAR">z1</field>
+                    <value name="VALUE">
+                      <block type="mpython_accelerometer_get" id="z6}T[de.OXeW~DbU#a!j">
+                        <field name="axis">Z</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="mpython_display_DispChar" id="[0(VR;vHhl`7nNJa4213">
+                        <value name="x">
+                          <shadow type="math_number" id="4IRc!7}ib9pp!FX4t*MN">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                        <value name="y">
+                          <shadow type="math_number" id="rk*S9`U@/TIZql#E.*N+">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                        <value name="message">
+                          <shadow type="text" id="~XYf}0c=dH9C/!vr:%.q">
+                            <field name="TEXT">加速度x:</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="mpython_display_DispChar" id="^]/]R8jX$,aDP]~hZQZI">
+                            <value name="x">
+                              <shadow type="math_number" id="Sc(bnyiKU_%/L4GrdhU`">
+                                <field name="NUM">48</field>
+                              </shadow>
+                            </value>
+                            <value name="y">
+                              <shadow type="math_number" id="=P{fAB,@N8wlD,GkRLqZ">
+                                <field name="NUM">0</field>
+                              </shadow>
+                            </value>
+                            <value name="message">
+                              <shadow type="text" id="/Ri0sE~B;2Z%=m%iHB@e">
+                                <field name="TEXT">Hello, World!</field>
+                              </shadow>
+                              <block type="text_join" id="fnyiOz)=S%;xCq_t6c(R">
+                                <mutation items="1"></mutation>
+                                <value name="ADD0">
+                                  <block type="variables_get" id="]N6cDEKTQvhY-^qZOEv;">
+                                    <field name="VAR">x1</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="mpython_display_DispChar" id="3=c#{8Y7M`LoITo@~wJ=">
+                                <value name="x">
+                                  <shadow type="math_number" id="9aPL_107wAPg.Beys`vT">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                </value>
+                                <value name="y">
+                                  <shadow type="math_number" id="v%IJlO%F}TZve-0XX3Oc">
+                                    <field name="NUM">16</field>
+                                  </shadow>
+                                </value>
+                                <value name="message">
+                                  <shadow type="text" id="ql4S5Ip5Sm8ZqY;MLL}q">
+                                    <field name="TEXT">加速度y:</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="mpython_display_DispChar" id="lWGLZ.?@d19lvlyR~*.1">
+                                    <value name="x">
+                                      <shadow type="math_number" id="**ksS(crJR$rr,4cOJ5m">
+                                        <field name="NUM">48</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="y">
+                                      <shadow type="math_number" id="=A}ax1*POG=TD{|J|Qa{">
+                                        <field name="NUM">16</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="message">
+                                      <shadow type="text" id="/Ri0sE~B;2Z%=m%iHB@e">
+                                        <field name="TEXT">Hello, World!</field>
+                                      </shadow>
+                                      <block type="text_join" id="~Y4Vyuh*eQwGatxh!;k#">
+                                        <mutation items="1"></mutation>
+                                        <value name="ADD0">
+                                          <block type="variables_get" id="orze7([*pM)GgxE=6NCg">
+                                            <field name="VAR">y1</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="mpython_display_DispChar" id="lDfuIGQ@yRg[tbNme*bs">
+                                        <value name="x">
+                                          <shadow type="math_number" id="w:6=10oM8ygD%]wbZ]NN">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                        </value>
+                                        <value name="y">
+                                          <shadow type="math_number" id="X3FObY.-arBMwfu1`Yk^">
+                                            <field name="NUM">32</field>
+                                          </shadow>
+                                        </value>
+                                        <value name="message">
+                                          <shadow type="text" id="2gdV9GOyw:_%h)xbEK[_">
+                                            <field name="TEXT">加速度z:</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="mpython_display_DispChar" id="^Y@r6iv*{|DNIw:nh13T">
+                                            <value name="x">
+                                              <shadow type="math_number" id="vqx:8slfR|F]T}HraOo_">
+                                                <field name="NUM">48</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="y">
+                                              <shadow type="math_number" id="vX*;xV15.Sjw$)tqLnMp">
+                                                <field name="NUM">32</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="message">
+                                              <shadow type="text" id="/Ri0sE~B;2Z%=m%iHB@e">
+                                                <field name="TEXT">Hello, World!</field>
+                                              </shadow>
+                                              <block type="text_join" id="E+OBrXmNbY@?VCw{5#_!">
+                                                <mutation items="1"></mutation>
+                                                <value name="ADD0">
+                                                  <block type="variables_get" id="Gk4~/bzyRn)f:~i3=wIN">
+                                                    <field name="VAR">z1</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="mpython_display_Show" id="dcHyfM^Kr+0~Eyc3(E14"></block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
