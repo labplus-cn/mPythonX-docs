@@ -6,6 +6,7 @@
     :maxdepth: 1
 
     oled.rst
+    button.rst
     wifi.rst
     pin.rst
     music.rst
