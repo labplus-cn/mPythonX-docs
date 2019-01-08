@@ -111,7 +111,56 @@ music.set_tempo()
     - ``bpm`` - 每分钟节拍数
 
 
+示例
+^^^^^
+
+.. image::  /images/blocks/music/example/set_tempo.png
+    :scale: 90 %
+
+:download:`点击下载图形化示例</../examples/music/set_tempo.xml>` 
 
 
+music.get_tempo()
+-------------
+
+**描述：**  获取当前速度作为整数元组: (ticks, bpm)
+
+.. image:: /images/blocks/music/get_tempo.png
+    :scale: 90 %
+
+示例
+^^^^^
+
+.. image::  /images/blocks/music/example/get_tempo.png
+    :scale: 90 %
+
+:download:`点击下载图形化示例</../examples/music/get_tempo.xml>` 
+
+
+music.reset()
+-------------
+
+**描述：**  以下列方式重置以下属性的状态
+
+    - ``ticks = 4``
+    - ``bpm = 120``
+    - ``duration = 4``
+    - ``octave = 4`` 
+
+.. image:: /images/blocks/music/reset.png
+    :scale: 90 %
+
+
+music.stop()
+-------------
+
+**描述：**  停止给定引脚上的所有音乐播放
+
+.. image:: /images/blocks/music/stop.png
+    :scale: 90 %
+
+music.stop(pin=6)
+
+    - ``pin`` - 默认是掌控板的P6引脚
 
 

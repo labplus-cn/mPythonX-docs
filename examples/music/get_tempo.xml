@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_display_fill" id="aa/j,kQxgWw~Lh$Fi6;O" x="-140" y="92">
+    <field name="display_fill">fill(0)</field>
+    <next>
+      <block type="mpython_display_DispChar" id="9mTX6ee%r=%P6/:iW6;F">
+        <value name="x">
+          <shadow type="math_number" id=";oo#ciQs$F3G*xIm#.;V">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="y">
+          <shadow type="math_number" id="+kpa]-q?|y]Nd%h|f:=@">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="message">
+          <shadow type="text" id=":wNvT(Hc8(o5}fQW9Rt$">
+            <field name="TEXT">Hello, World!</field>
+          </shadow>
+          <block type="text_join" id="V-y@ZhT`sV}6P@v)(^B2">
+            <mutation items="1"></mutation>
+            <value name="ADD0">
+              <block type="microbit_music_get_tempo" id="!k:MQY4A7#QpRB6_qjyP"></block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="mpython_display_Show" id="5si.QB87A6~u_t?t3}Il"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

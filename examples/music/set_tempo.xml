@@ -1,0 +1,46 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="microbit_music_set_tempo_speed" id="3A_QXNUb5Br%W~8jkV~5" x="125" y="150">
+    <value name="bpm">
+      <shadow type="math_number" id="X[Kj=C,FB`kTT=c:LLDA">
+        <field name="NUM">2</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="microbit_music_play_built_in" id="HG#w@]k467R1Qb=P!D4-">
+        <field name="melody">DADADADUM</field>
+        <field name="wait">TRUE</field>
+        <field name="loop">FALSE</field>
+        <next>
+          <block type="mpython_sleep_ms" id="0f1Zm1#/8=N3IGyG)^,N">
+            <value name="duration">
+              <shadow type="math_number" id="-,uFaOq@MCBW?_dtp3]U">
+                <field name="NUM">2000</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="microbit_music_set_tempo" id="BXr!`.Xg#H%yJKVo3CXd">
+                <value name="ticks">
+                  <shadow type="math_number" id="aIhC/zSR#wPU3`PiiZP=">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+                <value name="bpm">
+                  <shadow type="math_number" id="l7p=tO%p,w,HDYWocRA%">
+                    <field name="NUM">120</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="microbit_music_play_built_in" id="D1-5Ob*2+Uh]HvrAUVNZ">
+                    <field name="melody">DADADADUM</field>
+                    <field name="wait">TRUE</field>
+                    <field name="loop">FALSE</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
