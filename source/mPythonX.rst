@@ -9,7 +9,7 @@ mPythonX 使用说明
 http://static.steamaker.cn/files/mPythonXSetup0.1.0.exe
 (Win 7 / 8 / 10)
 
-http://static.steamaker.cn/files/mPythonXSetup0.1.0.exe
+http://static.steamaker.cn/files/mPythonXSetup0.1.0_XP.exe
 (Win XP)
 
 http://static.steamaker.cn/files/mPythonX_0.1.0_mac.zip
