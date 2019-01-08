@@ -1,0 +1,66 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id="Gktp,;!DDm1b!oT%rX1z" x="-776" y="61">
+    <statement name="DO">
+      <block type="mpython_display_fill" id="8Z$e9+hq2*MJ)[v8H.:P">
+        <field name="display_fill">fill(0)</field>
+        <next>
+          <block type="mpython_display_DispChar" id="*~![%we*%93qr,AO[HGe">
+            <value name="x">
+              <shadow type="math_number" id="I-PT@$T/tE8AgI5z^G74">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="y">
+              <shadow type="math_number" id=")%ARLa3*!xN-rd;P(4S0">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="message">
+              <shadow type="text" id="5:*89b#lu)rIZr@WS4:1">
+                <field name="TEXT">声音值： </field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_display_DispChar" id="NE^PN-^0I@.9Q%uM=xi6">
+                <value name="x">
+                  <shadow type="math_number" id="3H}|sO|d$+{^+|fWL;T/">
+                    <field name="NUM">50</field>
+                  </shadow>
+                </value>
+                <value name="y">
+                  <shadow type="math_number" id="i]kpDgQrUoG@sJ0at?po">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="message">
+                  <shadow type="text" id="5:*89b#lu)rIZr@WS4:1">
+                    <field name="TEXT">Hello, World!</field>
+                  </shadow>
+                  <block type="text_join" id="LMjqbu-?es+/,us!!~-8">
+                    <mutation items="1"></mutation>
+                    <value name="ADD0">
+                      <block type="mpython_read_sound" id="q0KHUz6|VJ8@T*mxodbe"></block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="mpython_display_Show" id="eN;2f_ar7~%P/Ic+DR@8">
+                    <next>
+                      <block type="mpython_sleep_ms" id="|%t^Pkz-l$kJR_W.(7l^">
+                        <value name="duration">
+                          <shadow type="math_number" id="dX8oQpu!O:oW.m$6(F5j">
+                            <field name="NUM">1000</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

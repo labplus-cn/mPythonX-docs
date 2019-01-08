@@ -22,7 +22,7 @@ touchPad_[P,Y,T,H,O,N].read()
 ^^^^^
 
 .. image::  /images/blocks/button/example/touchPad.png
-    :scale: 90 %
+    :scale: 100 %
 
 :download:`点击下载图形化示例</../examples/button/touchPad.xml>` 
 

@@ -7,6 +7,8 @@
 
     oled.rst
     button.rst
+    sound.rst
+    light.rst
     wifi.rst
     pin.rst
     music.rst
