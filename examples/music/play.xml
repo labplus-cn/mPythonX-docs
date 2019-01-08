@@ -1,0 +1,63 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="microbit_music_play_built_in" id="*336wJ3^J|;?[)J,|hX_" x="-234" y="87">
+    <field name="melody">PYTHON</field>
+    <field name="wait">TRUE</field>
+    <field name="loop">FALSE</field>
+    <next>
+      <block type="microbit_music_play_list_of_notes" id="+uB`(eN$U7arKnYGqM?6">
+        <field name="wait">TRUE</field>
+        <field name="loop">FALSE</field>
+        <value name="notes">
+          <block type="lists_create_with" id="3`aOQ|[oX@3$xHZS2M@P">
+            <mutation items="3"></mutation>
+            <value name="ADD0">
+              <block type="mpython_music_note" id="CEHGy|VzNme+%z%`d1Z5">
+                <field name="gamut">A</field>
+                <value name="num1">
+                  <shadow type="math_number" id="Ch(Q[;|mSA9fsU|6Epm5">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+                <value name="num2">
+                  <shadow type="math_number" id=";G/%GhIDJ,:?126dKUrG">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="mpython_music_note" id="AKkfJ@0OFuTgf,5/OQ?R">
+                <field name="gamut">B</field>
+                <value name="num1">
+                  <shadow type="math_number" id="h9SsZ3fh.;l6oRSg@{jG">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+                <value name="num2">
+                  <shadow type="math_number" id="c~VVyBWq^r!kA-Deq0PS">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="mpython_music_note" id="9#*aj!/czA%B6,Yz4uJ!">
+                <field name="gamut">C</field>
+                <value name="num1">
+                  <shadow type="math_number" id="Nd_[J6X=ue()WSem[f!:">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+                <value name="num2">
+                  <shadow type="math_number" id="0urhI|k%^%s#hRJ4*kME">
+                    <field name="NUM">4</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

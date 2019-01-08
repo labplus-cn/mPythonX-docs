@@ -1,0 +1,24 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_music_range_pitch" id="ej-X3wEn7Cwo:z,1s$V;" x="-252" y="103">
+    <value name="start">
+      <shadow type="math_number" id="6-kK~xY?:E/LuY:!3z5=">
+        <field name="NUM">880</field>
+      </shadow>
+    </value>
+    <value name="end">
+      <shadow type="math_number" id="QTV|!ZXd-lJvdIdUR:UB">
+        <field name="NUM">1760</field>
+      </shadow>
+    </value>
+    <value name="step">
+      <shadow type="math_number" id="]KNvta805Mu40`]}v`Kx">
+        <field name="NUM">16</field>
+      </shadow>
+    </value>
+    <value name="time">
+      <shadow type="math_number" id=".p.(d/t%qprSlB3*GyQ6">
+        <field name="NUM">20</field>
+      </shadow>
+    </value>
+  </block>
+</xml>
