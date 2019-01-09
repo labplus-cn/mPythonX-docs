@@ -1,0 +1,93 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_neopixel_init" id="MnLJd/Qo^x)0fw.[g+,4" x="-291" y="72">
+    <field name="neopixel_name">my_rgb</field>
+    <field name="analogP_IO">33</field>
+    <value name="n">
+      <shadow type="math_number" id="Y2Uk9MtW9++2Z@:kD#mV">
+        <field name="NUM">3</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="controls_repeat_forever" id="gi~c12vNi3lOy-v(_MM=">
+        <statement name="DO">
+          <block type="mpython_neopixel_single_gui" id="t;/V23`K62{.VMu+{S*r">
+            <field name="neopixel_name">my_rgb</field>
+            <field name="COLOUR">#ff0000</field>
+            <value name="order">
+              <shadow type="math_number" id="L*UN.=F_9$WRDvkOE2}o">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_neopixel_show" id="x!b7CJ^i97)#q*B-rg|%">
+                <field name="neopixel_name">my_rgb</field>
+                <next>
+                  <block type="mpython_sleep_ms" id="%46|4fESBj~iYRb`BG3t">
+                    <value name="duration">
+                      <shadow type="math_number" id="o;k+rRK%F|FjIE0_h:k4">
+                        <field name="NUM">1000</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_neopixel_all" id="2aah=C^^iq0Gl)x:AE:L">
+                        <field name="neopixel_name">my_rgb</field>
+                        <value name="r">
+                          <shadow type="math_number" id="M=g)kR4A5#(PG-w.=0KG">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                        <value name="g">
+                          <shadow type="math_number" id="wR2*Reqp8blu0Miy::IZ">
+                            <field name="NUM">50</field>
+                          </shadow>
+                        </value>
+                        <value name="b">
+                          <shadow type="math_number" id="Rc#[rcORkl8s@TBRByO6">
+                            <field name="NUM">100</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="mpython_neopixel_show" id="cR4eu#O(8,U@-?mqpl@H">
+                            <field name="neopixel_name">my_rgb</field>
+                            <next>
+                              <block type="mpython_sleep_ms" id="U76ZFOof2!,][6/kiq$z">
+                                <value name="duration">
+                                  <shadow type="math_number" id="5qg8.m+NerY-d1-TxcGI">
+                                    <field name="NUM">1000</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="mpython_neopixel_off" id="olfT~3aw3.t#y,6W3eYF">
+                                    <field name="neopixel_name">my_rgb</field>
+                                    <next>
+                                      <block type="mpython_neopixel_show" id="N`}JE0m;7[d)s.K%^l|7">
+                                        <field name="neopixel_name">my_rgb</field>
+                                        <next>
+                                          <block type="mpython_sleep_ms" id="!SwpaoiAmY;[^ooEehC;">
+                                            <value name="duration">
+                                              <shadow type="math_number" id="9,G^yq-RLUOhJ-JN2X[%">
+                                                <field name="NUM">3000</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

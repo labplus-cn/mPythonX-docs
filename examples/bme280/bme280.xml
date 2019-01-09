@@ -1,0 +1,95 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_forever" id="wu[i7$#thRLZ{*kidgyM" x="-458" y="54">
+    <statement name="DO">
+      <block type="mpython_display_fill" id="@KOj@.uBW=N^`X*T-/H]">
+        <field name="display_fill">fill(0)</field>
+        <next>
+          <block type="mpython_display_DispChar" id="TZQb,DsD{MgP?^C8-thZ">
+            <value name="x">
+              <shadow type="math_number" id="=OlQPP?j4a*L)|{YPV~0">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="y">
+              <shadow type="math_number" id="BSc]@iZg]tUhAEDe/~#D">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="message">
+              <shadow type="text" id="}*WsII+Z42.VDZo=fMm~">
+                <field name="TEXT">气压：</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_display_DispChar" id="osBKaLASJ(EMz]`Hin`[">
+                <value name="x">
+                  <shadow type="math_number" id="lU5CpH;n~dlWxL|T]ABj">
+                    <field name="NUM">40</field>
+                  </shadow>
+                </value>
+                <value name="y">
+                  <shadow type="math_number" id="N6*3ZZ,4#fc)DoxZ]l1*">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="message">
+                  <shadow type="text" id="3LcS,JnIlyrL_4$FaYDV">
+                    <field name="TEXT">Hello, World!</field>
+                  </shadow>
+                  <block type="text_join" id="ejKWCWHm6-Lwi-_8J@oB">
+                    <mutation items="1"></mutation>
+                    <value name="ADD0">
+                      <block type="math_round" id="l`Q1.W;{bX?Y2ZJf1y8|">
+                        <field name="OP">ROUND</field>
+                        <value name="NUM">
+                          <shadow type="math_number" id="dr4UT6m1$=[RUz%bZmdJ">
+                            <field name="NUM">3.1</field>
+                          </shadow>
+                          <block type="mpython_bme280_hum_tem_pre" id="{wrr?u[r.l3tQ}pUcSIz">
+                            <field name="hum_tem_pre">pressure</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="mpython_display_DispChar" id="%ZPsg$[|d4NZ#w[q_#el">
+                    <value name="x">
+                      <shadow type="math_number" id="@7L@5Z6(os]@~-H_G6xl">
+                        <field name="NUM">80</field>
+                      </shadow>
+                    </value>
+                    <value name="y">
+                      <shadow type="math_number" id=";T3j_*j8+PcVfrAD.AaJ">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                    <value name="message">
+                      <shadow type="text" id="3LcS,JnIlyrL_4$FaYDV">
+                        <field name="TEXT">Pa</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_display_Show" id="NVn_=w{3_}G]f.O9hhix">
+                        <next>
+                          <block type="mpython_sleep_ms" id="]J0eryhM%+?oN?vutKdW">
+                            <value name="duration">
+                              <shadow type="math_number" id="}d0^;T^h/CJQ|U4YHfl?">
+                                <field name="NUM">2000</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
