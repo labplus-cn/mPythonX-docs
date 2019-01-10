@@ -1,4 +1,4 @@
-NeoPixel
+外部RGB
 ======
 
 外部RGB灯带控制类指令
