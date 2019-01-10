@@ -13,6 +13,7 @@
     rgb.rst
     NeoPixel.rst
     bme280.rst
+    clock.rst
     wifi.rst
     pin.rst
     music.rst

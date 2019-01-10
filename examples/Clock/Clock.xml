@@ -1,0 +1,39 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_display_fill" id="EeQ;+,.JUQpG,5?bvUb#" x="-15" y="191">
+    <field name="display_fill">fill(0)</field>
+    <next>
+      <block type="mpython_def_clock" id="THSuz0Z))jheRS.#]`[!">
+        <field name="clock_name">my_clock</field>
+        <value name="x">
+          <shadow type="math_number" id="b+DX_xQ7:AEN4Y/#c?)+">
+            <field name="NUM">64</field>
+          </shadow>
+        </value>
+        <value name="y">
+          <shadow type="math_number" id="F]=e]N_tJ!B3!$7dAzS5">
+            <field name="NUM">32</field>
+          </shadow>
+        </value>
+        <value name="radius">
+          <shadow type="math_number" id="0jvan@L?-Mz/,W5%j?(L">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_settime_clock" id="V14NuDLgD%709gSELRu@">
+            <field name="clock_name">my_clock</field>
+            <next>
+              <block type="mpython_draw_clear_clock" id="@vhdOxt6w1#Yv:`X*VBy">
+                <field name="draw_clear_clock">drawClock</field>
+                <field name="clock_name">my_clock</field>
+                <next>
+                  <block type="mpython_display_Show" id="|#Aw^iZa!L;~{vWg?D~t"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
