@@ -83,7 +83,12 @@ ntptime.settime()
 .. image:: /images/blocks/wifi/ntptime.settime.png
     :scale: 100 %
     
-ntptime.settime()
+ntptime.settime(timezone, server)
+
+参数：
+
+    - ``timezone`` - 时区时间差,默认为东八区,补偿8小时
+    - ``server`` - 可自行指定授时服务器,server为字符串类型,默认授时服务器为"ntp.ntsc.ac.cn"
 
 
 appserver.start()
