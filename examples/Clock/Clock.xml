@@ -1,34 +1,71 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="mpython_display_fill" id="EeQ;+,.JUQpG,5?bvUb#" x="-15" y="191">
-    <field name="display_fill">fill(0)</field>
+  <block type="mpython_init_wifi" id="WH(6[i8L+x`TD*4r~65Q" x="-241" y="-196">
+    <value name="ssid">
+      <shadow type="text" id="Y]Hh0?vm8T=@in=Q%UEP">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
+    <value name="password">
+      <shadow type="text" id="0Qc(]6ZQOSL%*WdD5s~V">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
     <next>
-      <block type="mpython_def_clock" id="THSuz0Z))jheRS.#]`[!">
-        <field name="clock_name">my_clock</field>
-        <value name="x">
-          <shadow type="math_number" id="b+DX_xQ7:AEN4Y/#c?)+">
-            <field name="NUM">64</field>
-          </shadow>
-        </value>
-        <value name="y">
-          <shadow type="math_number" id="F]=e]N_tJ!B3!$7dAzS5">
-            <field name="NUM">32</field>
-          </shadow>
-        </value>
-        <value name="radius">
-          <shadow type="math_number" id="0jvan@L?-Mz/,W5%j?(L">
-            <field name="NUM">30</field>
-          </shadow>
-        </value>
+      <block type="mpython_ntptime_settime" id="eBEO;;%Emq;u!9njM_{l">
+        <field name="timezone">8</field>
+        <field name="server">ntp.ntsc.ac.cn</field>
         <next>
-          <block type="mpython_settime_clock" id="V14NuDLgD%709gSELRu@">
+          <block type="mpython_def_clock" id="nggdo8w.s*[v~NJ[3.`~">
             <field name="clock_name">my_clock</field>
+            <value name="x">
+              <shadow type="math_number" id="*aZ3Oxbqt*PT4#j0`)LY">
+                <field name="NUM">64</field>
+              </shadow>
+            </value>
+            <value name="y">
+              <shadow type="math_number" id="mBbdR;DD]CC*I:+wwwLw">
+                <field name="NUM">32</field>
+              </shadow>
+            </value>
+            <value name="radius">
+              <shadow type="math_number" id="`3t+g^Z)_[wHiw8MT@|)">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
             <next>
-              <block type="mpython_draw_clear_clock" id="@vhdOxt6w1#Yv:`X*VBy">
-                <field name="draw_clear_clock">drawClock</field>
-                <field name="clock_name">my_clock</field>
-                <next>
-                  <block type="mpython_display_Show" id="|#Aw^iZa!L;~{vWg?D~t"></block>
-                </next>
+              <block type="mpython_Timer" id="dGP@{^q-Oyl-jVr0P9F(">
+                <field name="Timer_mode">PERIODIC</field>
+                <value name="Num">
+                  <shadow type="mpython_timer_option" id="6g4BI@L@+#gw~{+*GX9/">
+                    <field name="Timer_num">1</field>
+                  </shadow>
+                </value>
+                <value name="period">
+                  <shadow type="math_number" id="YT?+l$-7s#DCHPY:]alo">
+                    <field name="NUM">1000</field>
+                  </shadow>
+                </value>
+                <statement name="DO">
+                  <block type="mpython_settime_clock" id="#|Jlqa/AGW{@U(F.0bxF">
+                    <field name="clock_name">my_clock</field>
+                    <next>
+                      <block type="mpython_draw_clear_clock" id="O1GY.;08Rdi]gEGf%-_3">
+                        <field name="draw_clear_clock">drawClock</field>
+                        <field name="clock_name">my_clock</field>
+                        <next>
+                          <block type="mpython_display_Show" id="toVx`(H15Z=|%ptUOxi-">
+                            <next>
+                              <block type="mpython_draw_clear_clock" id="g4A9po{X=93dRrJqsyUO">
+                                <field name="draw_clear_clock">clear</field>
+                                <field name="clock_name">my_clock</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
               </block>
             </next>
           </block>
