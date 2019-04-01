@@ -3,33 +3,6 @@
 
 音乐控制类指令
 
-buzz.off()
--------------
-
-**描述：**  关闭蜂鸣器
-
-.. image:: /images/blocks/music/buzz.off.png
-    :scale: 90 %
-
-
-buzz.on()
--------------
-
-**描述：**  设置蜂鸣器音调
-
-.. image:: /images/blocks/music/buzz.on.1.png
-    :scale: 90 %
-
-
-
-.. image:: /images/blocks/music/buzz.on.2.png
-    :scale: 90 %
-
-| buzz.on(freq=500)
-
-    - ``freq`` - 默认500Hz，0 < freq ≤ 78125
-
-
 music.pitch()
 -------------
 
