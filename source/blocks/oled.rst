@@ -11,12 +11,18 @@ oled.DispChar()
     :scale: 100 %
 
 
-oled.DispChar(s, x, y)
+oled.DispChar(s, x, y, mode=TextMode.normal)
 
 参数：
 
     - ``s`` -需要显示的文本。
     - ``x`` 、``y`` -文本的左上角作为起点坐标。
+    - ``mode`` - 设置文本模式,默认为TextMode.normal
+
+        - ``TextMode.normal`` - 等于1 。普通模式,文本显示白色,背景为黑色。
+        - ``TextMode.rev`` - 等于2 。反转模式,文本显示黑色,背景为白色。
+        - ``TextMode.trans`` - 等于3 。透明模式,透明文本意味着文本被写在显示中已经可见的内容之上。不同之处在于，以前屏幕上的内容仍然可以看到，而对于normal，背景将被当前选择的背景颜色所替代。
+        - ``TextMode.xor`` - 等于4 。XOR模式,如果背景是黑色的，效果与默认模式(normal模式)相同。如果背景为白色，则反转文本。
 
 示例
 ^^^^^
@@ -63,18 +69,18 @@ oled.fill(c)
 参数：
 
     - ``c`` - 为1时,像素点亮；为0时,像素点灭。
- 
+
 示例
 ^^^^^
 
 
-1秒间隔,全屏亮灭  
+1秒间隔,全屏亮灭
 
 
 .. image:: /images/blocks/oled/example/blink.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_blink.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_blink.xml>`
 
 
 oled.invert()
@@ -97,7 +103,7 @@ oled.invert(n)
 .. image:: /images/blocks/oled/example/invert.png
     :scale: 100 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_invert.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_invert.xml>`
 
 
 oled.pixel()
@@ -115,7 +121,7 @@ oled.pixel(x, y,c)
     - ``x`` , ``y`` - 像素点坐标
     - ``c`` - 当为1时,点亮；当为0时,熄灭
 
- 
+
 oled.circle()
 -------------
 
@@ -136,9 +142,9 @@ oled.circle(x, y, radius, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/circle.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_circle.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_circle.xml>`
 
 
 oled.fill_circle()
@@ -161,9 +167,9 @@ oled.fill_circle(x, y, radius, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/fill_circle.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_fill_circle.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_fill_circle.xml>`
 
 
 oled.triangle()
@@ -187,9 +193,9 @@ oled.triangle(x0, y0, x1, y1, x2, y2, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/triangle.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_triangle.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_triangle.xml>`
 
 
 oled.fill_triangle()
@@ -213,9 +219,9 @@ oled.fill_triangle(x0, y0, x1, y1, x2, y2, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/fill_triangle.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_fill_triangle.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_fill_triangle.xml>`
 
 
 oled.hline()
@@ -238,9 +244,9 @@ oled.hline(x, y, w, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/hline.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_hline.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_hline.xml>`
 
 
 oled.vline()
@@ -280,9 +286,9 @@ oled.line(x1, y1, x2, y2, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/line.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_line.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_line.xml>`
 
 
 oled.rect()
@@ -305,9 +311,9 @@ oled.rect(x, y, w, h, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/rect.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_rect.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_rect.xml>`
 
 
 oled.fill_rect()
@@ -330,9 +336,9 @@ oled.fill_rect(x, y, w, h, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/fill_rect.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_fill_rect.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_fill_rect.xml>`
 
 
 oled.RoundRect()
@@ -356,9 +362,9 @@ oled.RoundRect(x, y, w, h, r, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/RoundRect.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_RoundRect.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_RoundRect.xml>`
 
 
 oled.Bitmap()
@@ -383,9 +389,9 @@ oled.Bitmap(x, y, bitmap, w, h, c)
 ^^^^^
 
 .. image:: /images/blocks/oled/example/bitmap.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/oled/oled_bitmap.xml>` 
+:download:`点击下载图形化示例</../examples/oled/oled_bitmap.xml>`
 
 
 UI.ProgressBar()
@@ -411,7 +417,7 @@ UI.ProgressBar(x, y, width, height, progress)
 .. image::  /images/blocks/oled/example/ProgressBar.png
     :scale: 100 %
 
-:download:`点击下载图形化示例</../examples/oled/ProgressBar.xml>` 
+:download:`点击下载图形化示例</../examples/oled/ProgressBar.xml>`
 
 UI.stripBar()
 -------------
@@ -432,7 +438,7 @@ UI.stripBar(x, y, width, height, progress,dir=1,frame=1)
     - ``dir`` -柱状条方向。dir=1时水平方向,dir=0时,垂直方向。
     - ``frame`` -当frame=1时,显示外框；当frame=0时,不显示外框。
 
- 
+
 示例
 ^^^^^
 
@@ -440,4 +446,4 @@ UI.stripBar(x, y, width, height, progress,dir=1,frame=1)
 .. image:: /images/blocks/oled/example/light_stripBar.png
     :scale: 100 %
 
-:download:`点击下载图形化示例</../examples/oled/light_stripBar.xml>` 
+:download:`点击下载图形化示例</../examples/oled/light_stripBar.xml>`
