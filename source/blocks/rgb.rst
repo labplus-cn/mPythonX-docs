@@ -1,7 +1,7 @@
 板载RGB
 ======
 
-RGB LED控制类指令，用于控制掌控板的3颗RGB ws2812灯珠。rgb对象为neopixel的衍生类，继承neopixel的方法
+RGB LED控制类指令，用于控制掌控板的3颗RGB ws2812灯珠，rgb对象为neopixel的衍生类，继承neopixel的方法
 
 rgb[n] = (r, g, b)
 -------------
@@ -27,4 +27,4 @@ rgb.fill( (r, g, b) )
 .. image::  /images/blocks/RGB/example/RGB.png
     :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/RGB/RGB.xml>` 
+:download:`点击下载图形化示例</../examples/RGB/RGB.xml>`

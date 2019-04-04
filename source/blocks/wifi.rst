@@ -23,12 +23,12 @@ wifi.connectWiFi(ssid, password)
 wifi.sta.ifconfig()
 -------------
 
-**描述：** wifi连接成功后,获取wifi配置信息。含IP、netmask、getway、DNS
+**描述：** wifi连接成功后,获取wifi配置信息，含IP、netmask、getway、DNS
 
 .. image:: /images/blocks/wifi/sta.ifconfig.png
     :scale: 100 %
 
-wifi.sta.ifconfig()[n]  
+wifi.sta.ifconfig()[n]
 
 4元组,n为0、1、2、3
 
@@ -36,9 +36,9 @@ wifi.sta.ifconfig()[n]
 ^^^^^
 
 .. image:: /images/blocks/wifi/example/ifconfig.png
-    :scale: 80 %   
+    :scale: 80 %
 
-:download:`点击下载图形化示例</../examples/wifi/wifi_ifconfig.xml>` 
+:download:`点击下载图形化示例</../examples/wifi/wifi_ifconfig.xml>`
 
 wifi.disconnectWiFi()
 -------------
@@ -82,7 +82,7 @@ ntptime.settime()
 
 .. image:: /images/blocks/wifi/ntptime.settime.png
     :scale: 100 %
-    
+
 ntptime.settime(timezone, server)
 
 参数：

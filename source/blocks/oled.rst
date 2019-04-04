@@ -24,15 +24,6 @@ oled.DispChar(s, x, y, mode=TextMode.normal)
         - ``TextMode.trans`` - 等于3 。透明模式,透明文本意味着文本被写在显示中已经可见的内容之上。不同之处在于，以前屏幕上的内容仍然可以看到，而对于normal，背景将被当前选择的背景颜色所替代。
         - ``TextMode.xor`` - 等于4 。XOR模式,如果背景是黑色的，效果与默认模式(normal模式)相同。如果背景为白色，则反转文本。
 
-示例
-^^^^^
-
-
-显示 hello,world！
-
-.. image:: /images/blocks/oled/example/hello.png
-    :scale: 60 %
-
 
 oled.show()
 ----------

@@ -24,7 +24,7 @@ music.pitch()
 .. image::  /images/blocks/music/example/pitch.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/music/pitch.xml>` 
+:download:`点击下载图形化示例</../examples/music/pitch.xml>`
 
 
 range()
@@ -32,11 +32,11 @@ range()
 
 **描述：**  创建一个整数列表，一般用在 for 循环中
 
-| range(start, stop[, step])    
+| range(start, stop[, step])
 
-    - ``start`` - 计数从 start 开始。默认是从 0 开始。例如range（5）等价于range（0， 5）
-    - ``stop`` - 计数到 stop 结束，但不包括 stop。例如：range（0， 5） 是[0, 1, 2, 3, 4]没有5
-    - ``step`` - 步长，默认为1。例如：range（0， 5） 等价于 range(0, 5, 1)
+    - ``start`` - 计数从 start 开始，默认是从 0 开始，例如range（5）等价于range（0， 5）
+    - ``stop`` - 计数到 stop 结束，但不包括 stop，例如：range（0， 5） 是[0, 1, 2, 3, 4]没有5
+    - ``step`` - 步长，默认为1，例如：range（0， 5） 等价于 range(0, 5, 1)
 
 示例
 ^^^^^
@@ -47,7 +47,7 @@ range()
 .. image:: /images/blocks/music/example/pitch_in_range.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/music/pitch_in_range.xml>` 
+:download:`点击下载图形化示例</../examples/music/pitch_in_range.xml>`
 
 
 music.play()
@@ -69,7 +69,7 @@ music.play()
 .. image::  /images/blocks/music/example/play.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/music/play.xml>` 
+:download:`点击下载图形化示例</../examples/music/play.xml>`
 
 
 music.set_tempo()
@@ -90,7 +90,7 @@ music.set_tempo()
 .. image::  /images/blocks/music/example/set_tempo.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/music/set_tempo.xml>` 
+:download:`点击下载图形化示例</../examples/music/set_tempo.xml>`
 
 
 music.get_tempo()
@@ -107,7 +107,7 @@ music.get_tempo()
 .. image::  /images/blocks/music/example/get_tempo.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/music/get_tempo.xml>` 
+:download:`点击下载图形化示例</../examples/music/get_tempo.xml>`
 
 
 music.reset()
@@ -118,7 +118,7 @@ music.reset()
     - ``ticks = 4``
     - ``bpm = 120``
     - ``duration = 4``
-    - ``octave = 4`` 
+    - ``octave = 4``
 
 .. image:: /images/blocks/music/reset.png
     :scale: 90 %
@@ -135,5 +135,3 @@ music.stop()
 music.stop(pin=6)
 
     - ``pin`` - 默认是掌控板的P6引脚
-
-
