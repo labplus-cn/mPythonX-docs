@@ -1,0 +1,75 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_init_wifi" id="aw.~$=@-XRf@.6nRcjes" x="-360" y="-307">
+    <value name="ssid">
+      <shadow type="text" id="|A$8~|]O,q^C_!p.,itV">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
+    <value name="password">
+      <shadow type="text" id="Sbgj4`=E$Ya0y{^;SRLL">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
+    <next>
+      <block type="mpython_audio_init" id="Y4.BX7-S[{02]-C+p1.I">
+        <next>
+          <block type="mpython_audio_play" id="oVUI5k|nU7A{(g0*;-ey">
+            <value name="url">
+              <shadow type="text" id="t*hD(9lLAY.a_[P[BJg9">
+                <field name="TEXT">http://wiki.labplus.cn/images/4/4e/Music_test.mp3</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_sleep_ms" id="$4IErTy0:7F^#fs@%R@J">
+                <field name="ms_us">s</field>
+                <value name="duration">
+                  <shadow type="math_number" id="ct,]S1ac$~ey^91}?v*g">
+                    <field name="NUM">2</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_audio_cmd" id="3xu,+/hR2)z9c6**]bO/">
+                    <field name="cmd">pause</field>
+                    <next>
+                      <block type="mpython_sleep_ms" id="~2Xo#_Z#=[GV4VfK4T(8">
+                        <field name="ms_us">s</field>
+                        <value name="duration">
+                          <shadow type="math_number" id="fZC1]^ZCi|A[|RE#(fPy">
+                            <field name="NUM">2</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="mpython_audio_cmd" id="`WcLVrL^AxP-2zl!Al2m">
+                            <field name="cmd">resume</field>
+                            <next>
+                              <block type="mpython_sleep_ms" id="pmp0G`HT+$]vbu+t(TE#">
+                                <field name="ms_us">s</field>
+                                <value name="duration">
+                                  <shadow type="math_number" id="J3toKc^3`i{t)yD4=A5J">
+                                    <field name="NUM">2</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="mpython_audio_cmd" id="[=bW~H5l7gNY6+ZbIE,g">
+                                    <field name="cmd">stop</field>
+                                    <next>
+                                      <block type="mpython_audio_deinit" id="tcq2w5rJe[Ce0+%hAk16"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
