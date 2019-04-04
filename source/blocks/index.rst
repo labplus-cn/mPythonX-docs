@@ -17,7 +17,7 @@
     wifi.rst
     pin.rst
     music.rst
+    audio.rst
     logic.rst
     loop.rst
     math.rst
- 
