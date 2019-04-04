@@ -78,7 +78,7 @@ audio.player_deinit()
 示例
 ^^^^^
 
-.. image::  /images/blocks/audio/example/audio.png
+.. image::  /images/blocks/audio/example/audio.jpg
     :scale: 100 %
 
 :download:`点击下载图形化示例</../examples/audio/audio.xml>`
