@@ -21,3 +21,4 @@
     logic.rst
     loop.rst
     math.rst
+    event.rst
