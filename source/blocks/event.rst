@@ -6,7 +6,7 @@
 button_[a,b].irq(handler=None, trigger=(Pin.IRQ_FALLING | Pin.IRQ_RISING), priority=1, wake=None)
 -------------
 
-**描述：**  按键 a 中断事件
+**描述：**  按键中断事件
 
 | button_[a,b].irq(handler=None, trigger=(Pin.IRQ_FALLING | Pin.IRQ_RISING), priority=1, wake=None)
 
