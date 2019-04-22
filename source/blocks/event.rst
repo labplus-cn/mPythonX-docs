@@ -6,7 +6,7 @@
 button_[a,b].irq(handler=None, trigger=(Pin.IRQ_FALLING | Pin.IRQ_RISING), priority=1, wake=None)
 -------------
 
-**描述：**  按键中断事件
+**描述：**  按键 a 中断事件
 
 | button_[a,b].irq(handler=None, trigger=(Pin.IRQ_FALLING | Pin.IRQ_RISING), priority=1, wake=None)
 
@@ -77,3 +77,12 @@ _thread.start_new_thread(function, args [, kwargs])
 
 .. image:: /images/blocks/event/_thread.png
     :scale: 90 %
+
+
+示例
+^^^^^
+
+.. image::  /images/blocks/event/example/event.png
+    :scale: 100 %
+
+:download:`点击下载图形化示例</../examples/event/event.xml>`

@@ -1,0 +1,81 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_Timer" id="mBPxknKr@`S#,760?MM_" x="-296" y="-188">
+    <field name="Timer_mode">PERIODIC</field>
+    <value name="Num">
+      <shadow type="mpython_timer_option" id="b9V]5K_H{OehVd=|n@ZE">
+        <field name="Timer_num">1</field>
+      </shadow>
+    </value>
+    <value name="period">
+      <shadow type="math_number" id="lg7v9b:HZwA;+2;6}%Q_">
+        <field name="NUM">2000</field>
+      </shadow>
+    </value>
+    <statement name="DO">
+      <block type="text_print" id="%/MSRAlQftU8(L7S#*3]">
+        <value name="TEXT">
+          <shadow type="text" id="ezE8!3JgB97QnU]GRKZf">
+            <field name="TEXT">定时器1，2秒执行一次</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="mpython_Interrupt_AB" id="kA0RR_?1V[(@:Kd@IgV)">
+        <field name="button">button_a</field>
+        <field name="action">down</field>
+        <statement name="DO">
+          <block type="mpython_sleep_ms" id="tR%e9g_8Bc-|}#3-fqLM">
+            <field name="ms_us">s</field>
+            <value name="duration">
+              <shadow type="math_number" id="D{(}~qailn3L%=o^v?r+">
+                <field name="NUM">1</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_Timer_deinit" id="0+:0p`jVDf8pj+-F(Ayy">
+                <value name="Timer_num">
+                  <shadow type="mpython_timer_option" id="UEKluL3sZqKY#wagBYaJ">
+                    <field name="Timer_num">1</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="text_print" id="O8haq.!XaiVXUwX?h?/i">
+                    <value name="TEXT">
+                      <shadow type="text" id="m|3?AcvEda-/`vnbdn^0">
+                        <field name="TEXT">按键A被按下且停止定时器</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_repeat_forever" id="MKNDsfx.LMj)$~1.ii?Z">
+            <statement name="DO">
+              <block type="text_print" id="T$Y%xPZnIo~pDm]#%PsA">
+                <value name="TEXT">
+                  <shadow type="text" id="~vM5nlRPzc3t.d@{1NF/">
+                    <field name="TEXT">主进程，1秒执行一次</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_sleep_ms" id="@tr-ylBP6xhNszpaxaGv">
+                    <field name="ms_us">s</field>
+                    <value name="duration">
+                      <shadow type="math_number" id="9|)BX9{~uwO^Iz{rI]NW">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
