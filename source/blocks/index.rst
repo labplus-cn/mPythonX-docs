@@ -18,7 +18,8 @@
     pin.rst
     music.rst
     audio.rst
+    event.rst
     logic.rst
     loop.rst
     math.rst
-    event.rst
+    list.rst
