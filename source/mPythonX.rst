@@ -40,7 +40,7 @@ https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
 接入硬件
 -----------
 
-点击桌面快捷方式mPythonX，打开软件主界面。
+点击桌面快捷方式mPython X，打开软件主界面。
 
 .. image:: /images/mPythonX/mPythonX_1.png
 
