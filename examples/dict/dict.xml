@@ -1,0 +1,145 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="dict_create_with" id="38i6:@d|v@Z?Ch!_K|^~" x="-314" y="-171">
+    <value name="dict_name">
+      <block type="variables_get" id="`9s?sjZonO6}zZz-C,Zw">
+        <field name="VAR">my_dict</field>
+      </block>
+    </value>
+    <value name="dict_items">
+      <shadow type="text_dict" id="M2iJ[zX]J*?%zWhxTW.G">
+        <field name="TEXT">"Age":8</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="text_print" id="U{Ut0yV#06UZ?$hq;G8h">
+        <value name="TEXT">
+          <shadow type="text" id="AxxM,1Tj3=r}HZq8=04H">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="dict_key_value" id="=(Uj`Pb!pXFx6CwNEN5C">
+            <value name="dict_name">
+              <shadow type="text_dict" id="u_t[=Q8~W6oxUH{dB$5h">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="variables_get" id="aa*4[^eSTzpJq}FKcrbV">
+                <field name="VAR">my_dict</field>
+              </block>
+            </value>
+            <value name="dict_items">
+              <shadow type="text" id="5|^5)r},:C5X1d!3NvR0">
+                <field name="TEXT">Age</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="add_dict_key_value" id="v0P;[b5r%dTtT}z4zX!j">
+            <value name="dict_name">
+              <shadow type="text_dict" id="8:H;t6CgS$sB9O8dE*c/">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="variables_get" id="Q3@$Bmge!~yl5zE.j:$d">
+                <field name="VAR">my_dict</field>
+              </block>
+            </value>
+            <value name="dict_items">
+              <shadow type="text" id="_I^or(_0`{||~SGqg;@I">
+                <field name="TEXT">Height</field>
+              </shadow>
+            </value>
+            <value name="add_value">
+              <shadow type="math_number" id="bs^HO:^AXo@Q~!UznA%R">
+                <field name="NUM">100</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="add_dict_key_value" id=")9aAtG~8y*06yKM^O?CE">
+                <value name="dict_name">
+                  <shadow type="text_dict" id="8:H;t6CgS$sB9O8dE*c/">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="variables_get" id="0Kqcj4`6r}Z/I^rsz7sw">
+                    <field name="VAR">my_dict</field>
+                  </block>
+                </value>
+                <value name="dict_items">
+                  <shadow type="text" id="+#Td}W:1OLa_g*R?Z.u]">
+                    <field name="TEXT">weight</field>
+                  </shadow>
+                </value>
+                <value name="add_value">
+                  <shadow type="math_number" id="r8l}nFcfDV@5WrP}P{c,">
+                    <field name="NUM">70</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="text_print" id="x7)/v6WKS2^P~HUiffe.">
+                    <value name="TEXT">
+                      <shadow type="text" id="AxxM,1Tj3=r}HZq8=04H">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="dict_length" id="O7~d~*4-G;;z(~!k}mW=">
+                        <value name="dict_name">
+                          <shadow type="text_dict" id="gTA~T1u_wGkbdYZM1W7b">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="variables_get" id=".olhc2K7]@)dk$zd%=U{">
+                            <field name="VAR">my_dict</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="]`Soey~*~wLFJ0guJdDw">
+                        <value name="TEXT">
+                          <shadow type="text" id="v%Ws{@Vk6Gk1l6;lB_A1">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="dict_key_exist" id="2ANnQ?8e^XF)Nz.}D*Qs">
+                            <value name="dict_name">
+                              <shadow type="text_dict" id="[w8Xb]FUtq7hM$dIR0{z">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="variables_get" id="Z~tKuq@^yg,%9NmNH^)(">
+                                <field name="VAR">my_dict</field>
+                              </block>
+                            </value>
+                            <value name="dict_items">
+                              <shadow type="text" id="W!G{_7|`yiMCGM+^ajBN">
+                                <field name="TEXT">Age</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="text_print" id="6$(QmRgeV}5kn?XRW0b2">
+                            <value name="TEXT">
+                              <shadow type="text" id="Fb-EfX][1H4spdBP.Hn/">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="dict_key_or_val_list" id="*aX9yPLHyilA(cx@LPix">
+                                <field name="key_or_val">keys</field>
+                                <value name="dict_name">
+                                  <shadow type="text_dict" id="w6*R?(d22)w2,,We1LO3">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="variables_get" id="#Mdn9[|(j:~ic8+#h?s]">
+                                    <field name="VAR">my_dict</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

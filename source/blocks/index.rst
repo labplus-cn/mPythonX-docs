@@ -20,8 +20,6 @@
     audio.rst
     event.rst
     bluebit.rst
-    logic.rst
-    loop.rst
-    math.rst
     list.rst
     tuple.rst
+    dict.rst
