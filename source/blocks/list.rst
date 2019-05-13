@@ -14,3 +14,16 @@ list.append(obj)
 
 .. image:: /images/blocks/list/list_append.png
     :scale: 90 %
+
+
+list.extend(seq)
+-------------
+
+**描述：**  用于在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）
+
+| list.extend(seq)
+
+    - ``seq`` - 元素列表，可以是列表、元组、集合、字典，若为字典,则仅会将键(key)作为元素依次添加至原列表的末尾
+
+.. image:: /images/blocks/list/list_extend.png
+    :scale: 90 %
