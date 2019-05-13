@@ -19,8 +19,9 @@
     music.rst
     audio.rst
     event.rst
+    bluebit.rst
     logic.rst
     loop.rst
     math.rst
     list.rst
-    bluebit.rst
+    tuple.rst

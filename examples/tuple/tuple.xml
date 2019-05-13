@@ -1,0 +1,177 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="tuple_create_with" id="y^RgJTpdW#,.p^7o}:d~" x="-308" y="-230">
+    <value name="tuple_name">
+      <block type="variables_get" id="@qhj^GjysBi/|Ov:7oT]">
+        <field name="VAR">my_tuple</field>
+      </block>
+    </value>
+    <value name="tuple_items">
+      <shadow type="text_tuple" id="6_hcUkSYt$Wf-bHEsi?f">
+        <field name="TEXT">'a', 'b', 'c', 'd', 'e',</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="text_print" id="^BS@VYMo.=DcqIoYc5I{">
+        <value name="TEXT">
+          <shadow type="text" id="U.xcx4$oBXat/^+)C[99">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="tuple_order_item" id="%rX/2A,Ju?3/h+a|GRr~">
+            <field name="tuple_order">[</field>
+            <value name="tuple_name">
+              <shadow type="text_tuple" id="}$Wt^blx}5$@+fNmOTB8">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="variables_get" id="X70ES)AqRFnDm`Tc~w6d">
+                <field name="VAR">my_tuple</field>
+              </block>
+            </value>
+            <value name="tuple_order_item">
+              <shadow type="math_number" id="vR1dL~y1oIVl~]#]]]OU">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="text_print" id="fTM;JT=c=q.?(jfs6fE~">
+            <value name="TEXT">
+              <shadow type="text" id="6?$,KPuv[c2TCvO5=DbD">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="tuple_min_max_len" id="CbfxfJoR4PCq:RHwez]G">
+                <field name="tuple_min_max_len">min</field>
+                <value name="tuple_name">
+                  <shadow type="text_tuple" id="FF?*`*,fJOb-VkH/1o/G">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="variables_get" id="]PLg.q~Ee6~_t414mFhs">
+                    <field name="VAR">my_tuple</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="text_print" id="|VCKmtad/Nkg}O)ej:vd">
+                <value name="TEXT">
+                  <shadow type="text" id="6?$,KPuv[c2TCvO5=DbD">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="tuple_min_max_len" id="ldYcTG6=)wP1GVlIA^1*">
+                    <field name="tuple_min_max_len">max</field>
+                    <value name="tuple_name">
+                      <shadow type="text_tuple" id="FF?*`*,fJOb-VkH/1o/G">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="variables_get" id="9f7449n1]R#(uj={m@n0">
+                        <field name="VAR">my_tuple</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="text_print" id="HR1Jh#ofUZ`NJ!.90ntO">
+                    <value name="TEXT">
+                      <shadow type="text" id="ZTpVyB7Q/UC9:Ew?XVHZ">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="tuple_item_exist" id="/$-0A+IbF|FiUHXKz4`)">
+                        <value name="tuple_name">
+                          <shadow type="text_tuple" id="2|*oSFDkA0M^5Q7(w|,=">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="variables_get" id="jd5K^.rAFZKyk3uN@$BI">
+                            <field name="VAR">my_tuple</field>
+                          </block>
+                        </value>
+                        <value name="tuple_item">
+                          <shadow type="text" id="=@hg?G5ajsN{?=VX*l$Y">
+                            <field name="TEXT">mPython</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="hN?O58K6.;s+0HSQCY+D">
+                        <value name="TEXT">
+                          <shadow type="text" id="Uck^4yHh#Y@D1NIM,Zp#">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="parts_of_tuple" id="UF7r]4}?8(YysnSQ+IM0">
+                            <value name="tuple_name">
+                              <shadow type="text_tuple" id="NfPcHbku+2U+H^)rT%it">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="variables_get" id="tjn55vU#:o{LY^0nTZM)">
+                                <field name="VAR">my_tuple</field>
+                              </block>
+                            </value>
+                            <value name="tuple_item">
+                              <shadow type="math_number" id="G$.jC$Bg],3F%^mg_uO4">
+                                <field name="NUM">2</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="text_print" id="1yJYJ+CJW]^MtiBu)nln">
+                            <value name="TEXT">
+                              <shadow type="text" id="-w,YD:136[Q2{J6`z@27">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="parts_of_tuple2" id="@(cMzTx!o!8Y2rsu3#O7">
+                                <field name="tuple_start_order">[</field>
+                                <field name="tuple_end_order">:</field>
+                                <value name="tuple_name">
+                                  <shadow type="text_tuple" id="P0a$KJ0qIG;$5MKem0kl">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="variables_get" id="ePk@D[vIJhTDHv?GHhcU">
+                                    <field name="VAR">my_tuple</field>
+                                  </block>
+                                </value>
+                                <value name="start_item">
+                                  <shadow type="math_number" id=")7~wQCBX|]5|7{a~HET?">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                </value>
+                                <value name="end_item">
+                                  <shadow type="math_number" id="~*$.z6DFLV}^]A-!mzg@">
+                                    <field name="NUM">2</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="text_print" id="{+DTxAGfc8_n=9kE.L?Z">
+                                <value name="TEXT">
+                                  <shadow type="text" id="]*zQA?nsuQgg]e9HRZ*p">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="list_to_tuple" id="avV#n#d`N3`G,@~w/ObT">
+                                    <value name="list_name">
+                                      <shadow type="text_list" id="vOfutt!D5bEDj-U~=n+0">
+                                        <field name="TEXT"></field>
+                                      </shadow>
+                                      <block type="text_list" id=",l(AhsBf2weUL6v%F9f9">
+                                        <field name="TEXT">0, 0, 0</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
