@@ -23,3 +23,4 @@
     loop.rst
     math.rst
     list.rst
+    bluebit.rst
