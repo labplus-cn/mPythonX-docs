@@ -1,0 +1,155 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_return_list" id="X.0ys7{e}XgdC*sG9q+l" x="-310" y="-244">
+    <value name="list_name">
+      <block type="variables_get" id="ym,+iJKZ]dhx7:@N5R`U">
+        <field name="VAR">insert</field>
+      </block>
+    </value>
+    <value name="list_items">
+      <shadow type="text_list" id="2-dBH?|aGZA:`iy59$ah">
+        <field name="TEXT">0, 1, 2</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="insert_list_order_item" id="4YOPNf4s[$@uy*OWT2sm">
+        <field name="list_order">(</field>
+        <value name="list_name">
+          <shadow type="text_list" id="?b;7Aer`ke5Zp?2X(sN$">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="variables_get" id="SIBj~cm|WG5bI_y?7U]]">
+            <field name="VAR">insert</field>
+          </block>
+        </value>
+        <value name="list_order_item">
+          <shadow type="math_number" id="[M%_Ec}epGbwA31D)@!y">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="set_value">
+          <shadow type="math_number" id="F#|6j22w0);%~0fQv8~P">
+            <field name="NUM">99</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="text_print" id="])5IrRD)0sGrl*~b0+kZ">
+            <value name="TEXT">
+              <shadow type="text" id=";WklLNS-M7Ix*G#?l/ZS">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="variables_get" id="C.2pSI4iyMo*i(pg@nUn">
+                <field name="VAR">insert</field>
+              </block>
+            </value>
+            <next>
+              <block type="lists_extend" id="6{4jc||vMrL[@%L*$vMF">
+                <value name="list_name">
+                  <shadow type="text_list" id="FnBu8+7W~8SqtxZ~PkXj">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="variables_get" id="-?Z$488{;Gs8V8utHgqh">
+                    <field name="VAR">insert</field>
+                  </block>
+                </value>
+                <value name="extend_list">
+                  <shadow type="text_list" id="+!0lX7Mv3CvUjJDiZlE~">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="text_list" id="FrQ$wZm}gv_DZ#9kI:pT">
+                    <field name="TEXT">'a','b','c','d'</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="text_print" id="?P_?ap1:2E3sqD3?9YP5">
+                    <value name="TEXT">
+                      <shadow type="text" id=";WklLNS-M7Ix*G#?l/ZS">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="variables_get" id="g#7qEyf,d51KH=u[ea?e">
+                        <field name="VAR">insert</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="cico_`z{hP!MH2imq7)0">
+                        <value name="TEXT">
+                          <shadow type="text" id=";WklLNS-M7Ix*G#?l/ZS">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="lists_getIndex" id="f-G_Z}NQkyiTWu?GL`]K">
+                            <mutation statement="false" at="true"></mutation>
+                            <field name="MODE">GET_REMOVE</field>
+                            <field name="SPACE"></field>
+                            <field name="WHERE">FROM_START</field>
+                            <value name="VALUE">
+                              <shadow type="text_list" id="?,$bwaQV$:Q+:JITvwWH">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="text_list" id="z{4!a,lziRo_AQk7PWOv">
+                                <field name="TEXT">'a','b','c','d'</field>
+                              </block>
+                            </value>
+                            <value name="AT">
+                              <block type="math_number" id="8[G:Qf:7xK:zC*e^D}%,">
+                                <field name="NUM">2</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="text_print" id="#,%Od#*rF7h1Ds1xa7UI">
+                            <value name="TEXT">
+                              <shadow type="text" id=";WklLNS-M7Ix*G#?l/ZS">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="lists_split" id="j]7ez-PXg,|oV3309g{M">
+                                <mutation mode="SPLIT"></mutation>
+                                <field name="MODE">SPLIT</field>
+                                <value name="INPUT">
+                                  <block type="text" id="*@fIH|`zYJ}RSsi;~N?1">
+                                    <field name="TEXT">a-bc-d</field>
+                                  </block>
+                                </value>
+                                <value name="DELIM">
+                                  <shadow type="text" id="C-B|a9RXE[oH0)*qT]C6">
+                                    <field name="TEXT">-</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="text_print" id="t%k{LJe71L7,I#.4T810">
+                                <value name="TEXT">
+                                  <shadow type="text" id=";WklLNS-M7Ix*G#?l/ZS">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="lists_split" id="U!;JA6!q(J?MXi-.:jWR">
+                                    <mutation mode="JOIN"></mutation>
+                                    <field name="MODE">JOIN</field>
+                                    <value name="INPUT">
+                                      <block type="text_list" id="$77w2A*|G2A^1sp-H?*/">
+                                        <field name="TEXT">'a','b','c'</field>
+                                      </block>
+                                    </value>
+                                    <value name="DELIM">
+                                      <shadow type="text" id="p4|C+q5Ri1f#.bOh$(u?">
+                                        <field name="TEXT">-</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

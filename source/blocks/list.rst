@@ -50,3 +50,51 @@ list.insert(index, obj)
 
 .. image:: /images/blocks/list/insert.png
     :scale: 90 %
+
+
+list.pop([index=-1])
+-------------
+
+**描述：**  移除列表中的一个元素（默认最后一个元素），并且返回该元素的值
+
+| list.pop([index=-1])
+
+    - ``index`` - 可选参数，要移除列表元素的索引值，不能超过列表总长度，默认为 index=-1，删除最后一个列表值
+
+.. image:: /images/blocks/list/pop.png
+    :scale: 90 %
+
+
+str.split(str="", num=string.count(str))
+-------------
+
+**描述：**  通过指定分隔符对字符串进行切片，如果参数 num 有指定值，则仅分隔 num+1 个子字符串
+
+| str.split(str="", num=string.count(str))
+
+    - ``str`` - 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等
+    - ``num`` - 分割次数，默认为 -1, 即分隔所有
+
+.. image:: /images/blocks/list/split.png
+    :scale: 90 %
+
+
+str.join(seq)
+-------------
+
+**描述：**  将序列中的元素以指定的字符连接生成一个新的字符串
+
+| str.join(seq)
+
+    - ``seq`` - 要连接的元素序列
+
+.. image:: /images/blocks/list/join.png
+    :scale: 90 %
+
+示例
+^^^^^
+
+.. image::  /images/blocks/list/example/list.png
+    :scale: 100 %
+
+:download:`点击下载图形化示例</../examples/list/list.xml>` 
