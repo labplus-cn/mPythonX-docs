@@ -95,6 +95,6 @@ str.join(seq)
 ^^^^^
 
 .. image::  /images/blocks/list/example/list.png
-    :scale: 100 %
+    :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/list/list.xml>` 
+:download:`点击下载图形化示例</../examples/list/list.xml>`
