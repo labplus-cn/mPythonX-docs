@@ -1,0 +1,124 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="set_create_with" id="Z_F4.bxr@kTO[M{a*Z_s" x="-366" y="-217">
+    <value name="set_name">
+      <block type="variables_get" id="s{?8qdG![Ub=^Xhh9|e0">
+        <field name="VAR">my_set</field>
+      </block>
+    </value>
+    <value name="set_items">
+      <shadow type="text_set" id="v0CKQH@jbxfp,f?VV1D+">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="text_set" id="J_[%$-j`Rcru#Dzv6*s8">
+        <field name="TEXT">"string", 0.9, ("tuple",)</field>
+      </block>
+    </value>
+    <next>
+      <block type="set_create_with" id="o*_m=rB01~7Sy$VD!~z5">
+        <value name="set_name">
+          <block type="variables_get" id="p#0RpyRfNEthG~+E1E4r">
+            <field name="VAR">set</field>
+          </block>
+        </value>
+        <value name="set_items">
+          <shadow type="text_set" id="v0CKQH@jbxfp,f?VV1D+">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="text_set" id="vHbD-sh.H0k!%qu_:p!E">
+            <field name="TEXT">"string", 0.9, ("tuple",), 'a', 'b', 'c'</field>
+          </block>
+        </value>
+        <next>
+          <block type="sets_update_ways" id="~,cWX)v6kyDT)ji`?2O#">
+            <field name="sets_update_ways">.intersection_update</field>
+            <value name="set_name">
+              <block type="variables_get" id="g*XC(?[XnvvY/DsAlxi@">
+                <field name="VAR">my_set</field>
+              </block>
+            </value>
+            <value name="set_1_name">
+              <shadow type="text_set" id="sx^09eNNvP{_ojHbFQ|G">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="variables_get" id="/~!?6,nRMI*BQg$m628/">
+                <field name="VAR">set</field>
+              </block>
+            </value>
+            <next>
+              <block type="text_print" id="A]54x?*zQn/q!r(R@r0N">
+                <value name="TEXT">
+                  <shadow type="text" id="!=,l|l`J.ROsy~;F9v#!">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="variables_get" id="Q1,Q3D6R7Xqo4Kq6DQnc">
+                    <field name="VAR">my_set</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="sets_update_ways" id="1|bZdK=Hbz^(k`y_7?2^">
+                    <field name="sets_update_ways">.update</field>
+                    <value name="set_name">
+                      <block type="variables_get" id=".wCzS6Ila9gPuqU$`#*a">
+                        <field name="VAR">my_set</field>
+                      </block>
+                    </value>
+                    <value name="set_1_name">
+                      <shadow type="text_set" id="fugRfN#P$x=mH@KOS][3">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="variables_get" id="jr9[FqJ6raTID,kDzD?i">
+                        <field name="VAR">set</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="K)@z*?O6IrnSs0W#)gkr">
+                        <value name="TEXT">
+                          <shadow type="text" id="!=,l|l`J.ROsy~;F9v#!">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="variables_get" id="Faw~:wbp|A+JcOoF/Q$7">
+                            <field name="VAR">my_set</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="sets_update_ways" id="b3L;=;kTOHe5OM?c)K!~">
+                            <field name="sets_update_ways">.difference_update</field>
+                            <value name="set_name">
+                              <block type="variables_get" id="|xLx^!+H,ZDNbWRA(l2A">
+                                <field name="VAR">my_set</field>
+                              </block>
+                            </value>
+                            <value name="set_1_name">
+                              <shadow type="text_set" id="dGDyffftFtv$(8LwBUM^">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="variables_get" id="pmk5Q94OL[25_@)_|UI@">
+                                <field name="VAR">set</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="text_print" id="+M5zpd3vV4mz!=|duD$B">
+                                <value name="TEXT">
+                                  <shadow type="text" id="!=,l|l`J.ROsy~;F9v#!">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="variables_get" id="8]j`Mo3GnUV,|IbEqo!G">
+                                    <field name="VAR">my_set</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

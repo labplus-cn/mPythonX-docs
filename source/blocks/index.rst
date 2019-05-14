@@ -23,3 +23,4 @@
     list.rst
     tuple.rst
     dict.rst
+    set.rst
