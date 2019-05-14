@@ -72,7 +72,7 @@ set.issuperset(set)
 set.pop()
 -------------
 
-**描述：**  判断当前集合是否为指定集合的超集，如果是则返回 True，否则返回 False。
+**描述：**  随机移除一个元素并返回之
 
 .. image:: /images/blocks/set/pop.png
     :scale: 90 %
