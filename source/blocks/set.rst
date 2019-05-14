@@ -44,3 +44,43 @@ set.difference_update(set)
     :scale: 90 %
 
 :download:`点击下载图形化示例</../examples/set/set.xml>`
+
+
+set.issubset(set)
+-------------
+
+**描述：**  判断当前集合是否为指定集合的子集，如果是则返回 True，否则返回 False。
+
+.. image:: /images/blocks/set/issubset.png
+    :scale: 90 %
+
+set.issubset(set)
+
+    - ``set`` - 必需，指定集合
+
+
+set.issuperset(set)
+-------------
+
+**描述：**  判断当前集合是否为指定集合的超集，如果是则返回 True，否则返回 False。
+
+set.issuperset(set)
+
+    - ``set`` - 必需，指定集合
+
+
+set.pop()
+-------------
+
+**描述：**  判断当前集合是否为指定集合的超集，如果是则返回 True，否则返回 False。
+
+.. image:: /images/blocks/set/pop.png
+    :scale: 90 %
+
+示例
+^^^^^
+
+.. image::  /images/blocks/set/example/setEg.png
+    :scale: 90 %
+
+:download:`点击下载图形化示例</../examples/set/setEg.xml>`
