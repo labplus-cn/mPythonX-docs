@@ -1,203 +1,260 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="mpython_init_file" id="(cLb?jK*!uRae.KjLwig" x="-612" y="-282">
-    <value name="file_path">
-      <shadow type="text" id="]yTe.}-Y?TE):Rw,Jd[5">
-        <field name="TEXT">1.txt</field>
+  <block type="text_print" id="f._]jT~Bcp2o:2I(D$^B" x="-1081" y="-493">
+    <value name="TEXT">
+      <shadow type="text" id="Ub?=QF/LVYuNd+=.eQ@!">
+        <field name="TEXT"></field>
       </shadow>
+      <block type="text_format" id="6oj=SHW.3nAMkR^h@Ay@">
+        <value name="FORMAT">
+          <shadow type="text" id="=]X%;k2q2xhIwDcI9(^Q">
+            <field name="TEXT">Value: %.2f %.2f</field>
+          </shadow>
+        </value>
+        <value name="CONTENT">
+          <block type="tuple_create_with_items_insert" id="{f.ShE}R=}nAAIAQS^+q">
+            <mutation items="2"></mutation>
+            <value name="ADD0">
+              <block type="math_number" id="XT(i{qE)fFcP50TD+mE6">
+                <field name="NUM">3.1415926</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="math_number" id="qiT(OlFCN]CoFXtl@bpR">
+                <field name="NUM">4.1415926</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
     </value>
     <next>
-      <block type="mpython_write_file" id="HNQ=*4eZ.%J^`[o^(ehE">
-        <field name="separator">ENTER</field>
-        <value name="file_path">
-          <shadow type="text" id="VM+Ws7HKqUNo)Hlut$D]">
-            <field name="TEXT">1.txt</field>
+      <block type="text_print" id="{#do:(*eRG}5Pl{(Axm%">
+        <value name="TEXT">
+          <shadow type="text" id="`S~o7wJhB58{jp3vEb$r">
+            <field name="TEXT"></field>
           </shadow>
-        </value>
-        <value name="data">
-          <shadow type="text" id="XvYB,6E_xR_BJQt:1RQL">
-            <field name="TEXT">This's the first line,</field>
-          </shadow>
+          <block type="text_format2" id="(9RosxJkwz.e^Z#[$Rws">
+            <value name="FORMAT">
+              <shadow type="text" id="ll%vyp3C8T~A2WbN?pSr">
+                <field name="TEXT">Value: {:.3} {:.2}</field>
+              </shadow>
+            </value>
+            <value name="CONTENT">
+              <block type="tuple_create_with_items_insert" id="=Pv|GpGnNDCD*kOrm[xh">
+                <mutation items="2"></mutation>
+                <value name="ADD0">
+                  <block type="math_number" id="@it`v:~VJ;q(%kYGX=mu">
+                    <field name="NUM">3.1415926</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="math_number" id="Hm:2@6/}!lWzh/JdCAXy">
+                    <field name="NUM">3.1415926</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
         </value>
         <next>
-          <block type="mpython_write_file" id="`:F_w4iw*J:gV`q6~+Xl">
-            <field name="separator">ENTER</field>
-            <value name="file_path">
-              <shadow type="text" id="R10M4S^mDxi[Zco2OFI8">
-                <field name="TEXT">1.txt</field>
+          <block type="text_print" id="[Y.dc(,TZEtKr)B|9k5y">
+            <value name="TEXT">
+              <shadow type="text" id="hQ+K,xkW;n)w}tKfG=gp">
+                <field name="TEXT"></field>
               </shadow>
-            </value>
-            <value name="data">
-              <shadow type="text" id="GcPaOfN~?_sqkWvngWX~">
-                <field name="TEXT">This's the second line,</field>
-              </shadow>
+              <block type="text_append_text" id="mIv~Km-(DH1*1_e;1V4)">
+                <value name="text_abc">
+                  <shadow type="text" id="cs,,?gJCs@G,X$LYHVj,">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                </value>
+                <value name="append_text">
+                  <shadow type="text" id="w8}aA$$lJ8g%Z^2|;i7d">
+                    <field name="TEXT">def</field>
+                  </shadow>
+                </value>
+              </block>
             </value>
             <next>
-              <block type="mpython_write_file" id="#;C,5a=N[~;l(BB*wI0|">
-                <field name="separator">ENTER</field>
-                <value name="file_path">
-                  <shadow type="text" id="Ciazb%:Ueqq[9?;-2?Iu">
-                    <field name="TEXT">1.txt</field>
+              <block type="text_print" id="{ZF=3qx5o^@VjucC_mpf">
+                <value name="TEXT">
+                  <shadow type="text" id="-rAid|Yb--x^]Auw:Ihf">
+                    <field name="TEXT"></field>
                   </shadow>
-                </value>
-                <value name="data">
-                  <shadow type="text" id="6WNjI~oQOF6ie9(hp(">
-                    <field name="TEXT">This's the third line,</field>
-                  </shadow>
+                  <block type="text_is_number" id="va[Q:u4ipb[zh,#Y2yR1">
+                    <field name="TYPE">.isdigit()</field>
+                    <value name="TEXT">
+                      <shadow type="text" id="_pr4_`Ud$fj$;EP,!U*4">
+                        <field name="TEXT">123</field>
+                      </shadow>
+                    </value>
+                  </block>
                 </value>
                 <next>
-                  <block type="mpython_write_file" id="gxs1pMg5U+/gg.W~EG[u">
-                    <field name="separator">ENTER</field>
-                    <value name="file_path">
-                      <shadow type="text" id="]CTS^^vmdpuayb_Rv{$L">
-                        <field name="TEXT">1.txt</field>
+                  <block type="text_print" id="qB1*CRoo+@sR#1*S?X*W">
+                    <value name="TEXT">
+                      <shadow type="text" id="B9n36i%+9G3-oTM.~SUS">
+                        <field name="TEXT"></field>
                       </shadow>
-                    </value>
-                    <value name="data">
-                      <shadow type="text" id="F*;0dvW4DpnR}T_^ECq)">
-                        <field name="TEXT">This's the last line.</field>
-                      </shadow>
+                      <block type="text_is_number" id="x/-rL~ygc.yOO5jKAAP_">
+                        <field name="TYPE">.isalpha()</field>
+                        <value name="TEXT">
+                          <shadow type="text" id="yMI4%(^98xje28`sb]s~">
+                            <field name="TEXT">123abc</field>
+                          </shadow>
+                        </value>
+                      </block>
                     </value>
                     <next>
-                      <block type="mpython_return_list" id="Z^:)V1lxKLO($=gIY(~/">
-                        <value name="list_name">
-                          <block type="variables_get" id="ONNrQz$D5K]|Ikwx?_$6">
-                            <field name="VAR">my_list</field>
-                          </block>
-                        </value>
-                        <value name="list_items">
-                          <shadow type="text_list" id="+E|1NgEt=rsZ}8L;*-Xa">
-                            <field name="TEXT">0, 0, 0</field>
+                      <block type="text_print" id="Sn/lkB,MXKdj!VIYil;x">
+                        <value name="TEXT">
+                          <shadow type="text" id="_a,$y].rI$BvGK;wTZAr">
+                            <field name="TEXT"></field>
                           </shadow>
-                          <block type="file_to_list" id="-2VKa/}![C_[/=#2HJ.?">
-                            <field name="separator">ENTER</field>
-                            <value name="file_path">
-                              <shadow type="text" id="2WiY#Vm(z?/$m|6aENG0">
-                                <field name="TEXT">1.txt</field>
+                          <block type="text_indexOf" id="84:NeKn|5+@#|:=1JYD2">
+                            <field name="END">FIRST</field>
+                            <value name="VALUE">
+                              <shadow type="text" id=":HK4d8zfnG_!n2a+=7|u">
+                                <field name="TEXT">abc</field>
+                              </shadow>
+                            </value>
+                            <value name="FIND">
+                              <shadow type="text" id="gHi-*n^_)_jzN+4*!50M">
+                                <field name="TEXT">b</field>
                               </shadow>
                             </value>
                           </block>
                         </value>
                         <next>
-                          <block type="mpython_display_fill" id="-2O]{+U0hT!N,uyn5">
-                            <field name="display_fill">fill(0)</field>
-                            <next>
-                              <block type="mpython_display_DispChar_5lines" id="$N!;cdtv:Km8?-7|un[3">
-                                <field name="TEXTMODE">1</field>
-                                <value name="DispChar_5lines">
-                                  <shadow type="mpython_4_lines" id="NY-[Wc#5/2mt0ro5Sf%=">
-                                    <field name="mpython_4_lines">0</field>
+                          <block type="text_print" id="x?W4?w`[v)~uEX_!daZ=">
+                            <value name="TEXT">
+                              <shadow type="text" id="aJ[u2#Zw{iVXV:GgJ$-G">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="text_indexOf" id="*PJLvKNzjJ2+AXvR]36.">
+                                <field name="END">LAST</field>
+                                <value name="VALUE">
+                                  <shadow type="text" id="3+hbDiZq.9)(49=_qV)E">
+                                    <field name="TEXT">abcb</field>
                                   </shadow>
                                 </value>
-                                <value name="message">
-                                  <shadow type="text" id="OnoBj`x~;3}%?1xCES[8">
-                                    <field name="TEXT">Hello, world!</field>
+                                <value name="FIND">
+                                  <shadow type="text" id="Ij!cpkBkP)YX3Nm7HCGI">
+                                    <field name="TEXT">b</field>
                                   </shadow>
-                                  <block type="list_order_item" id=";}=Mujpn*v/$nrcv!D}X">
-                                    <field name="list_order">[</field>
-                                    <value name="list_name">
-                                      <shadow type="text_list" id="wyO7tI;ios9f,;Odg!~s">
-                                        <field name="TEXT"></field>
-                                      </shadow>
-                                      <block type="variables_get" id="fw8,5Rlb`g.m4PI`o!RN">
-                                        <field name="VAR">my_list</field>
-                                      </block>
-                                    </value>
-                                    <value name="list_order_item">
-                                      <shadow type="math_number" id="Ocm_tSSY?0C~!Dx#9(T5">
-                                        <field name="NUM">0</field>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="text_print" id="AMnv?L}um,U/;i`4.A$9">
+                                <value name="TEXT">
+                                  <shadow type="text" id="`Cf],2a69*:=MQP;(O#p">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="text_changeCase" id="`P/||r0c0.qF@Nj;]*uS">
+                                    <field name="CASE">UPPERCASE</field>
+                                    <value name="TEXT">
+                                      <shadow type="text" id="UB:fkRA7A,C^bIx#A#`N">
+                                        <field name="TEXT">abA</field>
                                       </shadow>
                                     </value>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="mpython_display_DispChar_5lines" id="Xw@!~@u5v!b1dCt2b,ZF">
-                                    <field name="TEXTMODE">1</field>
-                                    <value name="DispChar_5lines">
-                                      <shadow type="mpython_4_lines" id="aa7~{+74Xymc9;ClF2z5">
-                                        <field name="mpython_4_lines">16</field>
+                                  <block type="text_print" id="o6;3bn48yZZz=xCw/Y*r">
+                                    <value name="TEXT">
+                                      <shadow type="text" id="A#*!wfplyp)U_8jR[1@7">
+                                        <field name="TEXT"></field>
                                       </shadow>
-                                    </value>
-                                    <value name="message">
-                                      <shadow type="text" id="mz%cn?])QIIgtN~|/#RE">
-                                        <field name="TEXT">Hello, world!</field>
-                                      </shadow>
-                                      <block type="list_order_item" id="YUcb2A5uCJU.*%QXv3Aa">
-                                        <field name="list_order">[</field>
-                                        <value name="list_name">
-                                          <shadow type="text_list" id="a[ZtcY}021o[$Cb#G@,F">
-                                            <field name="TEXT"></field>
-                                          </shadow>
-                                          <block type="variables_get" id="m0RfWacGm`2oWU(TE[hK">
-                                            <field name="VAR">my_list</field>
-                                          </block>
-                                        </value>
-                                        <value name="list_order_item">
-                                          <shadow type="math_number" id=":9*E*pVr;W~f_}Zam4">
-                                            <field name="NUM">1</field>
+                                      <block type="text_changeCase" id="mT,G/{}*e,:aLEjT{`:J">
+                                        <field name="CASE">LOWERCASE</field>
+                                        <value name="TEXT">
+                                          <shadow type="text" id="B/O;Y+O}T)E~vI0i+o`M">
+                                            <field name="TEXT">abA</field>
                                           </shadow>
                                         </value>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="mpython_display_DispChar_5lines" id="mGebu!2-iFb?Y@SwDMHJ">
-                                        <field name="TEXTMODE">1</field>
-                                        <value name="DispChar_5lines">
-                                          <shadow type="mpython_4_lines" id="M2:@X6!Jqqqjz_2k$rWx">
-                                            <field name="mpython_4_lines">32</field>
+                                      <block type="text_print" id="Rp3O;(.}2c-Se`Pi9qA:">
+                                        <value name="TEXT">
+                                          <shadow type="text" id="H{M]dUT~RbW%Qd7)Gk2}">
+                                            <field name="TEXT"></field>
                                           </shadow>
-                                        </value>
-                                        <value name="message">
-                                          <shadow type="text" id="y*c%J#@!%VkczGr?X5p^">
-                                            <field name="TEXT">Hello, world!</field>
-                                          </shadow>
-                                          <block type="list_order_item" id="2M-pA]Wr4~I_kut;!7w9">
-                                            <field name="list_order">[</field>
-                                            <value name="list_name">
-                                              <shadow type="text_list" id="GS1*%H];;3i!~ERU:[,L">
-                                                <field name="TEXT"></field>
-                                              </shadow>
-                                              <block type="variables_get" id="-bo|`t~q0eH@;y7BoZ4,">
-                                                <field name="VAR">my_list</field>
-                                              </block>
-                                            </value>
-                                            <value name="list_order_item">
-                                              <shadow type="math_number" id="y/TB!29pHvXaP6wp/3;.">
-                                                <field name="NUM">2</field>
+                                          <block type="text_trim" id="|dr+$Jxag{zp|9.9bKI+">
+                                            <field name="MODE">BOTH</field>
+                                            <value name="TEXT">
+                                              <shadow type="text" id="vLyySQ?XWRh-SX1wARmC">
+                                                <field name="TEXT">         aa                   </field>
                                               </shadow>
                                             </value>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="mpython_display_DispChar_5lines" id="t,dnu$k/00.rdu({|LH}">
-                                            <field name="TEXTMODE">1</field>
-                                            <value name="DispChar_5lines">
-                                              <shadow type="mpython_4_lines" id="hF7as.);wI=3G}D~Yt%K">
-                                                <field name="mpython_4_lines">48</field>
+                                          <block type="text_print" id="ycfzdMgu[8N]_=$27GB~">
+                                            <value name="TEXT">
+                                              <shadow type="text" id="5TxW,/ZUp!S,JHKUW,8B">
+                                                <field name="TEXT"></field>
                                               </shadow>
-                                            </value>
-                                            <value name="message">
-                                              <shadow type="text" id="GP]LYdQHN8x0GfYG_s).">
-                                                <field name="TEXT">Hello, world!</field>
-                                              </shadow>
-                                              <block type="list_order_item" id="#swqwsR;*@s2oF1:}Hie">
-                                                <field name="list_order">[</field>
-                                                <value name="list_name">
-                                                  <shadow type="text_list" id="}okF:!Ja`@oi|BaKkwvC">
-                                                    <field name="TEXT"></field>
-                                                  </shadow>
-                                                  <block type="variables_get" id="]l*ovD#VLU6QoCq;OqjX">
-                                                    <field name="VAR">my_list</field>
-                                                  </block>
-                                                </value>
-                                                <value name="list_order_item">
-                                                  <shadow type="math_number" id="$Fk4n]qTR3%N/%o9Nx_t">
-                                                    <field name="NUM">3</field>
+                                              <block type="text_to_byte" id="iY^plyGRZ}cs?bl#^,u?">
+                                                <value name="TEXT">
+                                                  <shadow type="text" id="Dt|,AeArdAGb!~mWg`hi">
+                                                    <field name="TEXT">abc</field>
                                                   </shadow>
                                                 </value>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="mpython_display_Show" id="a{aE*q%F[-+!DFiZ2oA["></block>
+                                              <block type="text_print" id="SnoO_`UHG@KMdX1+.aq`">
+                                                <value name="TEXT">
+                                                  <shadow type="text" id="1n6d@?@TIvLvG!YG0,Zg">
+                                                    <field name="TEXT"></field>
+                                                  </shadow>
+                                                  <block type="mpython_bytes_decode" id="#*%NH:P1h8o+$bazi-=j">
+                                                    <value name="bytes_decode">
+                                                      <block type="text_to_byte" id="(G=Djvz;xn1dFIyZYRDz">
+                                                        <value name="TEXT">
+                                                          <shadow type="text" id="MZe[dF~phV5o9GjJ-:.G">
+                                                            <field name="TEXT">abc</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="text_print" id="GXA}1*JSetc}t9;pB2/?">
+                                                    <value name="TEXT">
+                                                      <shadow type="text" id="56`.M;@U@6xq`M_Oya`p">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="mpython_ujson_dumps" id="/c[eW^LVfrW8D6|`9.RY">
+                                                        <value name="data">
+                                                          <shadow type="text_dict" id="R}EnH,F+]:O/S@_UxPIN">
+                                                            <field name="TEXT">"Age":8</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="text_print" id="L]c*8_R/[{^3l}^r]M:.">
+                                                        <value name="TEXT">
+                                                          <shadow type="text" id="56`.M;@U@6xq`M_Oya`p">
+                                                            <field name="TEXT"></field>
+                                                          </shadow>
+                                                          <block type="mpython_ujson_loads" id="+.]lGQPvKm~e5#?IuQGM">
+                                                            <value name="data">
+                                                              <shadow type="text" id="|M^B8VG/@McC!S2*OxbD">
+                                                                <field name="TEXT">{"Age":8}</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
                                             </next>
                                           </block>
                                         </next>
