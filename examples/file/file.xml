@@ -1,0 +1,223 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_init_file" id="(cLb?jK*!uRae.KjLwig" x="-612" y="-282">
+    <value name="file_path">
+      <shadow type="text" id="]yTe.}-Y?TE):Rw,Jd[5">
+        <field name="TEXT">1.txt</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="mpython_write_file" id="HNQ=*4eZ.%J^`[o^(ehE">
+        <field name="separator">ENTER</field>
+        <value name="file_path">
+          <shadow type="text" id="VM+Ws7HKqUNo)Hlut$D]">
+            <field name="TEXT">1.txt</field>
+          </shadow>
+        </value>
+        <value name="data">
+          <shadow type="text" id="XvYB,6E_xR_BJQt:1RQL">
+            <field name="TEXT">This's the first line,</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_write_file" id="`:F_w4iw*J:gV`q6~+Xl">
+            <field name="separator">ENTER</field>
+            <value name="file_path">
+              <shadow type="text" id="R10M4S^mDxi[Zco2OFI8">
+                <field name="TEXT">1.txt</field>
+              </shadow>
+            </value>
+            <value name="data">
+              <shadow type="text" id="GcPaOfN~?_sqkWvngWX~">
+                <field name="TEXT">This's the second line,</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_write_file" id="#;C,5a=N[~;l(BB*wI0|">
+                <field name="separator">ENTER</field>
+                <value name="file_path">
+                  <shadow type="text" id="Ciazb%:Ueqq[9?;-2?Iu">
+                    <field name="TEXT">1.txt</field>
+                  </shadow>
+                </value>
+                <value name="data">
+                  <shadow type="text" id="6WNjI~oQOF6ie9(hp(">
+                    <field name="TEXT">This's the third line,</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_write_file" id="gxs1pMg5U+/gg.W~EG[u">
+                    <field name="separator">ENTER</field>
+                    <value name="file_path">
+                      <shadow type="text" id="]CTS^^vmdpuayb_Rv{$L">
+                        <field name="TEXT">1.txt</field>
+                      </shadow>
+                    </value>
+                    <value name="data">
+                      <shadow type="text" id="F*;0dvW4DpnR}T_^ECq)">
+                        <field name="TEXT">This's the last line.</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_return_list" id="Z^:)V1lxKLO($=gIY(~/">
+                        <value name="list_name">
+                          <block type="variables_get" id="ONNrQz$D5K]|Ikwx?_$6">
+                            <field name="VAR">my_list</field>
+                          </block>
+                        </value>
+                        <value name="list_items">
+                          <shadow type="text_list" id="+E|1NgEt=rsZ}8L;*-Xa">
+                            <field name="TEXT">0, 0, 0</field>
+                          </shadow>
+                          <block type="file_to_list" id="-2VKa/}![C_[/=#2HJ.?">
+                            <field name="separator">ENTER</field>
+                            <value name="file_path">
+                              <shadow type="text" id="2WiY#Vm(z?/$m|6aENG0">
+                                <field name="TEXT">1.txt</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="mpython_display_fill" id="-2O]{+U0hT!N,uyn5">
+                            <field name="display_fill">fill(0)</field>
+                            <next>
+                              <block type="mpython_display_DispChar_5lines" id="$N!;cdtv:Km8?-7|un[3">
+                                <field name="TEXTMODE">1</field>
+                                <value name="DispChar_5lines">
+                                  <shadow type="mpython_4_lines" id="NY-[Wc#5/2mt0ro5Sf%=">
+                                    <field name="mpython_4_lines">0</field>
+                                  </shadow>
+                                </value>
+                                <value name="message">
+                                  <shadow type="text" id="OnoBj`x~;3}%?1xCES[8">
+                                    <field name="TEXT">Hello, world!</field>
+                                  </shadow>
+                                  <block type="list_order_item" id=";}=Mujpn*v/$nrcv!D}X">
+                                    <field name="list_order">[</field>
+                                    <value name="list_name">
+                                      <shadow type="text_list" id="wyO7tI;ios9f,;Odg!~s">
+                                        <field name="TEXT"></field>
+                                      </shadow>
+                                      <block type="variables_get" id="fw8,5Rlb`g.m4PI`o!RN">
+                                        <field name="VAR">my_list</field>
+                                      </block>
+                                    </value>
+                                    <value name="list_order_item">
+                                      <shadow type="math_number" id="Ocm_tSSY?0C~!Dx#9(T5">
+                                        <field name="NUM">0</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="mpython_display_DispChar_5lines" id="Xw@!~@u5v!b1dCt2b,ZF">
+                                    <field name="TEXTMODE">1</field>
+                                    <value name="DispChar_5lines">
+                                      <shadow type="mpython_4_lines" id="aa7~{+74Xymc9;ClF2z5">
+                                        <field name="mpython_4_lines">16</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="message">
+                                      <shadow type="text" id="mz%cn?])QIIgtN~|/#RE">
+                                        <field name="TEXT">Hello, world!</field>
+                                      </shadow>
+                                      <block type="list_order_item" id="YUcb2A5uCJU.*%QXv3Aa">
+                                        <field name="list_order">[</field>
+                                        <value name="list_name">
+                                          <shadow type="text_list" id="a[ZtcY}021o[$Cb#G@,F">
+                                            <field name="TEXT"></field>
+                                          </shadow>
+                                          <block type="variables_get" id="m0RfWacGm`2oWU(TE[hK">
+                                            <field name="VAR">my_list</field>
+                                          </block>
+                                        </value>
+                                        <value name="list_order_item">
+                                          <shadow type="math_number" id=":9*E*pVr;W~f_}Zam4">
+                                            <field name="NUM">1</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="mpython_display_DispChar_5lines" id="mGebu!2-iFb?Y@SwDMHJ">
+                                        <field name="TEXTMODE">1</field>
+                                        <value name="DispChar_5lines">
+                                          <shadow type="mpython_4_lines" id="M2:@X6!Jqqqjz_2k$rWx">
+                                            <field name="mpython_4_lines">32</field>
+                                          </shadow>
+                                        </value>
+                                        <value name="message">
+                                          <shadow type="text" id="y*c%J#@!%VkczGr?X5p^">
+                                            <field name="TEXT">Hello, world!</field>
+                                          </shadow>
+                                          <block type="list_order_item" id="2M-pA]Wr4~I_kut;!7w9">
+                                            <field name="list_order">[</field>
+                                            <value name="list_name">
+                                              <shadow type="text_list" id="GS1*%H];;3i!~ERU:[,L">
+                                                <field name="TEXT"></field>
+                                              </shadow>
+                                              <block type="variables_get" id="-bo|`t~q0eH@;y7BoZ4,">
+                                                <field name="VAR">my_list</field>
+                                              </block>
+                                            </value>
+                                            <value name="list_order_item">
+                                              <shadow type="math_number" id="y/TB!29pHvXaP6wp/3;.">
+                                                <field name="NUM">2</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="mpython_display_DispChar_5lines" id="t,dnu$k/00.rdu({|LH}">
+                                            <field name="TEXTMODE">1</field>
+                                            <value name="DispChar_5lines">
+                                              <shadow type="mpython_4_lines" id="hF7as.);wI=3G}D~Yt%K">
+                                                <field name="mpython_4_lines">48</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="message">
+                                              <shadow type="text" id="GP]LYdQHN8x0GfYG_s).">
+                                                <field name="TEXT">Hello, world!</field>
+                                              </shadow>
+                                              <block type="list_order_item" id="#swqwsR;*@s2oF1:}Hie">
+                                                <field name="list_order">[</field>
+                                                <value name="list_name">
+                                                  <shadow type="text_list" id="}okF:!Ja`@oi|BaKkwvC">
+                                                    <field name="TEXT"></field>
+                                                  </shadow>
+                                                  <block type="variables_get" id="]l*ovD#VLU6QoCq;OqjX">
+                                                    <field name="VAR">my_list</field>
+                                                  </block>
+                                                </value>
+                                                <value name="list_order_item">
+                                                  <shadow type="math_number" id="$Fk4n]qTR3%N/%o9Nx_t">
+                                                    <field name="NUM">3</field>
+                                                  </shadow>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="mpython_display_Show" id="a{aE*q%F[-+!DFiZ2oA["></block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

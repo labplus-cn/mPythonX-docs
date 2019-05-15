@@ -24,3 +24,4 @@
     tuple.rst
     dict.rst
     set.rst
+    file.rst
