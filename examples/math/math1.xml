@@ -1,0 +1,367 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="text_print" id="}IlCX8nW,C`~7$*+BH=I" x="-1987" y="-817">
+    <value name="TEXT">
+      <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="math_single" id="Uph6brL)iCf8wwO%=PCy">
+        <field name="OP">ROOT</field>
+        <value name="NUM">
+          <shadow type="math_number" id="u+sttc5Gt@i6(~@yw/$f">
+            <field name="NUM">9</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="02e8k]-h-?NPZ9i=1We#">
+        <value name="TEXT">
+          <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="math_single" id="I_u,/I?Ut(x3JyrKaM%q">
+            <field name="OP">ABS</field>
+            <value name="NUM">
+              <shadow type="math_number" id="`//!qX%2-v*DGn;n7Ge,">
+                <field name="NUM">9</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="text_print" id="3mBya[$|M3V^gexzX4)8">
+            <value name="TEXT">
+              <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="math_single" id="ex9|C!c9hZdt%-S}{RC|">
+                <field name="OP">LN</field>
+                <value name="NUM">
+                  <shadow type="math_number" id=")2V3T5N5-Y18dKB$D$ji">
+                    <field name="NUM">9</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="text_print" id="`lklEVaAQ/l|.kPDV$Cg">
+                <value name="TEXT">
+                  <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="math_single" id="b6ey[([.SKXV,Zo?4$9K">
+                    <field name="OP">LOG10</field>
+                    <value name="NUM">
+                      <shadow type="math_number" id="iseJcVYz1Ri|PXxW6NZO">
+                        <field name="NUM">9</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="text_print" id="(X`[Fk9`H2UP1?,=+O/-">
+                    <value name="TEXT">
+                      <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="math_single" id="5!^CTS|dnPp+Kstk)]n9">
+                        <field name="OP">EXP</field>
+                        <value name="NUM">
+                          <shadow type="math_number" id="Q2qbGL(KxpOBB.WzIFYC">
+                            <field name="NUM">9</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="FwA1IKK1:no%;@#%tZj@">
+                        <value name="TEXT">
+                          <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="math_single" id="DPKz,E*FC{THM,_j!:$#">
+                            <field name="OP">POW10</field>
+                            <value name="NUM">
+                              <shadow type="math_number" id="Dd7*^Z`Bi/:dvox7bX~{">
+                                <field name="NUM">3</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="text_print" id="veNzJTQ.@:Kz,Mg6uj(7">
+                            <value name="TEXT">
+                              <shadow type="text" id="?[JFe9pFDu0uw^2^0!#~">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="math_trig" id="R|FF3]~JkG.=y}zJW@[s">
+                                <field name="OP">SIN</field>
+                                <value name="NUM">
+                                  <shadow type="math_angle" id="f6Mz`3T^lY%?zr:]EPw.">
+                                    <field name="angle">45</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="text_print" id="4#9+-D)tLB!:u$8rpP2~">
+                                <value name="TEXT">
+                                  <shadow type="text" id="!-KEzG3{g}gddaPr7+cL">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="math_trig" id="|qwn9FO_P{nmO@EZ,H-^">
+                                    <field name="OP">COS</field>
+                                    <value name="NUM">
+                                      <shadow type="math_angle" id="fz,}Ykdp{/s;IT6rXK8^">
+                                        <field name="angle">45</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="text_print" id="g=UXQqcTP(C6BB=yM/D,">
+                                    <value name="TEXT">
+                                      <shadow type="text" id="R-,n%E?^impdm97EJ=-T">
+                                        <field name="TEXT"></field>
+                                      </shadow>
+                                      <block type="math_trig" id="5/eOFQQlfPUcw-z8edW=">
+                                        <field name="OP">TAN</field>
+                                        <value name="NUM">
+                                          <shadow type="math_angle" id="W,9JMb-g_X.3i;[1W0L}">
+                                            <field name="angle">45</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="text_print" id=")AebSv%X0z_2A#QmX+%D">
+                                        <value name="TEXT">
+                                          <shadow type="text" id="4/ZE!DSmu8e9CFd`N,/9">
+                                            <field name="TEXT"></field>
+                                          </shadow>
+                                          <block type="math_trig" id="UYrHpTC9%BhZk|m2pDN{">
+                                            <field name="OP">ASIN</field>
+                                            <value name="NUM">
+                                              <shadow type="math_angle" id="EH}6=$[`hEdEYp?G;-k/">
+                                                <field name="angle">2</field>
+                                              </shadow>
+                                              <block type="math_number" id="tyinbF_4hAj^%[QP)lg;">
+                                                <field name="NUM">0.1</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="text_print" id="[rk41j^9Hjnf8R4;O}5[">
+                                            <value name="TEXT">
+                                              <shadow type="text" id=",fah__1VGb@,8j3*t]Ie">
+                                                <field name="TEXT"></field>
+                                              </shadow>
+                                              <block type="math_trig" id="vEt%`2|=kX0ZZj:3TpB8">
+                                                <field name="OP">ACOS</field>
+                                                <value name="NUM">
+                                                  <shadow type="math_angle" id="Z/re-|j*9.+Rm~x6t3@r">
+                                                    <field name="angle">2</field>
+                                                  </shadow>
+                                                  <block type="math_number" id="`(;=k=h0P@Kg5NQF|RvC">
+                                                    <field name="NUM">0.2</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="text_print" id="[rqUE^F_yqr#Xnboxa6h">
+                                                <value name="TEXT">
+                                                  <shadow type="text" id="x%w]PBIR$TW1PYfL7|%,">
+                                                    <field name="TEXT"></field>
+                                                  </shadow>
+                                                  <block type="math_trig" id="qP-l{1#ET/?l,HnpI@2[">
+                                                    <field name="OP">ATAN</field>
+                                                    <value name="NUM">
+                                                      <shadow type="math_angle" id="ac(PHOt$T15he4Zq0I;R">
+                                                        <field name="angle">2</field>
+                                                      </shadow>
+                                                      <block type="math_number" id="A;VvwJYHUzsY0sazE8B}">
+                                                        <field name="NUM">0.3</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="text_print" id="2D$%f:+MfH$OabDTEUEX">
+                                                    <value name="TEXT">
+                                                      <shadow type="text" id="JCfa4enu7DG7Y!WFPX0w">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="math_keep_decimal" id="+b#;h__Nc},8Zj!wAJ}X">
+                                                        <value name="NUM">
+                                                          <shadow type="math_number" id="12|~vR11Q{RE]GHcL3J`">
+                                                            <field name="NUM">3.1415926</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <value name="PLACE">
+                                                          <shadow type="math_number" id=")-aM.b|@jtLN}Ubh$;RE">
+                                                            <field name="NUM">2</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="text_print" id="jy~~+iW}4fnT.7iq)SqF">
+                                                        <value name="TEXT">
+                                                          <shadow type="text" id="0`[UXj!(2h.?*uO%Z}s4">
+                                                            <field name="TEXT"></field>
+                                                          </shadow>
+                                                          <block type="math_round" id="Iq!tsnk8Oc5%hB0Ptvfg">
+                                                            <field name="OP">ROUNDUP</field>
+                                                            <value name="NUM">
+                                                              <shadow type="math_number" id="]]QdgWxz0k~Wey-*l*c*">
+                                                                <field name="NUM">3.1</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="text_print" id="66QAaEho==mRbfzy(yS-">
+                                                            <value name="TEXT">
+                                                              <shadow type="text" id="{:S(v?2z5osjTOBQ;X7q">
+                                                                <field name="TEXT"></field>
+                                                              </shadow>
+                                                              <block type="math_round" id="Esrs1R-SPbCw.nFVlhS6">
+                                                                <field name="OP">ROUNDDOWN</field>
+                                                                <value name="NUM">
+                                                                  <shadow type="math_number" id="fOOSThuRd.FWiGK*Q4~*">
+                                                                    <field name="NUM">3.1</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="text_print" id="7eg6M*:Tg)Y)gW$90%}4">
+                                                                <value name="TEXT">
+                                                                  <shadow type="text" id="HZSqJ2QgvHwvN{6uSSw`">
+                                                                    <field name="TEXT"></field>
+                                                                  </shadow>
+                                                                  <block type="math_constrain" id="Tc.98Cg|DfMf6H.8V}4)">
+                                                                    <value name="VALUE">
+                                                                      <shadow type="math_number" id=".jpFIs=drUmm7zllYako">
+                                                                        <field name="NUM">50</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <value name="LOW">
+                                                                      <shadow type="math_number" id="#v^gka*+ojZB8ht8-Dj6">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <value name="HIGH">
+                                                                      <shadow type="math_number" id="+0$.2SZ.:I$b(e/.]m-_">
+                                                                        <field name="NUM">100</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="text_print" id="6*^{]NfKGkdV9yHA34rv">
+                                                                    <value name="TEXT">
+                                                                      <shadow type="text" id="oWd:x8?k1Fj.#L5MOx7^">
+                                                                        <field name="TEXT"></field>
+                                                                      </shadow>
+                                                                      <block type="math_random_int" id="$p]j*IKcP]$g;B]ri}3`">
+                                                                        <value name="FROM">
+                                                                          <shadow type="math_number" id="3!A`rfH]!:p:n((/rg;A">
+                                                                            <field name="NUM">1</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <value name="TO">
+                                                                          <shadow type="math_number" id="m8~8jA,~Nv]eLihbTXeq">
+                                                                            <field name="NUM">100</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="text_print" id="X1!A/^3c@t6f8au8e$[r">
+                                                                        <value name="TEXT">
+                                                                          <shadow type="text" id="oWd:x8?k1Fj.#L5MOx7^">
+                                                                            <field name="TEXT"></field>
+                                                                          </shadow>
+                                                                          <block type="math_random_randrange" id="``(K%^TL%MYYh3WF)d4:">
+                                                                            <value name="start">
+                                                                              <shadow type="math_number" id="IJ617GC-@.8x/qyaZx@z">
+                                                                                <field name="NUM">0</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="stop">
+                                                                              <shadow type="math_number" id="w0HUiRwO%pmJ:^1l5S|1">
+                                                                                <field name="NUM">10</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="step">
+                                                                              <shadow type="math_number" id="g]OI/U=/E,(Hie46M4x2">
+                                                                                <field name="NUM">2</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="text_print" id="_H-yPj=R@5ctyI@x%Sm;">
+                                                                            <value name="TEXT">
+                                                                              <shadow type="text" id="oWd:x8?k1Fj.#L5MOx7^">
+                                                                                <field name="TEXT"></field>
+                                                                              </shadow>
+                                                                              <block type="math_random_float" id="?w77C:tz4^wp`HUdI9g3"></block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="text_print" id="b;R(Rt1_#HV[-m%x5g;E">
+                                                                                <value name="TEXT">
+                                                                                  <shadow type="text" id="Y57{T;PLxlC#SF%XUtpC">
+                                                                                    <field name="TEXT"></field>
+                                                                                  </shadow>
+                                                                                  <block type="bit_inversion" id="$C!pjOlu[ERmqDT1FdO1">
+                                                                                    <value name="data">
+                                                                                      <shadow type="math_number" id="jbo(29+E(6MLLn2rje`G">
+                                                                                        <field name="NUM">60</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

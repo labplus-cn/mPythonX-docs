@@ -1,11 +1,11 @@
 数学
-====
-
-三角函数
--------
+======
 
 
-数学运算
--------
+示例
+^^^^^
 
+.. image::  /images/blocks/math/example/math1.png
+    :scale: 80 %
 
+:download:`点击下载图形化示例</../examples/math/math1.xml>`
