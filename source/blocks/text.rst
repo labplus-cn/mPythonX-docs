@@ -132,7 +132,7 @@ ujson.dumps(obj)
 
 **参数：**
 
-- ``obj`` - 要转换的对象
+    - ``obj`` - 要转换的对象
 
 
 ujson.loads(str)
@@ -144,7 +144,7 @@ ujson.loads(str)
 
 **参数：**
 
-- ``str`` - 要转换的 json 字符串
+    - ``str`` - 要转换的 json 字符串
 
 示例
 ^^^^^
