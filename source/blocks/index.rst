@@ -20,6 +20,7 @@
     audio.rst
     event.rst
     bluebit.rst
+    loop.rst
     math.rst
     text.rst
     list.rst
