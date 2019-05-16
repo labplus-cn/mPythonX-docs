@@ -19,7 +19,6 @@
     music.rst
     audio.rst
     event.rst
-    bluebit.rst
     loop.rst
     math.rst
     text.rst
@@ -28,3 +27,5 @@
     dict.rst
     set.rst
     file.rst
+    bluebit.rst
+    Yeelight.rst
