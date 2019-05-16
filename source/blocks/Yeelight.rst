@@ -95,6 +95,6 @@ Bulb.set_brightness(brightness)
 ^^^^^
 
 .. image::  /images/blocks/yeelight/example/yeelight.png
-:scale: 80 %
+    :scale: 80 %
 
 :download:`点击下载图形化示例</../examples/yeelight/yeelight.xml>`
