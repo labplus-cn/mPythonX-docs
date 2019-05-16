@@ -29,4 +29,3 @@
     file.rst
     bluebit.rst
     Yeelight.rst
-    tello.rst
