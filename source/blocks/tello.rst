@@ -1,9 +1,9 @@
-测试
+tello测试
 ======
 
-RGB LED控制类指令，用于控制掌控板的3颗RGB ws2812灯珠，rgb对象为neopixel的衍生类，继承neopixel的方法
+tello控制类指令，用于控制掌控板的3颗RGB ws2812灯珠，rgb对象为neopixel的衍生类，继承neopixel的方法
 
-rgb[n] = (r, g, b)
+tello[n] = (r, g, b)
 -------------
 
 **描述：**  设置对应灯珠的颜色，n 为板载RGB灯的个数，第一个灯为0， r、g、b 为颜色亮度值，范围值为0~255
