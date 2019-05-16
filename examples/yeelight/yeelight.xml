@@ -1,0 +1,126 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mpython_init_wifi" id="t^bp}QDu[J4chMy{XPm^" x="-401" y="-259">
+    <value name="ssid">
+      <shadow type="text" id="X/[`V.bKJtKZ$MTpG;G{">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
+    <value name="password">
+      <shadow type="text" id="Z?F:.1.+).rw5d_+/]a$">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
+    <next>
+      <block type="controls_if" id="F8McBY_HBE30Te9=9c8O">
+        <value name="IF0">
+          <block type="logic_compare" id="P@:4V!bsgG;kwhSk$^Kx">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="lists_length" id="aMu8JHg0$~sGCOV}qkKn">
+                <value name="VALUE">
+                  <block type="yeelight_search" id=")x7??LWf*NN:tZZDZjhc"></block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id=".aAQY$7@R2lzc_t+Gd,G">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="yeelight_init" id="UOizp2a[K;p52[H5fN1J">
+            <field name="yeelight_name">bulb</field>
+            <value name="order">
+              <shadow type="math_number" id="C%z9fwEAg[ms+@g1/Flr">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="yeelight_switch_state" id="!~3s(=ik6(#^_8.HBKoz">
+                <field name="state">turn_on()</field>
+                <field name="yeelight_name">bulb</field>
+                <next>
+                  <block type="yeelight_switch_state" id="-WN3#Zg+I$bV_4~YdrPv">
+                    <field name="state">turn_off()</field>
+                    <field name="yeelight_name">bulb</field>
+                    <next>
+                      <block type="yeelight_switch_state" id="2eN4nL,{~/2_z$+u71LP">
+                        <field name="state">toggle()</field>
+                        <field name="yeelight_name">bulb</field>
+                        <next>
+                          <block type="yeelight_set_rgb_color" id="F`al/Wa1FwT2u7y#w(ZI">
+                            <field name="yeelight_name">bulb</field>
+                            <field name="COLOUR">#20B2AA</field>
+                            <next>
+                              <block type="controls_for" id=",=)%n6)MCkkHUS#yG*W{">
+                                <field name="VAR">i</field>
+                                <value name="FROM">
+                                  <shadow type="math_number" id="SgW.v{MIThp#n,Ld$C2u">
+                                    <field name="NUM">10</field>
+                                  </shadow>
+                                </value>
+                                <value name="TO">
+                                  <shadow type="math_number" id="Sm/[Z5IoV*H^8?}j9+_7">
+                                    <field name="NUM">100</field>
+                                  </shadow>
+                                </value>
+                                <value name="BY">
+                                  <shadow type="math_number" id="C0DUKF:/?,%n-]tx%R:s">
+                                    <field name="NUM">5</field>
+                                  </shadow>
+                                </value>
+                                <statement name="DO">
+                                  <block type="yeelight_set_brightness" id=",*P[p/CeC.(}c1=M8akI">
+                                    <field name="yeelight_name">bulb</field>
+                                    <value name="brightness">
+                                      <shadow type="zero_to_100" id="?z-eojyF9UP5TGe,?kEm">
+                                        <field name="count">0</field>
+                                      </shadow>
+                                      <block type="variables_get" id="A9/;m{iU7rV1~`#^#E8[">
+                                        <field name="VAR">i</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="yeelight_set_hsv" id="TEd3hTK-5x;mY.Mla$@n">
+                                        <field name="yeelight_name">bulb</field>
+                                        <value name="hsv">
+                                          <shadow type="math_number" id="[7,u!=+eG%-tik/a/cKd">
+                                            <field name="NUM">359</field>
+                                          </shadow>
+                                        </value>
+                                        <value name="saturation">
+                                          <shadow type="math_number" id="%J~:Xa=3tlOrl7-qXsM|">
+                                            <field name="NUM">100</field>
+                                          </shadow>
+                                          <block type="variables_get" id="=db/0sG|{BJ:ceouM$)[">
+                                            <field name="VAR">i</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                                <next>
+                                  <block type="yeelight_switch_state" id="X;CW8IgKXiUJcY{Qyho{">
+                                    <field name="state">turn_off()</field>
+                                    <field name="yeelight_name">bulb</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
