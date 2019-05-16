@@ -1,7 +1,7 @@
 mPython X 使用说明
 ====================
 
-软件安装
+软件安装  
 -----------
 
 目前最新版本为0.3.1，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
@@ -26,14 +26,14 @@ http://static.steamaker.cn/files/mpythonx-0.3.1-arm64.tar.gz
 https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
 
 .. Hint::
-  
+
   安装过程有可能被杀毒软件误报病毒，需要选择“允许程序所有操作”。
 
 
 安装软件的最后一步，会自动安装CP210x的驱动，如果先前安装过则可以忽略。
 
 .. image:: /images/mPythonX/software_2.png
-    :width: 500px 
+    :width: 500px
 
 
 
@@ -162,9 +162,5 @@ https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
 .. image:: /images/mPythonX/mPythonX_18.png
 
 .. Hint::
-  
+
   如果恢复固件失败（或超过30秒仍然一直在恢复），请先尝试关闭杀毒软件，或者选择信任esptool。
-
-
-
-
