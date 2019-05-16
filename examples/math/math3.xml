@@ -1,0 +1,32 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="text_print" id="9}ntjL}#YNG4#MN`8$Uk" x="-346" y="27">
+    <value name="TEXT">
+      <shadow type="text" id="nIs4Zc~LXDp]IPX[AyyL">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="mpython_data_to_base64" id="zfCSP24_VXulAl#9{%!)">
+        <value name="data">
+          <shadow type="text" id="3M64XK@)0B@qv|}E_m.g">
+            <field name="TEXT">mPython</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="k?)Wy]~HSPT^Qtcw0nB]">
+        <value name="TEXT">
+          <shadow type="text" id="hWaK};_a@]|*dv-9q|:)">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="mpython_base64_to_data" id="[@H?h;H7:)8XvCngTqR3">
+            <value name="data">
+              <shadow type="text" id="Jl+:#Dc5djbkO^N?0Q1v">
+                <field name="TEXT">bXB5dGhvbg==</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,276 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="text_print" id="|~11c`-bA}GMHejMv~)l" x="-282" y="-226">
+    <value name="TEXT">
+      <shadow type="text" id="o$IoLJW~kJu{Pbzo.8x5">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="math_number_bits_ops" id="De[|WdHR*%NC$iJD;8mj">
+        <field name="OP"> | </field>
+        <value name="A">
+          <shadow type="math_number" id="33)^^]E;.^ht*_63((Kn">
+            <field name="NUM">11</field>
+          </shadow>
+        </value>
+        <value name="B">
+          <shadow type="math_number" id="HS9B.v00Uqlo()OCMC?1">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="/sQDDG!]m_}UR8;s5n~T">
+        <value name="TEXT">
+          <shadow type="text" id="o$IoLJW~kJu{Pbzo.8x5">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="math_number_bits_ops" id="FkZ.rng:#lE@atlvFUvq">
+            <field name="OP"> &amp; </field>
+            <value name="A">
+              <shadow type="math_number" id="+nY$`::#tH%G|+hRA`mq">
+                <field name="NUM">11</field>
+              </shadow>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="ncw?[T/#8BF$g9A?)oE?">
+                <field name="NUM">1</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="text_print" id="9EJ~EUhDrb!!g$w5XF:U">
+            <value name="TEXT">
+              <shadow type="text" id="o$IoLJW~kJu{Pbzo.8x5">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="math_number_bits_ops" id=")HcA`UNAmtO/[^Sea#yN">
+                <field name="OP"> ^ </field>
+                <value name="A">
+                  <shadow type="math_number" id="G}0v|.N;Fy0!N(K7G}eP">
+                    <field name="NUM">11</field>
+                  </shadow>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="xIg!kgRU#2m)wPUI5R4K">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="text_print" id="D+6:]}x{zeg}MZwyX[a]">
+                <value name="TEXT">
+                  <shadow type="text" id="o$IoLJW~kJu{Pbzo.8x5">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="math_number_bits_ops" id="8o+H^|[;+#*@,^xTV87~">
+                    <field name="OP"> &lt;&lt; </field>
+                    <value name="A">
+                      <shadow type="math_number" id="Dn59Pgt/tn.%djmJ@nt8">
+                        <field name="NUM">11</field>
+                      </shadow>
+                    </value>
+                    <value name="B">
+                      <shadow type="math_number" id="s@t#Hs0gsV~c=|yT$(Bi">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="text_print" id="OAvy)|E`4Swwu?[!Pb/q">
+                    <value name="TEXT">
+                      <shadow type="text" id="o$IoLJW~kJu{Pbzo.8x5">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="math_number_bits_ops" id="tDjXgtqaw!Hc:hTt|Wc;">
+                        <field name="OP"> &gt;&gt; </field>
+                        <value name="A">
+                          <shadow type="math_number" id="sGo)peiK/G/-qiJMbLX,">
+                            <field name="NUM">11</field>
+                          </shadow>
+                        </value>
+                        <value name="B">
+                          <shadow type="math_number" id="QpQ(M`7-[_}A#LXo$;TY">
+                            <field name="NUM">1</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="i*X{Z|{(dBLHNx@P?$W1">
+                        <value name="TEXT">
+                          <shadow type="text" id="{_vym8)D%TZ]N$18rWy,">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="mpython_ten_convert_to" id="c2OXS}Cc4a|bD0u]dvT3">
+                            <field name="ten_convert_to">bin</field>
+                            <value name="int_num">
+                              <shadow type="math_number" id="N{$)7F$j{sY@UFWm*JU:">
+                                <field name="NUM">10</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="text_print" id="Y5FdG}C@Q/V=j$E*?dRW">
+                            <value name="TEXT">
+                              <shadow type="text" id=":Cz`V[)o~k0ZPyZuMj!h">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="mpython_ten_convert_to" id="(([MeC!43*`6Xf%td/5e">
+                                <field name="ten_convert_to">oct</field>
+                                <value name="int_num">
+                                  <shadow type="math_number" id="LacjP:4[Z_$XxQcSE]73">
+                                    <field name="NUM">10</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="text_print" id="c-mgpk$c`Nw%AYzGsBN/">
+                                <value name="TEXT">
+                                  <shadow type="text" id="WE-3Fws_ru;~+zY96)]T">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                  <block type="mpython_ten_convert_to" id="veoE}4UPm~2Ch*y_*e!E">
+                                    <field name="ten_convert_to">hex</field>
+                                    <value name="int_num">
+                                      <shadow type="math_number" id="M961vz3shytU4#~zRqI%">
+                                        <field name="NUM">10</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="text_print" id="Zx1rxST/L_F|0{|2hQ:N">
+                                    <value name="TEXT">
+                                      <shadow type="text" id="{lnd~wDD|CDsJ?gD[$yh">
+                                        <field name="TEXT"></field>
+                                      </shadow>
+                                      <block type="mpython_convert_to_ten" id="Jtei:|qHY2i$/.V[}l?;">
+                                        <field name="convert_choice">2</field>
+                                        <value name="convert_str">
+                                          <shadow type="text" id="@}vxq#jq:js:}JJCFHzu">
+                                            <field name="TEXT">11</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="text_print" id=";_P%q|e.a2uG.wyx`/pz">
+                                        <value name="TEXT">
+                                          <shadow type="text" id="jX};e$TYh7,WJY7yIBsk">
+                                            <field name="TEXT"></field>
+                                          </shadow>
+                                          <block type="mpython_ten_converted_to_bytes" id="oA8xt7ay]EbT!W38BHpx">
+                                            <field name="convert_choice">'&lt;HH'</field>
+                                            <value name="convert_num">
+                                              <shadow type="math_number" id="~D=49F._4B0|LT/y}Ij/">
+                                                <field name="NUM">11</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="text_print" id="m1:B27/)zFAmLJyp:u#`">
+                                            <value name="TEXT">
+                                              <shadow type="text" id="jX};e$TYh7,WJY7yIBsk">
+                                                <field name="TEXT"></field>
+                                              </shadow>
+                                              <block type="mpython_ten_converted_to_bytes" id="d@S:ZOt$5r2i!Ww)RW,j">
+                                                <field name="convert_choice">'&lt;LL'</field>
+                                                <value name="convert_num">
+                                                  <shadow type="math_number" id="l#PBKUGhzx0aELz]H[[n">
+                                                    <field name="NUM">11</field>
+                                                  </shadow>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="text_print" id="3$WAa|{O{LTmSo/:V2d~">
+                                                <value name="TEXT">
+                                                  <shadow type="text" id="jX};e$TYh7,WJY7yIBsk">
+                                                    <field name="TEXT"></field>
+                                                  </shadow>
+                                                  <block type="mpython_int_to_chr" id="2_ySo3_xn^lV@[PGaH::">
+                                                    <value name="convert_num">
+                                                      <shadow type="math_number" id="?k9JqI=Ecu|bwHC,WnSh">
+                                                        <field name="NUM">97</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="text_print" id="T7(MIcd,_J4m,~271D;m">
+                                                    <value name="TEXT">
+                                                      <shadow type="text" id="!#%{B*)9{]*4oQX|c.dU">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="mpython_chr_to_int" id="{Ib:%pp#KXLms1uf;9MT">
+                                                        <value name="convert_chr">
+                                                          <shadow type="text" id="D0.9fN9]mC`Bv]61LE--">
+                                                            <field name="TEXT">b</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="text_print" id="TqWi5E}YVjC.[hv[uVi!">
+                                                        <value name="TEXT">
+                                                          <shadow type="text" id="^uewI2VQoCNL9{[|t_|i">
+                                                            <field name="TEXT"></field>
+                                                          </shadow>
+                                                          <block type="mpython_str_to_hex" id="{Wd;~6wOnry#RF-ydHqm">
+                                                            <value name="convert_chr">
+                                                              <shadow type="text" id="rns*5aV;Hk^j)Gr:PQEy">
+                                                                <field name="TEXT">abcdfg</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="text_print" id="NU3!oPNNDZW7A8[p??+l">
+                                                            <value name="TEXT">
+                                                              <shadow type="text" id="57BA47,?#q/?/[?hcjdT">
+                                                                <field name="TEXT"></field>
+                                                              </shadow>
+                                                              <block type="mpython_hex_to_bin_str" id=",rF;Pc;`!EzRiugQT%^L">
+                                                                <value name="convert_chr">
+                                                                  <shadow type="text" id="ZJ)Tl3o!g(zcPJg4/@E5">
+                                                                    <field name="TEXT">313233</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
