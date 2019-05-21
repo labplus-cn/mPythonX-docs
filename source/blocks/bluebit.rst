@@ -21,6 +21,9 @@ SHT20.temperature()
 
 **返回值：**   温度,单位摄氏度
 
+.. image:: /images/blocks/bluebit/image193.png
+    :scale: 90 %
+
 
 SHT20.humidity()
 -------------
@@ -43,11 +46,17 @@ Color.getRGB()
 
 **描述：**   获取 RGB 值
 
+.. image:: /images/blocks/bluebit/image196.png
+    :scale: 90 %
+
 
 Color.getHSV()
 -------------
 
 **描述：**   获取 HSV 值
+
+.. image:: /images/blocks/bluebit/image198.png
+    :scale: 90 %
 
 
 class bluebit.AmbientLight(i2c=i2c)[源代码]
@@ -67,6 +76,9 @@ AmbientLight.getLight()
 
 **返回值：**   返回光线值,单位lux
 
+.. image:: /images/blocks/bluebit/image195.png
+    :scale: 90 %
+
 
 class bluebit.Ultrasonic(i2c=i2c)
 -------------
@@ -85,6 +97,9 @@ Ultrasonic.distance()
 
 **返回值：**   返回测距,单位cm
 
+.. image:: /images/blocks/bluebit/image194.png
+    :scale: 90 %
+
 
 class bluebit.SEGdisplay(i2c=i2c)
 -------------
@@ -101,6 +116,9 @@ SEGdisplay.numbers(x)
 
 **描述：**   数字显示-999~9999
 
+.. image:: /images/blocks/bluebit/image191.png
+    :scale: 90 %
+
 **参数：**
 
 - ``x (int)`` - 数字,范围-999~9999
@@ -110,6 +128,9 @@ SEGdisplay.Clear()
 -------------
 
 **描述：**   数码管清屏
+
+.. image:: /images/blocks/bluebit/image192.png
+    :scale: 90 %
 
 
 class Matrix(i2c=i2c)
@@ -137,6 +158,9 @@ Matrix.brightness(brightness)
 
 **描述：**   设置像素点亮度
 
+.. image:: /images/blocks/bluebit/image180.png
+    :scale: 90 %
+
 **参数：**
 
 - ``brightness`` - 亮度级别,范围0~15
@@ -147,6 +171,9 @@ Matrix.fill(color)
 
 **描述：**   填充所有
 
+.. image:: /images/blocks/bluebit/image179.png
+    :scale: 90 %
+
 **参数：**
 
 - ``color`` - 1亮;0灭
@@ -156,6 +183,9 @@ Matrix.bitmap(bitmap)
 -------------
 
 **描述：**   显示位图
+
+.. image:: /images/blocks/bluebit/image178.png
+    :scale: 90 %
 
 **参数：**
 
@@ -173,6 +203,9 @@ class bluebit.LCD1602(i2c=i2c)
 
 **描述：**   LCD1602 模块控制类
 
+.. image:: /images/blocks/bluebit/image167.png
+    :scale: 90 %
+
 **参数：**
 
 - ``i2c`` - I2C 实例对象,默认 i2c=i2c
@@ -182,6 +215,9 @@ LCD1602.LEFT_TO_RIGHT
 -------------
 
 **描述：**   文本方向常量-从左到右
+
+.. image:: /images/blocks/bluebit/image171.png
+    :scale: 90 %
 
 
 LCD1602.RIGHT_TO_LEFT
@@ -201,6 +237,9 @@ LCD1602.Print(str)
 
 **描述：**   打印字符串
 
+.. image:: /images/blocks/bluebit/image169.png
+    :scale: 90 %
+
 **参数：**
 
 - ``str (str)`` - 显示字符串,只支持英文
@@ -211,11 +250,17 @@ LCD1602.Clear()
 
 **描述：**   清屏
 
+.. image:: /images/blocks/bluebit/image170.png
+    :scale: 90 %
+
 
 LCD1602.setCursor(col, row)
 -------------
 
 **描述：**   设置光标位置
+
+.. image:: /images/blocks/bluebit/image168.png
+    :scale: 90 %
 
 **参数：**
 
@@ -227,6 +272,9 @@ LCD1602.Cursor(show)
 -------------
 
 **描述：**   光标显示使能
+
+.. image:: /images/blocks/bluebit/image174.png
+    :scale: 90 %
 
 **参数：**
 
@@ -258,6 +306,9 @@ LCD1602.move_left()
 
 **描述：**   左滚动显示
 
+.. image:: /images/blocks/bluebit/image172.png
+    :scale: 90 %
+
 
 LCD1602.move_right()
 -------------
@@ -276,6 +327,9 @@ class bluebit.MIDI(tx)
 
 **描述：**   MIDI 模块控制类
 
+.. image:: /images/blocks/bluebit/image187.png
+    :scale: 90 %
+
 **参数：**
 
 - ``tx`` - 发送引脚
@@ -286,17 +340,26 @@ MIDI.volume
 
 **描述：**   设置或返回音量
 
+.. image:: /images/blocks/bluebit/image188.png
+    :scale: 90 %
+
 
 MIDI.instrument
 -------------
 
 **描述：**   设置或返回音色
 
+.. image:: /images/blocks/bluebit/image189.png
+    :scale: 90 %
+
 
 MIDI.note(note, on_off)
 -------------
 
 **描述：**   播放音符
+
+.. image:: /images/blocks/bluebit/image190.png
+    :scale: 90 %
 
 **参数：**
 
@@ -308,6 +371,9 @@ class bluebit.MP3(tx)
 -------------
 
 **描述：**   MIDI 模块控制类
+
+.. image:: /images/blocks/bluebit/image181.png
+    :scale: 90 %
 
 **参数：**
 
@@ -358,6 +424,9 @@ MP3.pause()
 
 **描述：**   暂停播放
 
+.. image:: /images/blocks/bluebit/image185.png
+    :scale: 90 %
+
 
 MP3.stop()
 -------------
@@ -369,6 +438,9 @@ MP3.loop(songNo)
 -------------
 
 **描述：**   目录内指定序号歌曲循环播放
+
+.. image:: /images/blocks/bluebit/image184.png
+    :scale: 90 %
 
 **参数：**
 
@@ -390,6 +462,9 @@ MP3.singleLoop(onOff)
 
 **描述：**   单曲循环开关
 
+.. image:: /images/blocks/bluebit/image186.png
+    :scale: 90 %
+
 **参数：**
 
 - ``onOff (int)`` - 0:不循环 1：循环
@@ -399,6 +474,24 @@ MP3.volume
 -------------
 
 **描述：**   设置或返回音量设置,范围0~30
+
+.. image:: /images/blocks/bluebit/image182.png
+    :scale: 90 %
+
+
+MP3.volumeInc()
+-------------
+
+**描述：**   增加音量
+
+.. image:: /images/blocks/bluebit/image183.png
+    :scale: 90 %
+
+
+MP3.volumeDec()
+-------------
+
+**描述：**   减小音量
 
 
 MP3.resetDevice()
