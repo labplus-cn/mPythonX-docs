@@ -28,4 +28,5 @@
     set.rst
     file.rst
     bluebit.rst
+    expandBoard.rst
     Yeelight.rst
