@@ -412,6 +412,9 @@ class bluebit.OLEDBit(rx, tx)
 
 **描述：**   OLED 模块控制类
 
+.. image:: /images/blocks/bluebit/image160.png
+    :scale: 90 %
+
 **参数：**
 
 - ``rx, tx`` - 接收,发送引脚
@@ -446,6 +449,9 @@ OLEDBit.Print(str, x, y, font)
 
 **描述：**   显示中英文字符串,支持字体 '0' =Font5x7, '1' = 宋体16x16, '2' = 宋体24x24, '3' = Consolas32x32
 
+.. image:: /images/blocks/bluebit/image161.png
+    :scale: 90 %
+
 **参数：**
 
 - ``str (str)`` - 中英文字符串
@@ -457,6 +463,9 @@ OLEDBit.clear(x0=0, y0=0, x1=127, y1=63)
 -------------
 
 **描述：**   清除,默认全屏清除,也可以局部清除
+
+.. image:: /images/blocks/bluebit/image162.png
+    :scale: 90 %
 
 **参数：**
 
@@ -474,6 +483,9 @@ OLEDBit.Bitmap(x, y, bitmap, w, h, c)
 -------------
 
 **描述：**   显示图案
+
+.. image:: /images/blocks/bluebit/image163.png
+    :scale: 90 %
 
 **参数：**
 
@@ -507,6 +519,9 @@ class bluebit.IRTrans(tx, uart_id=2)
 
 **描述：**   红外发射模块
 
+.. image:: /images/blocks/bluebit/image165.png
+    :scale: 90 %
+
 **参数：**
 
 - ``tx (int)`` - 发送引脚设置
@@ -517,6 +532,9 @@ IRTrans.transmit(byte)
 -------------
 
 **描述：**   发送数据
+
+.. image:: /images/blocks/bluebit/image164.png
+    :scale: 90 %
 
 **参数：**
 
