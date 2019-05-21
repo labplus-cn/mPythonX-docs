@@ -35,7 +35,7 @@ return
 try...except...finally
 -------------
 
-**描述：**   执行 try 语句，无异常则在 try 语句执行后结束；发生异常则跳转至 except 语句并执行之，执行 except 语句完毕后跳回执行 try 语句的剩余部分。无论有无异常，最后必定执行 finally 语句
+**描述：**   执行 try 语句，无异常则继续执行 try 语句；发生异常则跳转至 except 语句并执行之，执行 except 语句完毕后跳回执行 try 语句的剩余部分。无论有无异常，最后必定执行 finally 语句
 
 .. image:: /images/blocks/logic/1.png
     :scale: 90 %
