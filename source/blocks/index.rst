@@ -20,6 +20,7 @@
     audio.rst
     event.rst
     loop.rst
+    logic.rst
     math.rst
     text.rst
     list.rst
