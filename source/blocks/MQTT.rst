@@ -10,9 +10,6 @@ class MQTTClient(client_id, server, port=0, user=None, password=None, keepalive=
 
 **描述：**   构建对象
 
-.. image:: /images/blocks/logic/1.png
-    :scale: 90 %
-
 **参数：**
 
 - ``client_id`` - mqtt 客户端的唯一的 id
@@ -87,6 +84,6 @@ MQTTClient.check_msg()
 ^^^^^
 
 .. image::  /images/blocks/mqtt/example/mqtt.png
-:scale: 90 %
+    :scale: 90 %
 
 :download:`点击下载图形化示例</../examples/mqtt/mqtt.xml>`
