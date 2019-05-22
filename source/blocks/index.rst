@@ -28,6 +28,7 @@
     dict.rst
     set.rst
     file.rst
+    uart.rst
     bluebit.rst
     expandBoard.rst
     Yeelight.rst

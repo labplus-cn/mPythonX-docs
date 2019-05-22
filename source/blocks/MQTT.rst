@@ -51,7 +51,7 @@ MQTTClient.disconnect()
 MQTTClient.ping()
 -------------
 
-**描述：**   Ping服务器（响应由wait_msg（）自动处理）
+**描述：**   Ping 服务器（响应由 wait_msg（）自动处理）
 
 
 MQTTClient.publish(topic, msg, retain=False, qos=0)
@@ -69,13 +69,13 @@ MQTTClient.subscribe(topic, qos=0)
 MQTTClient.wait_msg()
 -------------
 
-**描述：**   等待服务器消息。订阅消息将通过set_callback（）传递给回调集，任何其他消息都将在内部处理
+**描述：**   等待服务器消息。订阅消息将通过 set_callback（）传递给回调集，任何其他消息都将在内部处理
 
 
 MQTTClient.check_msg()
 -------------
 
-**描述：**   检查服务器是否有待处理的消息。如果是，则以与wait_msg（）相同的方式处理，如果不是，则立即返回
+**描述：**   检查服务器是否有待处理的消息。如果是，则以与 wait_msg（）相同的方式处理，如果不是，则立即返回
 
 
 
