@@ -21,7 +21,6 @@ class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
 - ``timeout`` - 超时时间（单位：毫秒） < timeout ≤ 0x7FFF FFFF (十进制：0 < timeout ≤ 2147483647)
 
 
-.. Attention::
-- ``UART(id=0)`` - 用于 REPL
+.. Attention::- ``UART(id=0)`` - 用于 REPL
 - 所有引脚均可以作为串口的输入RX，除 P2、P3 、P4 、P10 只能作为输入，其余所有的引脚理论上都可以作为输出TX
 - GPIO 1 、GPIO 3 用于掌控板的USB串口，在初始化UART定义 tx ，rx 引脚一般不使用，除非你要用到掌控板的USB接口作为串口输出
