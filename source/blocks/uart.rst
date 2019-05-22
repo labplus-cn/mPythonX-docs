@@ -54,6 +54,7 @@ UART.read([nbytes])
 -------------
 
 **描述：**   读字符。如果 nbytes 指定，则最多读取多个字节，否则读取尽可能多的数据
+
 **返回值：**   包含读入的字节的字节对象。 None 超时时返回
 
 .. image:: /images/blocks/uart/7.png
@@ -64,6 +65,7 @@ UART.readinto(buf[, nbytes])
 -------------
 
 **描述：**   将字节读入 buf 。如果 nbytes 指定，则最多读取多个字节。否则，最多读取 len(buf) 字节数
+
 **返回值：**   读取和存储到超时 buf 或 None 超时的字节数
 
 
@@ -71,6 +73,7 @@ UART.readline()
 -------------
 
 **描述：**   读一行，以换行符结尾
+
 **返回值：**   读取行或 None 超时的字节数
 
 .. image:: /images/blocks/uart/6.png
@@ -81,6 +84,7 @@ UART.write(buf)
 -------------
 
 **描述：**   将字节缓冲区写入总线
+
 **返回值：**   写入或 None 超时的字节数
 
 .. image:: /images/blocks/uart/2.png
