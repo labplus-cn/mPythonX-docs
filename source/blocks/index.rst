@@ -31,3 +31,4 @@
     bluebit.rst
     expandBoard.rst
     Yeelight.rst
+    MQTT.rst
