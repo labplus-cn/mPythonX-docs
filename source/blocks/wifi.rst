@@ -5,7 +5,6 @@ wifi
 提供便捷的 wifi 连接网络方式或热点 wifi 功能
 
 .. method:: wifi.connectWiFi()
--------------
 
 **描述：** 连接 wifi 网络,连接掌控板开启的热点则无需密码
 
@@ -19,7 +18,6 @@ wifi
 
 
 .. method:: wifi.sta.ifconfig()[n]
--------------
 
 **描述：** wifi 连接成功后,获取wifi配置信息，含 IP、netmask、getway、DNS，n为0、1、2、3
 
