@@ -5,8 +5,8 @@
 UART(双工串行通信总线) 实现标准 UART / USART 双工串行通信协议。在物理层面，它由2根线组成：RX 和 TX。 通信单元是一个字符（不要与字符串混淆），可以是8bit或9bit宽
 
 
-class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
--------------
+.. method:: class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
+
 
 **描述：**   构建对象
 
