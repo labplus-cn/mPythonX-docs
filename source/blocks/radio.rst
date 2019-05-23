@@ -35,7 +35,7 @@ radio.config(channel)
 radio.receive()
 -------------
 
-**描述：**   接收无线广播消息,消息以字符串形式返回。最大可接收250字节数据。如果没有接收到消息,则返回 ``None`` 。当 receive 内参数为 ``True`` ,即 receive(True) ,返回(msg,mac)的二元组。默认缺省 receive(False) ,即只返回msg
+**描述：**   接收无线广播消息,消息以字符串形式返回。最大可接收250字节数据。如果没有接收到消息,则返回 ``None`` 。当 receive 内参数为 ``True`` ,即 receive(True) ,返回 (msg,mac) 的二元组。默认缺省 receive(False) ,即只返回 msg
 
 .. image::  /images/blocks/radio/4.png
     :scale: 90 %
@@ -49,7 +49,7 @@ radio.receive_bytes()
 radio.send()
 -------------
 
-**描述：**   发送无线广播消息,发送数据类型为字符串。当发送成功后返回 ``True``,否则返回``False``
+**描述：**   发送无线广播消息,发送数据类型为字符串。当发送成功后返回 ``True``,否则返回 ``False``
 
 .. image::  /images/blocks/radio/3.png
     :scale: 90 %
@@ -58,4 +58,4 @@ radio.send()
 radio.send_bytes()
 -------------
 
-**描述：**   发送无线广播消息,发送数据类型为字节。当发送成功后返回 ``True``,否则返回``False``
+**描述：**   发送无线广播消息,发送数据类型为字节。当发送成功后返回 ``True``,否则返回 ``False``
