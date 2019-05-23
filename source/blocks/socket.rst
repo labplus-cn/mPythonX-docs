@@ -180,3 +180,17 @@ socket.write(buf)
 -------------
 
 **描述：**   向字节缓冲区写入socket，并返回写入数据的大小
+
+
+urequests.get(url, data=None, json=None, headers={}, params=None)
+-------------
+
+**描述：**   urequests 模块的方法，发送 GET 请求,返回 Response 对象
+
+**参数：**
+
+- ``url`` - Request 对象的 URL
+- ``data`` - 要附加到请求的正文。如果提供字典或元组列表，则将进行表单编码
+- ``json`` - json 用于附加到请求的主体
+- ``headers`` - 要发送的标头字典
+- ``params`` - 附加到 URL 的 URL 参数。如果提供字典或元组列表，则将进行表单编码
