@@ -31,6 +31,5 @@
     socket.rst
     uart.rst
     bluebit.rst
-    expandBoard.rst
     Yeelight.rst
     MQTT.rst
