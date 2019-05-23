@@ -7,6 +7,9 @@ usocket.socket(af=AF_INET, type=SOCK_STREAM, proto=IPPROTO_TCP)
 
 **描述：**   构建对象
 
+.. image::  /images/blocks/socket/1.png
+    :scale: 90 %
+
 **参数：**
 
 - ``af`` - 地址
@@ -32,17 +35,26 @@ usocket.getaddrinfo(host, port)
 
 **描述：**   将主机域名（host）和端口（port）转换为用于创建套接字的5元组序列。元组列表的结构: (family, type, proto, canonname, sockaddr)
 
+.. image::  /images/blocks/socket/6.png
+    :scale: 90 %
+
 
 socket.close()
 -------------
 
 **描述：**   关闭 socket。一旦关闭后，socket 所有的功能都将失效。远端将接收不到任何数据 (清理队列数据后)。 内存碎片回收时 socket 会自动关闭，但还是推荐在必要时用 close() 去关闭
 
+.. image::  /images/blocks/socket/2.png
+    :scale: 90 %
+
 
 socket.bind(address)
 -------------
 
 **描述：**   以列表或元组的方式绑定地址和端口号
+
+.. image::  /images/blocks/socket/3.png
+    :scale: 90 %
 
 **参数：**
 
@@ -54,6 +66,9 @@ socket.listen([backlog])
 
 **描述：**   监听 socket，使服务器能够接收连接。如果指定了 backlog ，它不能小于0 (如果小于0将自动设置为0)； 超出后系统将拒绝新的连接。如果没有指定，将使用默认值
 
+.. image::  /images/blocks/socket/4.png
+    :scale: 90 %
+
 **参数：**
 
 - ``backlog`` - 接受套接字的最大个数，至少为0，如果没有指定，则默认一个合理值
@@ -64,6 +79,8 @@ socket.accept()
 
 **描述：**   接收连接请求。socket 需要指定地址并监听连接。返回值是 (conn, address)， 其中 conn 是用来接收和发送数据的套接字，address 是绑定到另一端的套接字
 
+.. image::  /images/blocks/socket/5.png
+    :scale: 90 %
 
 **参数：**
 
@@ -76,6 +93,9 @@ socket.connect(address)
 
 **描述：**   连接到指定地址的服务器
 
+.. image::  /images/blocks/socket/7.png
+    :scale: 90 %
+
 **参数：**
 
 - ``address`` - 服务器地址和端口号的元组或列表
@@ -85,6 +105,9 @@ socket.send(bytes)
 -------------
 
 **描述：**   发送数据，并返回发送的字节数
+
+.. image::  /images/blocks/socket/8.png
+    :scale: 90 %
 
 **参数：**
 
@@ -106,6 +129,9 @@ socket.recv(bufsize)
 
 **描述：**   接收数据，返回接收到的数据对象
 
+.. image::  /images/blocks/socket/10.png
+    :scale: 90 %
+
 **参数：**
 
 - ``bufsize`` - 指定一次接收的最大数据量
@@ -116,6 +142,9 @@ socket.sendto(bytes, address)
 -------------
 
 **描述：**   发送数据，目标由 address 决定，用于 UDP 通信，返回发送的数据大小
+
+.. image::  /images/blocks/socket/9.png
+    :scale: 90 %
 
 **参数：**
 
@@ -150,17 +179,26 @@ socket.settimeout(value)
 
 **描述：**   设置超时时间，单位：秒
 
+.. image::  /images/blocks/socket/11.png
+    :scale: 90 %
+
 
 socket.setblocking(flag)
 -------------
 
 **描述：**   设置 socket 的阻塞或非阻塞模式：若标记为 False，则将该 socket 设置为非阻塞模式
 
+.. image::  /images/blocks/socket/12.png
+    :scale: 90 %
+
 
 socket.read([size])
 -------------
 
 **描述：**   从 socket 中读取 size 字节。返回一个字节对象。若未给定 size ，则按照类似 socket.readall() 的模式运行
+
+.. image::  /images/blocks/socket/13.png
+    :scale: 90 %
 
 
 socket.readinto(buf[, nbytes])
