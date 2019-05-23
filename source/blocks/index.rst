@@ -16,6 +16,7 @@
     clock.rst
     wifi.rst
     pin.rst
+    radio.rst
     music.rst
     audio.rst
     event.rst
