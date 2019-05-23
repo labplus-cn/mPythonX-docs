@@ -9,14 +9,22 @@ usocket.socket(af=AF_INET, type=SOCK_STREAM, proto=IPPROTO_TCP)
 
 **参数：**
 
-- ``af`` - 地址。
+- ``af`` - 地址
 
-  - ``socket.AF_INET``：=2 — TCP/IP – IPv4；
+  - ``socket.AF_INET``：=2 — TCP/IP – IPv4
   - ``socket.AF_INET6``：=10 — TCP/IP – IPv6
-  
-- ``type`` - socket 类型。``socket.SOCK_STREAM``：=1 — TCP 流；``socket.SOCK_DGRAM``：=2 — UDP 数据报；``socket.SOCK_RAW``：=3 — 原始套接字；``socket.SO_REUSEADDR``：=4 — socket可重用
 
-- ``proto`` - 协议号。``socket.IPPROTO_TCP``：=6；``socket.IPPROTO_UDP``：=17。一般不指定proto参数，因为有些MicroPython固件提供默认参数
+- ``type`` - socket 类型
+
+  - ``socket.SOCK_STREAM``：=1 — TCP 流
+  - ``socket.SOCK_DGRAM``：=2 — UDP 数据报
+  - ``socket.SOCK_RAW``：=3 — 原始套接字
+  - ``socket.SO_REUSEADDR``：=4 — socket可重用
+
+- ``proto`` - 协议号。一般不指定proto参数，因为有些MicroPython固件提供默认参数
+
+  - ``socket.IPPROTO_TCP``：=6
+  - ``socket.IPPROTO_UDP``：=17
 
 
 usocket.getaddrinfo(host, port)
