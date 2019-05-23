@@ -225,6 +225,9 @@ urequests.get(url, data=None, json=None, headers={}, params=None)
 
 **描述：**   urequests 模块的方法，发送 GET 请求,返回 Response 对象
 
+.. image::  /images/blocks/socket/14.png
+    :scale: 90 %
+
 **参数：**
 
 - ``url`` - Request 对象的 URL
