@@ -2,7 +2,7 @@
 =====
 
 
-.. method:: oled.DispChar()
+oled.DispChar()
 -----------
 
 **描述：** oled屏显示文本
@@ -25,7 +25,7 @@ oled.DispChar(s, x, y, mode=TextMode.normal)
         - ``TextMode.xor`` - 等于4 。XOR模式,如果背景是黑色的，效果与默认模式(normal模式)相同。如果背景为白色，则反转文本。
 
 
-.. method:: oled.show()
+oled.show()
 ----------
 
 **描述：** 将缓存发送至oled显示。
@@ -43,7 +43,7 @@ oled.DispChar(s, x, y, mode=TextMode.normal)
 .. image:: /images/blocks/oled/example/hello.png
     :scale: 60 %
 
-.. method:: oled.fill()
+oled.fill()
 -------------
 
 **描述：**  点亮或者熄灭所有屏幕像素点。
@@ -71,7 +71,7 @@ oled.fill(c)
 :download:`点击下载图形化示例</../examples/oled/oled_blink.xml>`
 
 
-.. method:: oled.invert()
+oled.invert()
 -------------
 
 **描述：**  翻转像素点,设置黑底、白底。
@@ -94,7 +94,7 @@ oled.invert(n)
 :download:`点击下载图形化示例</../examples/oled/oled_invert.xml>`
 
 
-.. method:: oled.pixel()
+oled.pixel()
 -------------
 
 **描述：**  点亮或熄灭坐标像素点
@@ -110,7 +110,7 @@ oled.pixel(x, y,c)
     - ``c`` - 当为1时,点亮；当为0时,熄灭
 
 
-.. method:: oled.circle()
+oled.circle()
 -------------
 
 **描述：**  绘制空心圆。
@@ -135,7 +135,7 @@ oled.circle(x, y, radius, c)
 :download:`点击下载图形化示例</../examples/oled/oled_circle.xml>`
 
 
-.. method:: oled.fill_circle()
+oled.fill_circle()
 -------------
 
 **描述：**  绘制实心圆。
@@ -160,7 +160,7 @@ oled.fill_circle(x, y, radius, c)
 :download:`点击下载图形化示例</../examples/oled/oled_fill_circle.xml>`
 
 
-.. method:: oled.triangle()
+oled.triangle()
 -------------
 
 **描述：**  绘制空心三角形。
@@ -186,7 +186,7 @@ oled.triangle(x0, y0, x1, y1, x2, y2, c)
 :download:`点击下载图形化示例</../examples/oled/oled_triangle.xml>`
 
 
-.. method:: oled.fill_triangle()
+oled.fill_triangle()
 -------------
 
 **描述：**  绘制实心三角形。
@@ -212,7 +212,7 @@ oled.fill_triangle(x0, y0, x1, y1, x2, y2, c)
 :download:`点击下载图形化示例</../examples/oled/oled_fill_triangle.xml>`
 
 
-.. method:: oled.hline()
+oled.hline()
 -------------
 
 **描述：**  绘制水平线
@@ -237,7 +237,7 @@ oled.hline(x, y, w, c)
 :download:`点击下载图形化示例</../examples/oled/oled_hline.xml>`
 
 
-.. method:: oled.vline()
+oled.vline()
 -------------
 
 **描述：**  绘制垂直线
@@ -254,7 +254,7 @@ oled.vline(x, y, l, c)
     - ``c`` - 为1时,像素点亮；c 为0时,像素点灭
 
 
-.. method:: oled.line()
+oled.line()
 -------------
 
 **描述：**  绘制线段
@@ -279,7 +279,7 @@ oled.line(x1, y1, x2, y2, c)
 :download:`点击下载图形化示例</../examples/oled/oled_line.xml>`
 
 
-.. method:: oled.rect()
+oled.rect()
 -------------
 
 **描述：**  绘制矩形边框
@@ -304,7 +304,7 @@ oled.rect(x, y, w, h, c)
 :download:`点击下载图形化示例</../examples/oled/oled_rect.xml>`
 
 
-.. method:: oled.fill_rect()
+oled.fill_rect()
 -------------
 
 **描述：**  绘制实心矩形
@@ -329,7 +329,7 @@ oled.fill_rect(x, y, w, h, c)
 :download:`点击下载图形化示例</../examples/oled/oled_fill_rect.xml>`
 
 
-.. method:: oled.RoundRect()
+oled.RoundRect()
 -------------
 
 **描述：**  绘制弧角矩形边框
@@ -355,7 +355,7 @@ oled.RoundRect(x, y, w, h, r, c)
 :download:`点击下载图形化示例</../examples/oled/oled_RoundRect.xml>`
 
 
-.. method:: oled.Bitmap()
+oled.Bitmap()
 -------------
 
 **描述：**  绘制bitmap图案
@@ -382,7 +382,7 @@ oled.Bitmap(x, y, bitmap, w, h, c)
 :download:`点击下载图形化示例</../examples/oled/oled_bitmap.xml>`
 
 
-.. method:: UI.ProgressBar()
+UI.ProgressBar()
 -------------
 
 **描述：**  绘制进度条
@@ -407,7 +407,7 @@ UI.ProgressBar(x, y, width, height, progress)
 
 :download:`点击下载图形化示例</../examples/oled/ProgressBar.xml>`
 
-.. method:: UI.stripBar()
+UI.stripBar()
 -------------
 
 **描述：**  绘制垂直或水平的柱状条

@@ -25,12 +25,12 @@ class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
 .. Attention:: ``UART(id=0)`` 用于 ``REPL``; 所有引脚均可以作为串口的输入 RX，除 ``P2``、``P3`` 、``P4`` 、``P10`` 只能作为输入，其余所有的引脚理论上都可以作为输出 TX; ``GPIO 1`` 、``GPIO 3`` 用于掌控板的 USB 串口，在初始化 UART 定义 tx ，rx 引脚一般不使用，除非你要用到掌控板的 USB 接口作为串口输出
 
 
-.. method:: UART.init(baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
+UART.init(baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
 
 **描述：**   使用给定参数初始化UART总线
 
 
-.. method:: UART.deinit()
+UART.deinit()
 
 **描述：**   关闭 UART 总线
 
@@ -38,7 +38,7 @@ class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
     :scale: 90 %
 
 
-.. method:: UART.any()
+UART.any()
 
 **描述：**   返回一个整数，计算可以无阻塞地读取的字符数。如果没有可用字符，它将返回0，如果有字符，则返回正数。 即使有多个可读的字符，该方法也可以返回1
 
@@ -46,7 +46,7 @@ class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
     :scale: 90 %
 
 
-.. method:: UART.read([nbytes])
+UART.read([nbytes])
 
 **描述：**   读字符。如果 nbytes 指定，则最多读取多个字节，否则读取尽可能多的数据
 
@@ -56,14 +56,14 @@ class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
     :scale: 90 %
 
 
-.. method:: UART.readinto(buf[, nbytes])
+UART.readinto(buf[, nbytes])
 
 **描述：**   将字节读入 buf 。如果 nbytes 指定，则最多读取多个字节。否则，最多读取 len(buf) 字节数
 
 **返回值：**   读取和存储到超时 buf 或 None 超时的字节数
 
 
-.. method:: UART.readline()
+UART.readline()
 
 **描述：**   读一行，以换行符结尾
 
@@ -73,7 +73,7 @@ class machine.UART(id, baudrate, bits, parity, stop, tx, rx, rts, cts, timeout)
     :scale: 90 %
 
 
-.. method:: UART.write(buf)
+UART.write(buf)
 
 **描述：**   将字节缓冲区写入总线
 

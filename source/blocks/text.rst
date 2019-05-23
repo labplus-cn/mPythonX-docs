@@ -26,19 +26,19 @@ print("%.2f %.2f %.2f" % (3.1415926, 5.123, 5.125))
 print("{:.2} {:.3}".format('abc', 3.1415926))
 
 
-.. method:: str.isdigit()
+str.isdigit()
 -------------
 
 **描述：**  检测字符串是否只由数字组成
 
 
-.. method:: str.isalpha()
+str.isalpha()
 -------------
 
 **描述：**  检测字符串是否只由字母组成
 
 
-.. method:: str.find(str, beg=0, end=len(string))
+str.find(str, beg=0, end=len(string))
 -------------
 
 **描述：**   检测字符串中是否包含子字符串 str ，如果指定 beg（开始） 和 end（结束） 范围，则检查是否包含在指定范围内，如果指定范围内如果包含指定索引值，返回的是索引值在字符串中的起始位置。如果不包含索引值，返回-1
@@ -52,7 +52,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
     - ``end`` - 结束索引，默认为字符串的长度
 
 
-.. method:: str.rfind(str, beg=0 end=len(string))
+str.rfind(str, beg=0 end=len(string))
 -------------
 
 **描述：**   返回字符串最后一次出现的位置，如果没有匹配项则返回-1
@@ -66,7 +66,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
     - ``end`` - 结束索引，默认为字符串的长度
 
 
-.. method:: str.lower()
+str.lower()
 -------------
 
 **描述：**   转换字符串中所有大写字符为小写
@@ -74,7 +74,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
 **返回值：** 返回将字符串中所有大写字符转换为小写后生成的字符串
 
 
-.. method:: str.upper()
+str.upper()
 -------------
 
 **描述：**   字符串中的小写字母转为大写字母
@@ -82,7 +82,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
 **返回值：** 返回小写字母转为大写字母的字符串
 
 
-.. method:: str.strip([chars])
+str.strip([chars])
 -------------
 
 **描述：**   移除字符串头尾指定的字符（默认为空格）或字符序列
@@ -94,7 +94,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
     - ``chars`` - 移除字符串头尾指定的字符序列
 
 
-.. method:: bytes([source[, encoding[, errors]]])
+bytes([source[, encoding[, errors]]])
 -------------
 
 **描述：**   返回一个新的 bytes 对象，该对象是一个 0 <= x < 256 区间内的整数不可变序列。它是 bytearray 的不可变版本
@@ -110,7 +110,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
     - ``source`` - 如果没有输入任何参数，默认就是初始化数组为0个元素
 
 
-.. method:: bytes.decode(encoding="utf-8", errors="strict")
+bytes.decode(encoding="utf-8", errors="strict")
 -------------
 
 **描述：**   以指定的编码格式解码 bytes 对象。默认编码为 'utf-8'
@@ -123,7 +123,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
     - ``errors`` - 设置不同错误的处理方案。默认为 'strict',意为编码错误引起一个UnicodeError。 其他可能得值有 'ignore', 'replace', 'xmlcharrefreplace', 'backslashreplace' 以及通过 codecs.register_error() 注册的任何值
 
 
-.. method:: ujson.dumps(obj)
+ujson.dumps(obj)
 -------------
 
 **描述：**   将 dict 类型的数据转换成 str，因为如果直接将 dict 类型的数据写入 json 文件中会发生报错，因此在将数据写入时需要用到该函数
@@ -135,7 +135,7 @@ print("{:.2} {:.3}".format('abc', 3.1415926))
     - ``obj`` - 要转换的对象
 
 
-.. method:: ujson.loads(str)
+ujson.loads(str)
 -------------
 
 **描述：**   解析 json 字符串并返回对象。如果字符串格式错误将引发 ValueError 异常

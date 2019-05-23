@@ -2,7 +2,7 @@ Yeelight 智能灯
 ======
 
 
-.. method:: yeelight.discover_bulbs(timeout=2)
+yeelight.discover_bulbs(timeout=2)
 
 **描述：**   发现所有局域网内的Yeelight灯泡
 
@@ -13,7 +13,7 @@ Yeelight 智能灯
 - ``timeout (int)`` - 等待回复需要多少秒。发现将总是要花这么长的时间， 因为它不知道当所有的灯泡都响应完毕时
 
 
-.. method:: class yeelight.Bulb(ip, port=55443, effect='smooth', duration=300, auto_on=False)
+class yeelight.Bulb(ip, port=55443, effect='smooth', duration=300, auto_on=False)
 
 **描述：**   YeeLight的控制类
 
@@ -26,22 +26,22 @@ Yeelight 智能灯
 - ``auto_on (bool)`` - 是否 ensure_on() 在每次操作之前调用以自动打开灯泡，如果它已关闭。这会在每条消息之前更新灯泡的属性， 每个命令会花费一个额外的消息。 如果您担心速率限制，请将其关闭并自行检查。get_properties() 或运行 ensure_on()
 
 
-.. method:: Bulb.turn_on()
+Bulb.turn_on()
 
 **描述：**   打开灯泡
 
 
-.. method:: Bulb.turn_off()
+Bulb.turn_off()
 
 **描述：**   关闭灯泡
 
 
-.. method:: Bulb.toggle()
+Bulb.toggle()
 
 **描述：**   反转灯泡状态
 
 
-.. method:: Bulb.set_rgb(red, green, blue)
+Bulb.set_rgb(red, green, blue)
 
 **描述：**   设置灯泡的 RGB 值
 
@@ -52,7 +52,7 @@ Yeelight 智能灯
 - ``blue (int)`` - 蓝色范围 (0-255)
 
 
-.. method:: Bulb.set_hsv(hue, saturation)
+Bulb.set_hsv(hue, saturation)
 
 **描述：**   设置灯泡的 HSV 值
 
@@ -62,7 +62,7 @@ Yeelight 智能灯
 - ``saturation (int)`` - 饱和度(0-100)
 
 
-.. method:: Bulb.set_color_temp(degrees)
+Bulb.set_color_temp(degrees)
 
 **描述：**   设置灯泡色温
 
@@ -71,7 +71,7 @@ Yeelight 智能灯
 - ``degrees (int)`` - 色温范围(1700-6500)
 
 
-.. method:: Bulb.set_brightness(brightness)
+Bulb.set_brightness(brightness)
 
 **描述：**   YeeLight的控制类
 

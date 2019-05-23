@@ -3,7 +3,7 @@
 
 引脚控制类指令
 
-.. method:: pin.read_digital()
+pin.read_digital()
 -------------
 
 **描述：**  读取IO引脚电平值，1代表高电平，0代表低电平
@@ -27,7 +27,7 @@
 :download:`点击下载图形化示例</../examples/pin/read_digital.xml>`
 
 
-.. method:: pin.write_digital()
+pin.write_digital()
 -------------
 
 **描述：**  设置IO引脚的高低电平，1为高电平,0为低电平
@@ -51,7 +51,7 @@ IO引脚高低电平切换
 :download:`点击下载图形化示例</../examples/pin/write_digital.xml>`
 
 
-.. method:: pin.read_analog()
+pin.read_analog()
 -------------
 
 **描述：**  读取IO引脚的模拟输入
@@ -65,7 +65,7 @@ IO引脚高低电平切换
     - ``pin_num`` - 掌控板引脚编号
 
 
-.. method:: pin.write_analog()
+pin.write_analog()
 -------------
 
 **描述：**  设置IO引脚的PWM输出
@@ -84,4 +84,4 @@ IO引脚高低电平切换
 .. image::  /images/blocks/pin/example/write_analog.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/pin/write_analog.xml>` 
+:download:`点击下载图形化示例</../examples/pin/write_analog.xml>`
