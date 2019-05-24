@@ -59,7 +59,7 @@ Color.getHSV()
     :scale: 90 %
 
 
-class bluebit.AmbientLight(i2c=i2c)[源代码]
+class bluebit.AmbientLight(i2c=i2c)
 -------------
 
 **描述：**   数字光线模块控制类
