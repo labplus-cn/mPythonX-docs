@@ -2,35 +2,29 @@
 wifi
 =====
 
-提供便捷的wifi连接网络方式或热点wifi功能
+提供便捷的 wifi 连接网络方式或热点 wifi 功能
 
 wifi.connectWiFi()
--------------
 
-**描述：** 连接wifi网络,连接掌控板开启的热点则无需密码
+**描述：** 连接 wifi 网络,连接掌控板开启的热点则无需密码
 
 .. image:: /images/blocks/wifi/connectWiFi.png
     :scale: 90 %
 
-wifi.connectWiFi(ssid, password)
-
-参数：
+**参数：**
 
     - ``ssid`` - WiFi网络名称
     - ``password`` - WiFi密码
 
 
-wifi.sta.ifconfig()
--------------
+wifi.sta.ifconfig()[n]
 
-**描述：** wifi连接成功后,获取wifi配置信息，含IP、netmask、getway、DNS
+**描述：** wifi 连接成功后,获取wifi配置信息，含 IP、netmask、getway、DNS，n为0、1、2、3
 
 .. image:: /images/blocks/wifi/sta.ifconfig.png
     :scale: 100 %
 
-wifi.sta.ifconfig()[n]
 
-4元组,n为0、1、2、3
 
 示例
 ^^^^^
@@ -40,59 +34,50 @@ wifi.sta.ifconfig()[n]
 
 :download:`点击下载图形化示例</../examples/wifi/wifi_ifconfig.xml>`
 
+
 wifi.disconnectWiFi()
--------------
 
 **描述：** 断开wifi网络连接
 
 .. image:: /images/blocks/wifi/disconnectWiFi.png
     :scale: 100 %
 
-wifi.disconnectWiFi()
 
-
-wifi.enable_APWiFi()
--------------------
+wifi.enable_APWiFi(essid,channel)
 
 **描述：** 开启无线AP功能,用于掌控板之间的相互通信
 
 .. image:: /images/blocks/wifi/enable_APWiFi.png
     :scale: 90 %
 
-wifi.enable_APWiFi(essid,channel)
+**参数：**
 
     - ``essid`` - 创建WiFi网络名称
     - ``channel`` -设置wifi使用信道,channel 1~13
 
 
 wifi.disable_APWiFi()
--------------------
 
 **描述：** 关闭无线AP
 
 .. image:: /images/blocks/wifi/disable_APWiFi.png
     :scale: 100 %
 
-wifi.disable_APWiFi()
 
-ntptime.settime()
--------------------
+ntptime.settime(timezone, server)
 
 **描述：** 将掌控板的时间与网络时间同步
 
 .. image:: /images/blocks/wifi/ntptime.settime.png
     :scale: 100 %
 
-ntptime.settime(timezone, server)
-
-参数：
+**参数：**
 
     - ``timezone`` - 时区时间差,默认为东八区,补偿8小时
     - ``server`` - 可自行指定授时服务器,server为字符串类型,默认授时服务器为"ntp.ntsc.ac.cn"
 
 
 appserver.start()
--------------------
 
 **描述：** TinyWebIO服务后台运行，该服务为App Inventor应用提供远程控制接口的掌控板工具包
 
@@ -101,6 +86,5 @@ appserver.start()
 
 
 appserver.start_foreground()
--------------------
 
 **描述：** TinyWebIO服务前台运行

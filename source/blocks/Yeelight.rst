@@ -3,7 +3,6 @@ Yeelight 智能灯
 
 
 yeelight.discover_bulbs(timeout=2)
--------------
 
 **描述：**   发现所有局域网内的Yeelight灯泡
 
@@ -15,7 +14,6 @@ yeelight.discover_bulbs(timeout=2)
 
 
 class yeelight.Bulb(ip, port=55443, effect='smooth', duration=300, auto_on=False)
--------------
 
 **描述：**   YeeLight的控制类
 
@@ -29,25 +27,21 @@ class yeelight.Bulb(ip, port=55443, effect='smooth', duration=300, auto_on=False
 
 
 Bulb.turn_on()
--------------
 
 **描述：**   打开灯泡
 
 
 Bulb.turn_off()
--------------
 
 **描述：**   关闭灯泡
 
 
 Bulb.toggle()
--------------
 
 **描述：**   反转灯泡状态
 
 
 Bulb.set_rgb(red, green, blue)
--------------
 
 **描述：**   设置灯泡的 RGB 值
 
@@ -59,7 +53,6 @@ Bulb.set_rgb(red, green, blue)
 
 
 Bulb.set_hsv(hue, saturation)
--------------
 
 **描述：**   设置灯泡的 HSV 值
 
@@ -70,7 +63,6 @@ Bulb.set_hsv(hue, saturation)
 
 
 Bulb.set_color_temp(degrees)
--------------
 
 **描述：**   设置灯泡色温
 
@@ -80,7 +72,6 @@ Bulb.set_color_temp(degrees)
 
 
 Bulb.set_brightness(brightness)
--------------
 
 **描述：**   YeeLight的控制类
 

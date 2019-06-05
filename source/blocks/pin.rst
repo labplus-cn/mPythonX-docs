@@ -24,7 +24,7 @@ pin.read_digital()
 .. image::  /images/blocks/pin/example/read_digital.png
     :scale: 100 %
 
-:download:`点击下载图形化示例</../examples/pin/read_digital.xml>` 
+:download:`点击下载图形化示例</../examples/pin/read_digital.xml>`
 
 
 pin.write_digital()
@@ -48,7 +48,7 @@ IO引脚高低电平切换
 .. image::  /images/blocks/pin/example/write_digital.png
     :scale: 100 %
 
-:download:`点击下载图形化示例</../examples/pin/write_digital.xml>` 
+:download:`点击下载图形化示例</../examples/pin/write_digital.xml>`
 
 
 pin.read_analog()
@@ -84,4 +84,4 @@ pin.write_analog()
 .. image::  /images/blocks/pin/example/write_analog.png
     :scale: 90 %
 
-:download:`点击下载图形化示例</../examples/pin/write_analog.xml>` 
+:download:`点击下载图形化示例</../examples/pin/write_analog.xml>`

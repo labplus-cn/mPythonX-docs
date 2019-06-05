@@ -16,10 +16,12 @@
     clock.rst
     wifi.rst
     pin.rst
+    radio.rst
     music.rst
     audio.rst
     event.rst
     loop.rst
+    logic.rst
     math.rst
     text.rst
     list.rst
@@ -27,5 +29,8 @@
     dict.rst
     set.rst
     file.rst
+    socket.rst
+    uart.rst
     bluebit.rst
     Yeelight.rst
+    MQTT.rst

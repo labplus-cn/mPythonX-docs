@@ -34,9 +34,6 @@ oled.show()
    :scale: 110 %
 
 
-oled.show()
-
-
 示例
 ^^^^^
 
