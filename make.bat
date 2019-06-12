@@ -1,4 +1,4 @@
-@ECHO OFF
+@ECHO OFF测试
 
 pushd %~dp0
 
