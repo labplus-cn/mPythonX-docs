@@ -4,26 +4,29 @@ mPython X 使用说明
 软件安装
 -----------
 
-目前最新版本为0.3.3，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
+目前最新版本为0.3.4，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
 
-http://static.steamaker.cn/files/mpythonx-0.3.3-win.exe
+http://static.steamaker.cn/files/mpythonx-0.3.4-win.exe
 (Win 7 / 8 / 10)
 
-http://static.steamaker.cn/files/mpythonx-0.3.3-xp.exe
-(Win XP)
-
-http://static.steamaker.cn/files/mpythonx-0.3.3-mac.zip
+http://static.steamaker.cn/files/mpythonx-0.3.4-mac.zip
 (Mac OS)
 
-http://static.steamaker.cn/files/mpythonx-0.3.3-arm.tar.gz
+http://static.steamaker.cn/files/mpythonx-0.3.4-xp.exe
+(Win XP)
+
+http://static.steamaker.cn/files/mpythonx-0.3.4-arm.tar.gz
 (树莓派)
 
-http://static.steamaker.cn/files/mpythonx-0.3.3-arm64.tar.gz
+http://static.steamaker.cn/files/mpythonx-0.3.4-arm64.tar.gz
 (虚谷号，待测试)
 
 附：掌控板的Mac驱动
 
 https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
+
+Mac驱动装不上的解决方案
+https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 .. Hint::
 
