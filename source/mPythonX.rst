@@ -4,17 +4,17 @@ mPython X 使用说明
 软件安装
 -----------
 
-目前最新版本为0.3.4，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
+目前最新版本为0.3.5，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
 
-* http://static.steamaker.cn/files/mpythonx-0.3.4-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.3.5-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.4-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.3.5-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.4-xp.exe (Win XP)
+* http://static.steamaker.cn/files/mpythonx-0.3.5-xp.exe (Win XP)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.4-arm.tar.gz (树莓派)
+* http://static.steamaker.cn/files/mpythonx-0.3.5-arm.tar.gz (树莓派)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.4-arm64.tar.gz (虚谷号，待测试)
+* http://static.steamaker.cn/files/mpythonx-0.3.5-arm64.tar.gz (虚谷号，待测试)
 
 附：掌控板的Mac驱动
 
@@ -38,6 +38,24 @@ https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 更新日志
 -----------
+
+0.3.5
+````````
+1. 固件更新到1.5.1，内置增加一些中国歌曲、修复舵机bug；
+
+#. 增加可选固件：模拟 micro:bit 连 Scratch 3（测试版）；
+
+#. 软件启动速度有所提高；
+
+#. 检测掌控板连接情况，自动连接、断开；
+
+#. 控制台可以 Ctrl+V 粘贴代码；
+
+#. 增加“天气”分类，支持心知天气；
+
+#. 支持 DS18B20 传感器；
+
+#. 产生真随机数（通过随机种子）。
 
 0.3.4
 ````````
