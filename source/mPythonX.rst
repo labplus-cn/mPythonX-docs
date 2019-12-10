@@ -4,17 +4,17 @@ mPython X 使用说明
 软件安装
 -----------
 
-目前最新版本为0.3.5，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
+目前最新版本为0.5.0，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
 
-* http://static.steamaker.cn/files/mpythonx-0.3.5-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.5.0-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.5-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.5.0-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.5-xp.exe (Win XP)
+* http://static.steamaker.cn/files/mpythonx-0.5.0-xp.exe (Win XP)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.5-arm.tar.gz (树莓派)
+* http://static.steamaker.cn/files/mpythonx-0.5.0-arm.tar.gz (树莓派)
 
-* http://static.steamaker.cn/files/mpythonx-0.3.5-arm64.tar.gz (虚谷号，待测试)
+* http://static.steamaker.cn/files/mpythonx-0.5.0-arm64.tar.gz (虚谷号，待测试)
 
 附：掌控板的Mac驱动
 
@@ -38,6 +38,18 @@ https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 更新日志
 -----------
+
+0.5.0
+````````
+1. 加入硬件选择：掌控板/AI实验箱(未发布)/micro:bit；
+
+#. 掌控板模式下，可烧录掌控板2.0固件(兼容1.X板)；
+
+#. 掌控板模式下，增加磁力计(仅掌控板2.0可用)、讯飞语音识别、及一些通用传感器；
+
+#. AI实验箱模式下，提供实验箱专用固件与示例；
+
+#. micro:bit模式下，相比早期0.6.1版本，增加REPL区与示例。
 
 0.3.5
 ````````
@@ -323,4 +335,4 @@ https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 .. Hint::
 
-  如果恢复固件失败（或超过30秒仍然一直在恢复），请先尝试关闭杀毒软件，或者选择信任esptool。
+  如果恢复固件失败（或超过30秒仍然一直在恢复），请先尝试关闭杀毒软件，或者选择信任esptool。5
