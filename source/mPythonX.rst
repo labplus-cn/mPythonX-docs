@@ -14,7 +14,7 @@ mPython X 使用说明
 
 * http://static.steamaker.cn/files/mpythonx-0.5.0-arm.tar.gz (树莓派)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.0-arm64.tar.gz (虚谷号，待测试)
+* http://static.steamaker.cn/files/mpythonx-0.5.0-arm64.tar.gz (虚谷号)
 
 附：掌控板的Mac驱动
 
