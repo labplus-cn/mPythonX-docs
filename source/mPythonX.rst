@@ -4,17 +4,17 @@ mPython X 使用说明
 软件安装
 -----------
 
-目前最新版本为0.5.0，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
+目前最新版本为0.5.1，支持Windows 7/8/10、Windows XP、Macos、树莓派、虚谷号：
 
-* http://static.steamaker.cn/files/mpythonx-0.5.0-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.5.1-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.0-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.5.1-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.0-xp.exe (Win XP)
+* http://static.steamaker.cn/files/mpythonx-0.5.1-xp.exe (Win XP)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.0-arm.tar.gz (树莓派)
+* http://static.steamaker.cn/files/mpythonx-0.5.1-arm.tar.gz (树莓派)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.0-arm64.tar.gz (虚谷号)
+* http://static.steamaker.cn/files/mpythonx-0.5.1-arm64.tar.gz (虚谷号)
 
 附：掌控板的Mac驱动
 
@@ -38,6 +38,14 @@ https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 更新日志
 -----------
+
+0.5.1
+````````
+1. 掌控板固件更新到v2.0.1；
+
+#. 优化掌控板语音识别；
+
+#. 界面小修改。
 
 0.5.0
 ````````
