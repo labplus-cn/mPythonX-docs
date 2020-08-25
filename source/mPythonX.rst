@@ -16,6 +16,12 @@ mPython X 使用说明
 
 * http://static.steamaker.cn/files/mpythonx-0.5.1-arm64.tar.gz (虚谷号)
 
+掌控板蓝牙BLE测试版本（在0.5.2基础上，额外提供了BLE测试固件与图形化案例）：
+
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-win.exe (Win 7 / 8 / 10)
+
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-mac.zip (Mac OS)
+
 附：掌控板的Mac驱动
 
 https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
