@@ -14,9 +14,9 @@ mPython X 使用说明
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-linux.tar.gz (Linux x64)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.1-arm.tar.gz (树莓派)
+* http://static.steamaker.cn/files/mpythonx-0.5.2-arm.tar.gz (树莓派)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.1-arm64.tar.gz (虚谷号、冲锋舟)
+* http://static.steamaker.cn/files/mpythonx-0.5.2-arm64.tar.gz (虚谷号、冲锋舟)
 
 掌控板蓝牙BLE测试版本（在0.5.2基础上，额外提供了BLE测试固件与图形化案例）：
 
