@@ -6,14 +6,6 @@
 mPythonX 帮助文档
 ======================================
 
-欢迎您，使用掌控板！
-
-mPython掌控板是一块MicroPython微控制器板，它集成ESP32高性能双核芯片，使用当下最流行的Python编程语言，以便您轻松地将代码从电脑传输到掌控板中，从而体验程序创作的无穷乐趣！
-
-.. image:: /images/掌控-动态.gif
-
-mPythonX IDE
---------------
 
 mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
 
@@ -21,6 +13,44 @@ mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
 
 ---------
 
+软件安装
+-----------
+
+目前最新版本为0.5.2，支持Windows 7/8/10、Windows XP、Macos、Linux x64、Arm(树莓派)、Arm64(虚谷号、冲锋舟)：
+
+* http://static.steamaker.cn/files/mpythonx-0.5.2-win.exe (Win 7 / 8 / 10)
+
+* http://static.steamaker.cn/files/mpythonx-0.5.2-mac.zip (Mac OS)
+
+* http://static.steamaker.cn/files/mpythonx-0.5.2-xp.exe (Win XP)
+
+* http://static.steamaker.cn/files/mpythonx-0.5.2-linux.tar.gz (Linux x64)
+
+* http://static.steamaker.cn/files/mpythonx-0.5.2-arm.tar.gz (树莓派)
+
+* http://static.steamaker.cn/files/mpythonx-0.5.2-arm64.tar.gz (虚谷号、冲锋舟)
+
+掌控板蓝牙BLE测试版本（在0.5.2基础上，额外提供了BLE测试固件与图形化案例）：
+
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-win.exe (Win 7 / 8 / 10)
+
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-mac.zip (Mac OS)
+
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-linux.tar.gz (Linux x64)
+
+附：掌控板的Mac驱动
+
+https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
+
+Mac驱动装不上的解决方案
+
+https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
+
+
+.. Hint::
+
+  安装过程有可能被杀毒软件误报病毒，需要选择“允许程序所有操作”。
+  
 目录
 =====
 
