@@ -32,11 +32,11 @@ mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
 
 掌控板蓝牙BLE测试版本（在0.5.2基础上，额外提供了BLE测试固件与图形化案例）：
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-b5-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b6-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-b5-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b6-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-b5-linux.tar.gz (Linux x64)
+* http://static.steamaker.cn/files/mpythonx-0.6.0-b6-linux.tar.gz (Linux x64)
 
 附：掌控板的Mac驱动
 
