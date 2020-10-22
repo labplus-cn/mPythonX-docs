@@ -4,13 +4,13 @@ mPython X 使用说明
 软件安装
 -----------
 
-目前最新版本为0.5.2，支持Windows 7/8/10、Windows XP、Macos、Linux x64、Arm(树莓派)、Arm64(虚谷号、冲锋舟)：
+最新版本为0.6.0，增加BLE固件以及相关功能示例，支持Windows 7/8/10、Windows XP、Macos、Linux x64、Arm(树莓派)、Arm64(虚谷号、冲锋舟)：
 
-* http://static.steamaker.cn/files/mpythonx-0.5.2-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.6.0-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.2-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.6.0-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.5.2-xp.exe (Win XP)
+* http://static.steamaker.cn/files/mpythonx-0.6.0-xp.exe (Win XP)
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-linux.tar.gz (Linux x64)
 
@@ -18,13 +18,6 @@ mPython X 使用说明
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-arm64.tar.gz (虚谷号、冲锋舟)
 
-掌控板蓝牙BLE测试版本（在0.5.2基础上，额外提供了BLE测试固件与图形化案例）：
-
-* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-win.exe (Win 7 / 8 / 10)
-
-* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-mac.zip (Mac OS)
-
-* http://static.steamaker.cn/files/mpythonx-0.6.0-b4-linux.tar.gz (Linux x64)
 
 附：掌控板的Mac驱动
 
@@ -48,6 +41,14 @@ https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 更新日志
 -----------
+
+0.6.0
+````````
+1. 增加一个新的BLE固件；
+
+#. 增加BLE相关功能与示例；
+
+#. 改写讯飞语音识别与示例。
 
 0.5.2
 ````````
