@@ -32,7 +32,7 @@ mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
 
 beta版本：集成最新固件（2020-11-18）；进一步简化BLE UART；增加UDP消息传递等。
 
-* http://static.steamaker.cn/files/mpythonx-0.6.1-b2-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-b3-win.exe (Win 7 / 8 / 10)
 
 附：掌控板的Mac驱动
 
