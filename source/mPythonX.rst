@@ -4,13 +4,13 @@ mPython X 使用说明
 软件安装
 -----------
 
-最新版本为0.6.0，增加BLE固件以及相关功能示例，支持Windows 7/8/10、Windows XP、Macos、Linux x64、Arm(树莓派)、Arm64(虚谷号、冲锋舟)：
+最新版本为0.6.1：
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-xp.exe (Win XP)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-xp.exe (Win XP)
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-linux.tar.gz (Linux x64)
 
@@ -41,6 +41,20 @@ https://www.labplus.cn/posts/5ce21e777f719d2556d121c3
 
 更新日志
 -----------
+
+0.6.1
+````````
+1. 掌控板固件更新到v2.2.1；
+
+#. 优化按键、触摸键事件语法；
+
+#. 单次上传文件改为最大1M；
+
+#. 增加扩展：N+小方舟、MU视觉传感器等；
+
+#. 增加UDP消息传递；
+
+#. 增加蓝牙iBeacon室内定位及示例。
 
 0.6.0
 ````````
