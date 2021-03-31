@@ -16,23 +16,19 @@ mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
 软件安装
 -----------
 
-最新版本为0.6.0，增加BLE固件以及相关功能示例，支持Windows 7/8/10、Windows XP、Macos、Linux x64、Arm(树莓派)、Arm64(虚谷号、冲锋舟)：
+最新版本为0.6.1：
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-mac.zip (Mac OS)
 
-* http://static.steamaker.cn/files/mpythonx-0.6.0-xp.exe (Win XP)
+* http://static.steamaker.cn/files/mpythonx-0.6.1-xp.exe (Win XP)
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-linux.tar.gz (Linux x64)
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-arm.tar.gz (树莓派)
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-arm64.tar.gz (虚谷号、冲锋舟)
-
-beta版本：集成最新固件（2020-11-18）；进一步简化BLE UART；增加UDP消息传递等。
-
-* http://static.steamaker.cn/files/mpythonx-0.6.1-b3-win.exe (Win 7 / 8 / 10)
 
 附：掌控板的Mac驱动
 
