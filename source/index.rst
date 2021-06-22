@@ -30,6 +30,12 @@ mPythonX是一款掌控板专用、易上手、可图形化编程的软件。
 
 * http://static.steamaker.cn/files/mpythonx-0.5.2-arm64.tar.gz (虚谷号、冲锋舟)
 
+beta测试版本：
+
+* http://static.steamaker.cn/files/mpythonx-0.7.0-b1-win.exe (Win 7 / 8 / 10)
+
+* http://static.steamaker.cn/files/mpythonx-0.7.0-b1-mac.zip (Mac OS)
+
 附：掌控板的Mac驱动
 
 https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
