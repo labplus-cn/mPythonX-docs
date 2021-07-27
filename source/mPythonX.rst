@@ -20,9 +20,9 @@ mPython X 使用说明
 
 beta测试版本：
 
-* http://static.steamaker.cn/files/mpythonx-0.7.0-b3-win.exe (Win 7 / 8 / 10)
+* http://static.steamaker.cn/files/mpythonx-0.7.0-b4-win.exe (Win 7 / 8 / 10)
 
-* http://static.steamaker.cn/files/mpythonx-0.7.0-b3-mac.zip (Mac OS)
+* http://static.steamaker.cn/files/mpythonx-0.7.0-b4-mac.zip (Mac OS)
 
 
 附：掌控板的Mac驱动
